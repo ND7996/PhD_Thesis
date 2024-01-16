@@ -1,0 +1,11 @@
+antechamber -fi gout -fo prepi -c resp -i gaussian.out -o GLO.prepi -rn GLO -at gaff2 -pf y -nc -2
+
+
+ gaff and RESP charges
+
+
+pdb4amber -i MouseCysGSSG.pdb -o MouseCysGSSG.pdb4amber.pdb
+
+
+parmchk2 -f prepi -i GLO.prepi -o GLO.frcmod
+
