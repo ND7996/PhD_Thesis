@@ -1,0 +1,77 @@
+TITLE     TYRSECTYR - 5-removed waters
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+CRYST1   71.853   66.701   66.345  90.00  90.00  90.00 P 1           1
+ATOM      1  N   TYR X  48      37.810  26.724  21.980  1.00  0.00           N1+
+ATOM      2  CA  TYR X  48      37.361  25.688  21.012  1.00  0.00           C  
+ATOM      3  C   TYR X  48      35.897  25.209  21.245  1.00  0.00           C  
+ATOM      4  O   TYR X  48      35.396  24.129  20.857  1.00  0.00           O  
+ATOM      5  CB  TYR X  48      38.276  24.389  21.167  1.00  0.00           C  
+ATOM      6  CG  TYR X  48      39.678  24.725  20.642  1.00  0.00           C  
+ATOM      7  CD1 TYR X  48      40.032  24.465  19.245  1.00  0.00           C  
+ATOM      8  CE1 TYR X  48      41.271  24.875  18.834  1.00  0.00           C  
+ATOM      9  CZ  TYR X  48      42.209  25.505  19.665  1.00  0.00           C  
+ATOM     10  OH  TYR X  48      43.416  25.878  19.080  1.00  0.00           O  
+ATOM     11  CE2 TYR X  48      41.871  25.922  20.949  1.00  0.00           C  
+ATOM     12  CD2 TYR X  48      40.619  25.518  21.443  1.00  0.00           C  
+ATOM     13  H   TYR X  48      38.352  26.463  22.792  1.00  0.00           H  
+ATOM     14  HA  TYR X  48      37.415  26.103  20.005  1.00  0.00           H  
+ATOM     15  HB2 TYR X  48      38.169  24.140  22.223  1.00  0.00           H  
+ATOM     16  HB3 TYR X  48      37.873  23.492  20.697  1.00  0.00           H  
+ATOM     17  HD1 TYR X  48      39.396  23.902  18.579  1.00  0.00           H  
+ATOM     18  HE1 TYR X  48      41.518  24.776  17.787  1.00  0.00           H  
+ATOM     19  HH  TYR X  48      43.403  25.627  18.154  1.00  0.00           H  
+ATOM     20  HE2 TYR X  48      42.607  26.471  21.518  1.00  0.00           H  
+ATOM     21  HD2 TYR X  48      40.363  25.834  22.443  1.00  0.00           H  
+ATOM     22  H1  TYR X  48      38.301  27.450  21.478  1.00  0.00           H  
+ATOM     23  H2  TYR X  48      37.009  27.261  22.280  1.00  0.00           H  
+HETATM   24  N   SEC X  49      35.111  25.946  22.030  1.00  0.00           N  
+HETATM   25  CA  SEC X  49      33.755  25.639  22.476  1.00  0.00           C  
+HETATM   26  CB  SEC X  49      33.330  26.510  23.680  1.00  0.00           C  
+HETATM   27  SG  SEC X  49      31.600  26.188  24.196  1.00  0.00           S  
+HETATM   28  C   SEC X  49      32.791  25.882  21.285  1.00  0.00           C  
+HETATM   29  O   SEC X  49      32.982  26.802  20.488  1.00  0.00           O  
+HETATM   30  H   SEC X  49      35.391  26.888  22.263  1.00  0.00           H  
+HETATM   31  HA  SEC X  49      33.711  24.587  22.757  1.00  0.00           H  
+HETATM   32  HB2 SEC X  49      33.962  26.256  24.531  1.00  0.00           H  
+HETATM   33  HB3 SEC X  49      33.588  27.527  23.383  1.00  0.00           H  
+HETATM   34  HG  SEC X  49      31.135  26.549  22.996  1.00  0.00           H  
+ATOM     35  N   TYR X  50      31.837  24.943  21.032  1.00  0.00           N  
+ATOM     36  CA  TYR X  50      30.791  25.027  20.009  1.00  0.00           C  
+ATOM     37  C   TYR X  50      30.084  26.349  19.898  1.00  0.00           C  
+ATOM     38  O   TYR X  50      29.646  26.701  18.767  1.00  0.00           O  
+ATOM     39  CB  TYR X  50      29.719  23.944  20.268  1.00  0.00           C  
+ATOM     40  CG  TYR X  50      28.857  24.396  21.423  1.00  0.00           C  
+ATOM     41  CD1 TYR X  50      27.713  25.167  21.183  1.00  0.00           C  
+ATOM     42  CD2 TYR X  50      29.202  24.044  22.734  1.00  0.00           C  
+ATOM     43  CE2 TYR X  50      28.403  24.463  23.804  1.00  0.00           C  
+ATOM     44  CZ  TYR X  50      27.259  25.234  23.564  1.00  0.00           C  
+ATOM     45  CE1 TYR X  50      26.914  25.586  22.254  1.00  0.00           C  
+ATOM     46  OH  TYR X  50      26.483  25.641  24.604  1.00  0.00           O  
+ATOM     47  H   TYR X  50      31.753  24.263  21.774  1.00  0.00           H  
+ATOM     48  HA  TYR X  50      31.252  24.815  19.044  1.00  0.00           H  
+ATOM     49  HXT TYR X  50      29.946  26.992  20.754  1.00  0.00           H  
+ATOM     50  HB3 TYR X  50      30.207  23.004  20.526  1.00  0.00           H  
+ATOM     51  HB2 TYR X  50      29.101  23.825  19.378  1.00  0.00           H  
+ATOM     52  HD1 TYR X  50      27.447  25.438  20.172  1.00  0.00           H  
+ATOM     53  HD2 TYR X  50      30.084  23.449  22.919  1.00  0.00           H  
+ATOM     54  HE2 TYR X  50      28.669  24.192  24.815  1.00  0.00           H  
+ATOM     55  HE1 TYR X  50      26.032  26.181  22.069  1.00  0.00           H  
+ATOM     56  HH  TYR X  50      26.856  25.318  25.428  1.00  0.00           H  
+CONECT   47    3   53   48
+CONECT   53   47
+CONECT   48   47   54   49   51
+CONECT   54   48
+CONECT   49   48   55   56   50
+CONECT   55   49
+CONECT   56   49
+CONECT   50   49   57
+CONECT   57   50
+CONECT   51   48   52   24
+CONECT   51   52
+CONECT   52   51
+CONECT   52   51
+CONECT   26   38
+CONECT   38   26
+END   
