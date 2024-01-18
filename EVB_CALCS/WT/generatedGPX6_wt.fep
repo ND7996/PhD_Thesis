@@ -1,0 +1,176 @@
+# Generated with Qtools, version 0.7.0
+# Date: Wed Oct 11 11:46:05 2023
+# CWD: /home/nayanika/OneDrive/Thesis/EVB/GPX_EVB/CALCS/WT
+# CMDline: makeFEP.py
+#
+
+[FEP]
+states 2
+
+[atoms]
+#Q index        PDB index      #  St.1 PDB_ID     St.1 LIB_ID        
+1               $49.SE$        #  49.SE           SEC.SE            !
+2               $49.HG$        #  49.HG           SEC.HG            !
+3               $49.CB$        #  49.CB           SEC.CB             
+4               $49.HB2$       #  49.HB2          SEC.HB2            
+5               $49.HB3$       #  49.HB3          SEC.HB3            
+6               $199.O1$       #  199.O1          PRX.O1            !
+7               $199.O2$       #  199.O2          PRX.O2            !
+8               $199.H1$       #  199.H1          PRX.H1            !
+9               $199.H2$       #  199.H2          PRX.H2             
+10              $198.O3$       #  198.O3          HO2.O3            !
+11              $198.H4$       #  198.H4          HO2.H4            !
+12              $198.H5$       #  198.H5          HO2.H5            !
+
+[atom_types]
+#Atom_type         LJ_A       LJ_B      SP_Ci      SP_ai    LJ_A_14    LJ_B_14       mass
+sec.SE        3539.0052    72.7784      <FIX>        2.5  2502.4546    51.4621      78.96
+sen.SE1       3539.0052    72.7784      <FIX>        2.5  2502.4546    51.4621      78.96
+sec.HG          84.5728     5.4127      <FIX>        2.5     59.802     3.8274     1.0079
+HW                  0.0        0.0      <FIX>        2.5        0.0        0.0      1.008
+sec.CB          944.518    22.0296          1        2.5   667.8751    15.5773     12.011
+sen.CB          944.518    22.0296          1        2.5   667.8751    15.5773     12.011
+sec.HB2         84.5728     5.4127          1        2.5     59.802     3.8274     1.0079
+sen.HB2         84.5728     5.4127          1        2.5     59.802     3.8274     1.0079
+sec.HB3         84.5728     5.4127          1        2.5     59.802     3.8274     1.0079
+sen.HB3         84.5728     5.4127          1        2.5     59.802     3.8274     1.0079
+prx.O           760.645    25.0448      <FIX>        2.5   537.8572    17.7093     15.999
+HO2.ow           762.89      24.39      <FIX>        2.5   539.4447    17.2463       16.0
+sen.OS          760.645    25.0448      <FIX>        2.5   537.8572    17.7093     15.999
+prx.H            0.0054     0.0433      <FIX>        2.5     0.0038     0.0306     1.0079
+HO2.hw              0.0        0.0      <FIX>        2.5        0.0        0.0      1.008
+sen.HG           0.0054     0.0433          1        2.5     0.0038     0.0306     1.0079
+OW               762.89      24.39      <FIX>        2.5   539.4447    17.2463       16.0
+
+[change_atoms]
+#Q index    Type st.1    Type st.2       #  St.1 PDB_ID
+1           sec.SE       sen.SE1         #  49.SE
+2           sec.HG       HW              #  49.HG
+3           sec.CB       sen.CB          #  49.CB
+4           sec.HB2      sen.HB2         #  49.HB2
+5           sec.HB3      sen.HB3         #  49.HB3
+6           prx.O        HO2.ow          #  199.O1
+7           prx.O        sen.OS          #  199.O2
+8           prx.H        HO2.hw          #  199.H1
+9           prx.H        sen.HG          #  199.H2
+10          HO2.ow       OW              #  198.O3
+11          HO2.hw       HW              #  198.H4
+12          HO2.hw       HO2.hw          #  198.H5
+
+[change_charges]
+#Q index    Charge st.1  Charge st.2     #  St.1 PDB_ID     dq(1->2)
+1                 -0.189       0.1207    #  49.SE            0.3097
+2                 0.0872        0.417    #  49.HG            0.3298
+3                -0.0182      -0.0182    #  49.CB               0.0
+4                   0.06         0.06    #  49.HB2              0.0
+5                   0.06         0.06    #  49.HB3              0.0
+6                 -0.418         -0.8    #  199.O1     -0.38200000000000006
+7                 -0.418      -0.6405    #  199.O2     -0.22249999999999998
+8                  0.418          0.4    #  199.H1     -0.01799999999999996
+9                  0.418        0.418    #  199.H2              0.0
+10                  -0.8       -0.834    #  198.O3     -0.03399999999999992
+11                   0.4        0.417    #  198.H4     0.01699999999999996
+12                   0.4          0.4    #  198.H5              0.0
+
+[soft_pairs]
+        11         12
+        10         12
+         6          7
+         1          2
+        12          8
+         6         12
+        11          2
+        10          2
+         1          7
+
+[off_diagonals]
+# State_i State_j  Atom1  Atom2  A_ij  mu_ij
+#
+## Example1, Hij=H12=0 (not known in advance)
+## 1 2  13 14  0  0
+## Example2, Hij=H12=C*exp(-mu * r_13_14)  (C=20.0, mu=0.45)
+## 1 2  13 14  20.0  0.45
+#
+<FIX>
+
+[bond_types]
+## Harmonic format
+#Index                Fc               r0   # PRM_ID
+## Morse format
+#Index       D        alpha            r0   # PRM_ID
+1         <FIX_D>    <FIX_a>     <FIX_r0>   # HO2.hw-HO2.hw
+2         <FIX_D>    <FIX_a>     <FIX_r0>   # HO2.hw-HO2.ow
+3         <FIX_D>    <FIX_a>     <FIX_r0>   # prx.O-prx.O
+4         <FIX_D>    <FIX_a>     <FIX_r0>   # sec.HG-sec.SE
+5         <FIX_D>    <FIX_a>     <FIX_r0>   # HW-HW
+6         <FIX_D>    <FIX_a>     <FIX_r0>   # HW-OW
+7         <FIX_D>    <FIX_a>     <FIX_r0>   # sen.OS-sen.SE1
+8                 1106.0            0.945   # prx.H-prx.O
+9                 1106.0            0.957   # HO2.hw-HO2.ow
+
+[change_bonds]
+#Atom1     Atom2      St.1  St.2    # St.1 PDB_IDs
+$198.H4$   $198.H5$     1     0     # 198.H4-198.H5
+$198.O3$   $198.H5$     2     0     # 198.O3-198.H5
+$199.O1$   $199.O2$     3     0     # 199.O1-199.O2
+$49.SE$    $49.HG$      4     0     # 49.SE-49.HG
+$198.H5$   $199.H1$     0     1     # 198.H5-199.H1
+$198.H5$   $199.O1$     0     2     # 198.H5-199.O1
+$49.HG$    $198.H4$     0     5     # 49.HG-198.H4
+$49.HG$    $198.O3$     0     6     # 49.HG-198.O3
+$49.SE$    $199.O2$     0     7     # 49.SE-199.O2
+$199.O1$   $199.H1$     8     9     # 199.O1-199.H1
+
+[angle_types]
+#Index           Fc     theta0   # PRM_ID
+1             200.0     104.52   # HO2.hw-HO2.ow-HO2.hw
+2               0.0     127.74   # HO2.hw-HO2.hw-HO2.ow
+3             160.0     102.22   # prx.H-prx.O-prx.O
+4             150.0       99.0   # sec.CB-sec.SE-sec.HG
+5               0.0     127.74   # HW-HW-OW
+6             150.0       99.0   # sen.CB-sen.SE1-sen.OS
+7             200.0     104.52   # HW-OW-HW
+8             100.0      110.0   # sen.HG-sen.OS-sen.SE1
+
+[change_angles]
+#Atom1     Atom2      Atom3      St.1  St.2    # St.1 PDB_IDs
+$198.H4$   $198.O3$   $198.H5$     1     0     # 198.H4-198.O3-198.H5
+$198.O3$   $198.H4$   $198.H5$     2     0     # 198.O3-198.H4-198.H5
+$198.O3$   $198.H5$   $198.H4$     2     0     # 198.O3-198.H5-198.H4
+$199.O1$   $199.O2$   $199.H2$     3     0     # 199.O1-199.O2-199.H2
+$199.O2$   $199.O1$   $199.H1$     3     0     # 199.O2-199.O1-199.H1
+$49.CB$    $49.SE$    $49.HG$      4     0     # 49.CB-49.SE-49.HG
+$198.H5$   $199.H1$   $199.O1$     0     2     # 198.H5-199.H1-199.O1
+$198.H5$   $199.O1$   $199.H1$     0     1     # 198.H5-199.O1-199.H1
+$198.O3$   $49.HG$    $198.H4$     0     5     # 198.O3-49.HG-198.H4
+$199.O1$   $198.H5$   $199.H1$     0     2     # 199.O1-198.H5-199.H1
+$49.CB$    $49.SE$    $199.O2$     0     6     # 49.CB-49.SE-199.O2
+$49.HG$    $198.H4$   $198.O3$     0     5     # 49.HG-198.H4-198.O3
+$49.HG$    $198.O3$   $198.H4$     0     7     # 49.HG-198.O3-198.H4
+$49.SE$    $199.O2$   $199.H2$     0     8     # 49.SE-199.O2-199.H2
+
+[torsion_types]
+#Index           Fc       mult       psi0   # PRM_ID
+1              -2.5        2.0      180.0   # prx.H-prx.O-prx.O-prx.H
+2               0.0        1.0        0.0   # sec.HB2-sec.CB-sec.SE-sec.HG
+3               0.0        1.0        0.0   # sec.HB3-sec.CB-sec.SE-sec.HG
+4              -2.5        2.0      180.0   # sen.CB-sen.SE1-sen.OS-sen.HG
+5               0.0        1.0        0.0   # sen.HB2-sen.CB-sen.SE1-sen.OS
+6               0.0        1.0        0.0   # sen.HB3-sen.CB-sen.SE1-sen.OS
+
+[change_torsions]
+#Atom1     Atom2      Atom3      Atom4      St.1  St.2    # St.1 PDB_IDs
+$199.H1$   $199.O1$   $199.O2$   $199.H2$     1     0     # 199.H1-199.O1-199.O2-199.H2
+$49.HB2$   $49.CB$    $49.SE$    $49.HG$      2     0     # 49.HB2-49.CB-49.SE-49.HG
+$49.HB3$   $49.CB$    $49.SE$    $49.HG$      3     0     # 49.HB3-49.CB-49.SE-49.HG
+$49.CB$    $49.SE$    $199.O2$   $199.H2$     0     4     # 49.CB-49.SE-199.O2-199.H2
+$49.HB2$   $49.CB$    $49.SE$    $199.O2$     0     5     # 49.HB2-49.CB-49.SE-199.O2
+$49.HB3$   $49.CB$    $49.SE$    $199.O2$     0     6     # 49.HB3-49.CB-49.SE-199.O2
+
+[improper_types]
+#Index           Fc       phi0   # PRM_ID
+
+[change_impropers]
+#Atom1     Atom2      Atom3      Atom4      St.1  St.2    # St.1 PDB_IDs
+
+

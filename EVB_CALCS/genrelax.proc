@@ -1,0 +1,66 @@
+{GENERAL}
+#######################################################
+[MD]
+stepsize                   1
+temperature              300
+bath_coupling            100  
+lrf                       on
+
+[cut-offs]
+q_atom                    99
+
+[lambdas]
+0.90  0.10
+
+[intervals]
+non_bond               30
+output                 100
+trajectory             100
+
+#######################################################
+{STEPS}
+#######################################################
+[MD]
+steps                     200
+initial_temperature       0.1
+temperature               0.1
+random_seed               98457654321
+shake_hydrogens           off
+bath_coupling             1
+_______________________________________________________
+[MD]
+steps                     200
+temperature                 10
+_______________________________________________________
+[MD]
+steps                     200
+temperature                 50
+_______________________________________________________
+[MD]
+steps                     200
+temperature                100
+_______________________________________________________
+[MD]
+steps                     200
+temperature                200
+_______________________________________________________
+[MD]
+steps                    200
+
+[intervals]
+output                   200
+trajectory               200
+_______________________________________________________
+[MD]
+steps                   200
+
+[intervals]
+output                   200
+trajectory               200
+_______________________________________________________
+[MD]
+steps                   200
+
+[intervals]
+output                   200
+trajectory               200
