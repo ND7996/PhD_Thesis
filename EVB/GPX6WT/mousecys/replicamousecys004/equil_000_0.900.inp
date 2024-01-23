@@ -1,0 +1,33 @@
+# Generated with QTools, version 0.7.0
+# Date: Mon Jan 22 20:03:11 2024
+# CWD: /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys
+# Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genfeps.py genfeps.proc /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/relax/relax_008.inp relax --rs run_qdyn.sh --repeats 10 --frames 51 --fromlambda 0.90 --pdb GPX6cys_mouse.pdb --prefix replicamousecys
+[md]
+steps                                         10000
+random_seed                                  292850
+temperature                                     300
+stepsize                                        0.1
+bath_coupling                                   100
+initial_temperature                             300
+lrf                                              on
+shake_hydrogens                                  on
+
+[cut-offs]
+q_atom                                           99
+
+[intervals]
+non_bond                                         30
+output                                          500
+temperature                                     200
+trajectory                                      500
+
+[files]
+topology                          GPX6cys_mouse.top
+restart                           cont_relax_008.re
+final                            equil_000_0.900.re
+trajectory                      equil_000_0.900.dcd
+fep                      correctedGPX6_mousecys.fep
+restraint                    cont_relax_008.re.rest
+
+[lambdas]
+0.9000000 0.1000000

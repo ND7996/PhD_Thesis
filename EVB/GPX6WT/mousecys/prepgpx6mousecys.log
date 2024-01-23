@@ -1,0 +1,25 @@
+
+Build and version information
+
+Build number 6.0.9
+Build date   20231024
+Built:       
+      by     nayanika
+      on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
+      git id adc28a635c78993922188615a73366ace3402081
+      with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
+Qdyn version 6.0.9 , git id=adc28a635c78993922188615a73366ace3402081 initialising
+Current date 2024- 1-22 and time 16:52:29
+
+Welcome in qdyn modification date 20231024
+
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+ to redistribute it under certain conditions. For details, add the --help flag.
+------------------- Reading input from prepgpx6mousecys.inp ------------------
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ABNORMAL TERMINATION !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ABNORMAL TERMINATION of Q
+Terminating due to Invalid data in input file
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

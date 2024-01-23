@@ -1,0 +1,505 @@
+
+Build and version information
+
+Build number 6.0.9
+Build date   20231024
+Built:       
+      by     nayanika
+      on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
+      git id adc28a635c78993922188615a73366ace3402081
+      with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
+Qdyn version 6.0.9 , git id=adc28a635c78993922188615a73366ace3402081 initialising
+Current date 2024- 1-22 and time 19:11:21
+
+Welcome in qdyn modification date 20231024
+
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+ to redistribute it under certain conditions. For details, add the --help flag.
+----------------------- Reading input from relax_005.inp ----------------------
+Number of MD steps =       200  Stepsize (fs)    =     0.100
+ Not being verbose in temperature print out
+Target temperature =     80.00  T-relax time     =    100.00
+ No thermostat chosen. Berendsen thermostat will be used.
+ Leap frog integrator used by default.
+Solute and solvent atoms coupled separately to heat bath.
+May redefine groups in later section
+ Using Shake as the constraint algorithm
+Shake constraints on solvent bonds to hydrogens : on 
+Shake constraints on solute bonds to any atoms : off
+Nonbonded method   = standard cut-off
+Using default temperature coupling groups
+Boundary: sphere
+Cut-off radii for non-bonded interactions:
+Solute-solute:     10.00
+Solvent-solvent:   10.00
+Solute-solvent:    10.00
+Q-atom-non-Q-atom: 99.00
+ Radius of inner restrained shell set to 85% of exclusion shell radius.
+Radius of inner restrained shell       =       0.850
+Polarization force update at default 10/ps
+Update every 1000 steps
+temperature print-out interval set to default.
+Non-bonded pair list update interval   =      30
+Energy summary print-out interval      =     100
+Temperature print-out interval         =      10
+Trajectory write interval              =     100
+No energy file written.
+All atoms will be included in the trajectory.
+Topology file      = GPX6cys_mouse.top
+Initial coord. file= relax_004.re
+Final coord. file  = relax_005.re
+Trajectory file    = relax_005.dcd
+FEP input file     = correctedGPX6_mousecys.fep
+
+lambda-values      =  0.90000 0.10000
+
+List of excluded atom groups
+No QCP section found, will not try to use RPMD.
+
+Listing of restraining data:
+---------------------------- Reading topology file ---------------------------
+GPX6cys_mouse.top                                                               
+
+No. of solute atoms     =       3058
+No. of solvent atoms    =       1740
+Solvent dielectric*1000 =     80100
+No. of coordinates      =      14394
+No. of atom type codes  =       4798
+No. of solute bonds     =       3104
+No. of solvent bonds    =       1740
+No. of solute angles    =       5597
+No. of solvent angles   =        580
+No. of solute torsions  =      10854
+No. of solvent torsions =          0
+No. of solute impropers =        650
+No. of solvent impropers=          0
+No. of atomic charges   =       4798
+No. of solute chargegrps=        549
+No. of solvent chargegps=        580
+Charge group cut-off    : Switching atoms
+vdW  rule [ 1=G / 2=A ] =          1
+El-static 1-4 damping   =      0.500
+Coulomb constant        =   332.0000
+No. of atom types       =         86
+No. of LJ type 2 pairs  =          0
+No. of heavy atoms      =       2139
+No. of 1-4 neighbours   =       8172
+No. long-range 1-4 nbrs =          4
+No. of nbor exclusions  =      11021
+No. of long-range excls =          0
+No. of residues         =        777
+No of solute residues   =        197
+No. of molecules        =        583
+Atom type names         =         86
+SYBYL atom types        =         86
+Boundary: sphere
+Exclusion radius        =     20.000
+Eff. solvent radius     =     19.790
+Solvent density         =   0.03350000
+Solute centre           =     43.704    34.968    42.174
+Solvent centre          =     43.704    34.968    42.174
+No. of excluded atoms   =       1268
+Molecular topology read successfully.
+
+Found      536 solute atoms in the restrained shell region ( 17.00 to  20.00)
+----------------------------- Reading restart file ----------------------------
+Total number of atoms        =    4798
+Number of waters encountered =     580
+
+----------------------------- Reading Q atom list ----------------------------
+No. of fep/evb states    =     2
+No. of fep/evb atoms     =    12
+Atom nos.:   730   733   729   731   732  3052  3053  3054  3055  3056
+Atom nos.:  3057  3058
+--------------------------- Reading fep/evb strategy --------------------------
+
+No. of changing charges  =    12
+Effective Q-atom charges for all Q-atoms
+Q atom    charge in state 1 state 2
+     1               -0.335   0.048
+     2                0.155   0.417
+     3                0.060   0.048
+     4                0.060   0.060
+     5                0.060   0.060
+     6               -0.418  -0.800
+     7               -0.418  -0.633
+     8                0.418   0.400
+     9                0.418   0.418
+    10               -0.800  -0.834
+    11                0.400   0.417
+    12                0.400   0.400
+
+   SUM               -0.000   0.000
+
+No. of Q-atom types  =    16
+Name            Ai      Bi      Ci     ai Ai(1-4) Bi(1-4)    Mass
+SH         2001.57   44.74  165.00  1.58  1415.32   31.64   32.06
+snn.SG     2593.94   55.60  165.00  1.58  1834.19   39.31   32.06
+HS           84.57    5.41    1.00  1.58    59.80    3.83    1.01
+HW           50.00    0.00    1.00  1.58     0.00    0.00    1.01
+CT          944.52   22.03    1.00  1.58   667.88   15.58   12.01
+snn.CB      944.52   22.03    1.00  1.58   667.88   15.58   12.01
+HC           84.57    5.41    1.00  1.58    59.80    3.83    1.01
+snn.HB2      84.57    5.41    1.00  1.58    59.80    3.83    1.01
+snn.HB3      84.57    5.41    1.00  1.58    59.80    3.83    1.01
+prx.O       760.64   25.04    1.00  1.58   537.86   17.71   16.00
+HO2.ow      762.89   24.39    1.00  1.58   539.44   17.25   16.00
+snn.OS      760.64   25.04    1.00  1.58   537.86   17.71   16.00
+prx.H         0.01    0.04    1.00  1.58     0.00    0.03    1.01
+HO2.hw       50.00    0.00    1.00  1.58     0.00    0.00    1.01
+snn.HG        0.01    0.04    1.00  1.58     0.00    0.03    1.01
+OW          762.89   24.39    1.00  1.58   539.44   17.25   16.00
+
+Assigning Q-atom types to all Q atoms:
+Q atom    atom type in  state 1  state 2
+     1                  SH       snn.SG  
+     2                  HS       HW      
+     3                  CT       snn.CB  
+     4                  HC       snn.HB2 
+     5                  HC       snn.HB3 
+     6                  prx.O    HO2.ow  
+     7                  prx.O    snn.OS  
+     8                  prx.H    HO2.hw  
+     9                  prx.H    snn.HG  
+    10                  HO2.ow   OW      
+    11                  HO2.hw   HW      
+    12                  HO2.hw   HO2.hw  
+
+No. of soft repulsion non-bonded pairs =     9
+q-atom_i q-atom_j
+       6        7
+      11       12
+      10       12
+       1        2
+      12        8
+       6       12
+      11        2
+      10        2
+       1        7
+
+No. of excluded non-bonded pairs =     1
+atom_i atom_j    excluded in state 1 state 2
+  3052   3053                      1       1
+
+Q-bond types:
+type #  Morse E_diss    alpha       b0  Harmonic force_k 
+     1         54.00     2.32     1.32
+     2        102.00     2.26     0.96
+     3        104.00     1.99     0.74
+     4        102.00     2.26     0.96
+     5         81.00     1.87     1.32
+     6        104.00     1.99     0.74
+     7        102.00     2.26     0.96
+     8        102.00     2.26     0.96
+     9         81.00     1.87     1.32
+    10        102.00     2.26     0.96
+    11        102.00     2.26     0.96
+
+
+No. of changing bonds    =    10
+atom_i atom_j   bond type in state 1 state 2
+  3052   3053                      1       0
+  3057   3058                      2       0
+  3056   3058                      3       0
+   761    764                      4       0
+  3054   3058                      0       2
+  3052   3058                      0       3
+   764   3057                      0       5
+   764   3056                      0       6
+   761   3053                      0       7
+  3052   3054                      8       9
+
+Q-angle types:
+type #       force-k   theta0
+     1        160.00   102.22
+     2        200.00   104.52
+     3          0.00   127.74
+     4         88.00    96.00
+     5          0.00   127.74
+     6        220.00   100.78
+     7        200.00   104.52
+     8        130.00   106.24
+
+
+No. of changing angles   =    14
+atom_i atom_j atom_k    angle type in state 1 state 2
+  3052   3053   3055                        1       0
+  3053   3052   3054                        1       0
+  3057   3056   3058                        2       0
+  3056   3057   3058                        3       0
+  3056   3058   3057                        3       0
+   727    761    764                        4       0
+  3054   3052   3058                        0       2
+  3052   3054   3058                        0       3
+  3052   3058   3054                        0       3
+  3056    764   3057                        0       5
+   727    761   3053                        0       6
+   764   3057   3056                        0       5
+   764   3056   3057                        0       7
+   761   3053   3055                        0       8
+
+Q-torsion types:
+type #       force-k     mult    delta
+     1         -2.50     2.00   180.00
+     2          0.24     3.00     0.00
+     3         -2.50     2.00   180.00
+     4          0.24     3.00     0.00
+     5          0.24     3.00     0.00
+
+
+No. of changing torsions =     6
+atom_i atom_j atom_k atom_l    torsion type in state 1 state 2
+  3054   3052   3053   3055                          1       0
+   728    727    761    764                          2       0
+   729    727    761    764                          2       0
+   727    761   3053   3055                          0       3
+   728    727    761   3053                          0       4
+   729    727    761   3053                          0       5
+
+No. of offdiagonal (Hij) functions =     1
+state_i state_j atom_k atom_l     Aij mu_ij
+      1       2      1      7    1.00  0.45
+No softcore section found. Using normal LJ potentials.
+
+No. atom groups to monitor   =     1
+group 1:     730     733     729     731     732    3052    3053
+    3054    3055    3056    3057    3058
+
+---------------- Removing redefined interactions from topology ---------------
+type      atom1 atom2 atom3 atom4
+bond       3054  3052
+bond       3052  3053
+bond       3056  3058
+bond       3057  3058
+angle      3054  3052  3053
+angle      3052  3053  3055
+angle      3057  3056  3058
+torsion    3054  3052  3053  3055
+
+---------------------------- Initialising dynamics ---------------------------
+Total charge of non-Q atoms             =      -0.58
+Total charge of excluded atoms          =      -3.30
+Total charge of system                  =      -0.58
+Target water sphere radius              =      19.79
+Surface inward harmonic force constant  =      60.00
+Surface attraction well depth           =       0.84
+Surface attraction well width           =       0.48
+Water polarisation restraints           : ON, Born correction enabled
+Radial polarisation force constant      =      20.00
+
+Setting up 3 water shells for polarisation restraints.
+Loaded polarisation restraint data from restart file.
+Shell #    outer radius    inner radius
+      1           19.79           19.29
+      2           19.29           18.29
+      3           18.29           16.79
+
+Number of shake constraints             =       1740
+No. molecules with shake constraints    =        580
+No. of Rcq indep. nb pairs involving q-atoms =   219 in state :  1
+No. of Rcq indep. nb pairs involving q-atoms =   208 in state :  2
+
+Coordinates for  4798 atoms will be written to the trajectory.
+------------------------ Distribution of charge groups -----------------------
+node value solute-solute solute-water  water-water     Q-solute      Q-water       #Shake       #Atoms   #Molecules
+     total           549          549          580          549          580          580         4798          583
+----------------------------- End of distribution ----------------------------
+
+Initial System total temperatures are : Ttot =    154.80 Tfree =    218.89
+Solute               temperatures are : Ttot =     34.82 Tfree =     55.31
+Solvent              temperatures are : Ttot =    471.07 Tfree =    471.07
+
+------------------------ Nonbonded pair list generation -----------------------
+=======================  Energy summary at step      0 ========================
+                          el         vdW        bond       angle     torsion    improper
+solute              -4233.33     -365.13      120.07      531.00      459.39       30.35
+solvent             -3322.64      165.66        0.00        0.00        0.00        0.00
+solute-solvent        -91.56      -22.76
+Q-atom                -29.99       -3.33     -325.30       23.24       -0.73        0.00
+
+                       total         fix   slvnt_rad   slvnt_pol       shell      solute
+restraints            -15.84      137.02     -234.15       12.90       68.40        0.00
+
+                       total   potential     kinetic
+SUM                 -5135.21    -7080.88     1945.68
+======================= Q-atom energies at step      0 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 0.9000      9.19     -0.44
+Q-Q     2 0.1000   -197.68     15.07
+
+Q-prot  1 0.9000      0.42     -7.27
+Q-prot  2 0.1000     29.85     -5.21
+
+Q-wat   1 0.9000    -21.49      2.58
+Q-wat   2 0.1000    -25.07      2.97
+
+Q-surr. 1 0.9000    -21.08     -4.69
+Q-surr. 2 0.1000      4.78     -2.23
+
+Q-any   1 0.9000    -11.89     -5.13   -355.85      9.02     -0.75      0.00
+Q-any   2 0.1000   -192.90     12.84    -50.31    151.26     -0.53      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 0.9000   -364.60      0.00
+Q-SUM   2 0.1000    -79.63      0.00
+H( 1, 2) =    0.06 dist. between Q-atoms   1   7 =    6.43
+===============================================================================
+        Total System temperature at step      10 T=     155.3 Average =  155.089 +-    0.024
+         Free System temperature at step      10 T=     219.6 Average =  219.292 +-    0.045
+              Solute temperature at step      10 T=      55.8 Average =   55.608 +-    0.024
+             Solvent temperature at step      10 T=     472.1 Average =  471.635 +-    0.091
+        Total System temperature at step      20 T=     155.8 Average =  155.597 +-    0.017
+         Free System temperature at step      20 T=     220.2 Average =  219.976 +-    0.031
+              Solute temperature at step      20 T=      56.3 Average =   56.109 +-    0.018
+             Solvent temperature at step      20 T=     473.0 Average =  472.598 +-    0.056
+------------------------ Nonbonded pair list generation -----------------------
+        Total System temperature at step      30 T=     156.2 Average =  156.031 +-    0.014
+         Free System temperature at step      30 T=     220.8 Average =  220.545 +-    0.023
+              Solute temperature at step      30 T=      56.8 Average =   56.569 +-    0.017
+             Solvent temperature at step      30 T=     473.6 Average =  473.333 +-    0.035
+        Total System temperature at step      40 T=     156.6 Average =  156.409 +-    0.009
+         Free System temperature at step      40 T=     221.2 Average =  221.029 +-    0.015
+              Solute temperature at step      40 T=      57.2 Average =   57.015 +-    0.016
+             Solvent temperature at step      40 T=     474.0 Average =  473.872 +-    0.013
+        Total System temperature at step      50 T=     156.8 Average =  156.688 +-    0.004
+         Free System temperature at step      50 T=     221.5 Average =  221.373 +-    0.006
+              Solute temperature at step      50 T=      57.7 Average =   57.459 +-    0.016
+             Solvent temperature at step      50 T=     474.0 Average =  474.061 +-    0.000
+------------------------ Nonbonded pair list generation -----------------------
+        Total System temperature at step      60 T=     156.9 Average =  156.839 +-    0.000
+         Free System temperature at step      60 T=     221.6 Average =  221.541 +-    0.000
+              Solute temperature at step      60 T=      58.1 Average =   57.905 +-    0.016
+             Solvent temperature at step      60 T=     473.5 Average =  473.798 +-    0.025
+        Total System temperature at step      70 T=     156.8 Average =  156.851 +-    0.000
+         Free System temperature at step      70 T=     221.5 Average =  221.522 +-    0.001
+              Solute temperature at step      70 T=      58.6 Average =   58.364 +-    0.018
+             Solvent temperature at step      70 T=     472.6 Average =  473.039 +-    0.080
+        Total System temperature at step      80 T=     156.6 Average =  156.707 +-    0.005
+         Free System temperature at step      80 T=     221.1 Average =  221.294 +-    0.010
+              Solute temperature at step      80 T=      59.0 Average =   58.831 +-    0.017
+             Solvent temperature at step      80 T=     471.0 Average =  471.739 +-    0.214
+------------------------ Nonbonded pair list generation -----------------------
+        Total System temperature at step      90 T=     156.2 Average =  156.372 +-    0.015
+         Free System temperature at step      90 T=     220.5 Average =  220.813 +-    0.031
+              Solute temperature at step      90 T=      59.5 Average =   59.276 +-    0.015
+             Solvent temperature at step      90 T=     468.8 Average =  469.825 +-    0.406
+=======================  Energy summary at step    100 ========================
+                          el         vdW        bond       angle     torsion    improper
+solute              -4243.96     -366.40      113.65      535.94      462.49       30.94
+solvent             -3558.47      287.55        0.00        0.00        0.00        0.00
+solute-solvent        -92.30      -18.80
+Q-atom                -31.96       -5.98     -323.58       20.71       -3.38        0.00
+
+                       total         fix   slvnt_rad   slvnt_pol       shell      solute
+restraints            -17.30      135.99     -235.61       11.85       70.47        0.00
+
+                       total   potential     kinetic
+SUM                 -5255.58    -7210.85     1955.27
+======================= Q-atom energies at step    100 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 0.9000      8.80     -0.48
+Q-Q     2 0.1000   -204.60     21.76
+
+Q-prot  1 0.9000     -2.77     -7.24
+Q-prot  2 0.1000     27.93     -3.66
+
+Q-wat   1 0.9000    -19.13     -0.89
+Q-wat   2 0.1000    -25.04     -0.51
+
+Q-surr. 1 0.9000    -21.90     -8.12
+Q-surr. 2 0.1000      2.88     -4.17
+
+Q-any   1 0.9000    -13.10     -8.60   -353.65      7.96     -3.63      0.00
+Q-any   2 0.1000   -201.72     17.59    -52.87    135.49     -1.12      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 0.9000   -371.02      0.00
+Q-SUM   2 0.1000   -102.63      0.00
+H( 1, 2) =    0.05 dist. between Q-atoms   1   7 =    6.48
+===============================================================================
+        Total System temperature at step     100 T=     155.6 Average =  155.872 +-    0.027
+         Free System temperature at step     100 T=     219.7 Average =  220.109 +-    0.053
+              Solute temperature at step     100 T=      59.9 Average =   59.690 +-    0.013
+             Solvent temperature at step     100 T=     466.2 Average =  467.396 +-    0.578
+        Total System temperature at step     110 T=     155.0 Average =  155.267 +-    0.032
+         Free System temperature at step     110 T=     218.9 Average =  219.269 +-    0.061
+              Solute temperature at step     110 T=      60.2 Average =   60.072 +-    0.011
+             Solvent temperature at step     110 T=     463.4 Average =  464.666 +-    0.630
+------------------------ Nonbonded pair list generation -----------------------
+        Total System temperature at step     120 T=     154.3 Average =  154.619 +-    0.037
+         Free System temperature at step     120 T=     218.0 Average =  218.377 +-    0.070
+              Solute temperature at step     120 T=      60.6 Average =   60.424 +-    0.009
+             Solvent temperature at step     120 T=     460.6 Average =  461.853 +-    0.679
+        Total System temperature at step     130 T=     153.7 Average =  153.954 +-    0.036
+         Free System temperature at step     130 T=     217.1 Average =  217.462 +-    0.067
+              Solute temperature at step     130 T=      60.9 Average =   60.739 +-    0.007
+             Solvent temperature at step     130 T=     457.8 Average =  459.040 +-    0.625
+        Total System temperature at step     140 T=     153.0 Average =  153.307 +-    0.033
+         Free System temperature at step     140 T=     216.2 Average =  216.568 +-    0.063
+              Solute temperature at step     140 T=      61.1 Average =   61.011 +-    0.005
+             Solvent temperature at step     140 T=     455.2 Average =  456.345 +-    0.566
+------------------------ Nonbonded pair list generation -----------------------
+        Total System temperature at step     150 T=     152.5 Average =  152.724 +-    0.024
+         Free System temperature at step     150 T=     215.4 Average =  215.757 +-    0.047
+              Solute temperature at step     150 T=      61.3 Average =   61.246 +-    0.004
+             Solvent temperature at step     150 T=     452.9 Average =  453.919 +-    0.419
+        Total System temperature at step     160 T=     152.0 Average =  152.224 +-    0.017
+         Free System temperature at step     160 T=     214.8 Average =  215.048 +-    0.035
+              Solute temperature at step     160 T=      61.5 Average =   61.452 +-    0.003
+             Solvent temperature at step     160 T=     450.9 Average =  451.798 +-    0.320
+        Total System temperature at step     170 T=     151.7 Average =  151.828 +-    0.009
+         Free System temperature at step     170 T=     214.2 Average =  214.470 +-    0.021
+              Solute temperature at step     170 T=      61.7 Average =   61.636 +-    0.002
+             Solvent temperature at step     170 T=     449.4 Average =  450.042 +-    0.199
+------------------------ Nonbonded pair list generation -----------------------
+        Total System temperature at step     180 T=     151.4 Average =  151.527 +-    0.005
+         Free System temperature at step     180 T=     213.8 Average =  214.007 +-    0.014
+              Solute temperature at step     180 T=      61.9 Average =   61.794 +-    0.002
+             Solvent temperature at step     180 T=     448.1 Average =  448.622 +-    0.130
+        Total System temperature at step     190 T=     151.3 Average =  151.316 +-    0.002
+         Free System temperature at step     190 T=     213.5 Average =  213.656 +-    0.007
+              Solute temperature at step     190 T=      62.0 Average =   61.916 +-    0.001
+             Solvent temperature at step     190 T=     447.2 Average =  447.539 +-    0.067
+
+=========================== FINAL  Energy summary =============================
+                          el         vdW        bond       angle     torsion    improper
+solute              -4248.97     -362.55      116.36      536.87      455.77       30.81
+solvent             -3742.03      410.76        0.00        0.00        0.00        0.00
+solute-solvent        -87.79      -20.35
+Q-atom                -31.72       -6.52     -324.38       22.30       -3.72        0.00
+
+                       total         fix   slvnt_rad   slvnt_pol       shell      solute
+restraints            -14.69      139.49     -236.26        9.97       72.11        0.00
+
+                       total   potential     kinetic
+SUM                 -5370.43    -7269.84     1899.41
+=========================== FINAL Q-atom energies =============================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 0.9000      7.63     -0.46
+Q-Q     2 0.1000   -206.95     19.60
+
+Q-prot  1 0.9000     -6.39     -7.69
+Q-prot  2 0.1000     24.25     10.77
+
+Q-wat   1 0.9000    -14.29     -2.26
+Q-wat   2 0.1000    -16.98     -1.89
+
+Q-surr. 1 0.9000    -20.68     -9.95
+Q-surr. 2 0.1000      7.27      8.88
+
+Q-any   1 0.9000    -13.05    -10.41   -354.84      8.75     -3.96      0.00
+Q-any   2 0.1000   -199.68     28.48    -50.21    144.23     -1.58      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 0.9000   -373.51      0.00
+Q-SUM   2 0.1000    -78.77      0.00
+H( 1, 2) =    0.05 dist. between Q-atoms   1   7 =    6.60
+===============================================================================
+        Total System temperature at step     200 T=     151.2 Average =  151.193 +-    0.001
+         Free System temperature at step     200 T=     213.3 Average =  213.418 +-    0.003
+              Solute temperature at step     200 T=      62.0 Average =   62.004 +-    0.000
+             Solvent temperature at step     200 T=     446.6 Average =  446.797 +-    0.031
+Total time of main loop:                                35.4(s)
+ QDyn version 6.0.9 , git id=adc28a635c78993922188615a73366ace3402081 terminated normally.
+###############################################################################
