@@ -1,13 +1,13 @@
 # Generated with QTools, version 0.7.0
-# Date: Mon Jan 22 19:04:27 2024
-# CWD: /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys
+# Date: Tue Jan 23 13:32:55 2024
+# CWD: /home/nayanika/Work/Thesis/EVB/GPX6WT/mousecys
 # Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6cys_mouse.top --rs run_qdyn.sh --pdb GPX6cys_mouse.pdb --fep correctedGPX6_mousecys.fep --outdir relax
 [md]
 steps                                           200
 temperature                                     300
-stepsize                                        0.1
+stepsize                                          1
 bath_coupling                                   100
-lrf                                             off
+lrf                                              on
 
 [cut-offs]
 q_atom                                           99

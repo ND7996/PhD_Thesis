@@ -1,0 +1,11 @@
+TITLE     GPX1_water
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+HETATM    1  O1  WAT     0       0.000   0.000   0.000  1.00  0.00           O  
+HETATM    2  H1  WAT     0       0.843   0.537   0.000  1.00  0.00           H  
+HETATM    3  H2  WAT     0      -0.843   0.537   0.000  1.00  0.00           H  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1
+END   

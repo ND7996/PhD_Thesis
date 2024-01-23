@@ -1,0 +1,14 @@
+ $contrl scftyp=rhf MPLEVL=2 runtyp=OPTIMIZE maxit=200 $end
+ $basis gbasis=N31 ngauss=6 ndfunc=1 $end
+ $scf dirscf=.f. $end
+ $system mwords=300 memddi=0 $end
+ $PCM SOLVNT=WATER ICAV=1 IDISP=0 modpar=2 $END
+ $statpt opttol=0.0001 nstep=100 hssend=.f. $end
+ $DATA
+optimizing h2o2
+C1
+O           8.0  -0.5673356650   0.4860354061   0.1931824792
+O           8.0   0.5565023167  -0.4559850807   0.2789316512
+H           1.0  -1.2094784069  -0.0928850245  -0.2589790597
+H           1.0   1.2203117551   0.0628346992  -0.2131350706
+ $END

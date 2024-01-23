@@ -1,0 +1,13 @@
+ $contrl scftyp=rhf MPLEVL=2 runtyp=OPTIMIZE maxit=200 $end
+ $basis gbasis=N31 ngauss=6 ndfunc=1 $end
+ $scf dirscf=.f. $end
+ $system mwords=300 memddi=0 $end
+ $statpt opttol=0.0001 nstep=100 hssend=.f. $end
+ $DATA
+optimizing h2o2
+C1
+O      8.0     -0.5356681405    0.4102108232    0.2677737292 
+O      8.0      0.5216806204   -0.3714115994    0.3417874180 
+H      1.0     -1.1649740142   -0.0708476537   -0.3283986826 
+H      1.0      1.1789615343    0.0320484299   -0.2811624645 
+ $END

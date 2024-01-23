@@ -1,6 +1,6 @@
 Q topology file
 TITLE      GPX6cys_mouse.top
-DATE       20240122
+DATE       20240123
 VERSION    6.0.8 , git id=adc28a635c78993922188615a73366ace3402081                         
 LIB_FILES  /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/qoplsaa.lib;/home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/GPX.lib
 FORCEFIELD Q-OPLSAA
