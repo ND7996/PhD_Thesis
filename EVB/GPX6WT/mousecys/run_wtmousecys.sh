@@ -1,5 +1,6 @@
 rm -rf /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/relax
 rm -rf replicamousecys*
+rm -rf relax
 relax=/home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/relax
 source $HOME/github/qtools/qtools_init.sh 
 dir=`pwd` 
