@@ -1,0 +1,19 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.opc
+loadAmberParams PRX.frcmod
+loadAmberPrep PRX.prepi
+sys = loadPDB HumanCys.pdb
+addIons2 sys Na+ 0
+addIons2 sys Cl- 0 
+SolvateOct sys OPCBOX 25 
+savePDB sys HumanCysH.pdb
+SaveAmberParm sys HumanCysH.prmtop HumanCysH.inpcrd 
+quit
+
+
+
+
+
+
+
