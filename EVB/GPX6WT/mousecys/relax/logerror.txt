@@ -9,7 +9,7 @@ Built:
       git id d993af2a20623fcf9dc867341fb6902d395c0ec9
       with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
 Qdyn version 6.0.9 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
-Current date 2024- 2- 8 and time 12:44:14
+Current date 2024- 2- 8 and time 12:42:42
 
 Welcome in qdyn modification date 20240208
 
@@ -26,7 +26,7 @@ Solute and solvent atoms coupled separately to heat bath.
 May redefine groups in later section
 Generating seed from system time, please set seed manually to reproduce results
 Initial velocities will be generated from Maxwell distribution:
-Maxwell temperature=      0.10 Random number seed=      9191
+Maxwell temperature=      0.10 Random number seed=      9099
  Using Shake as the constraint algorithm
 Shake constraints on solute bonds to any atoms : off
 Nonbonded method   = LRF Taylor expansion outside cut-off
