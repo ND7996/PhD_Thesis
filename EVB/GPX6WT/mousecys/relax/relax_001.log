@@ -1,15 +1,15 @@
 
 Build and version information
 
-Build number 6.0.9
+Build number 6.0.8
 Build date   20240208
 Built:       
       by     nayanika
       on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
       git id d993af2a20623fcf9dc867341fb6902d395c0ec9
       with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
-Qdyn version 6.0.9 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
-Current date 2024- 2- 8 and time 12:44:51
+Qdyn version 6.0.8 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
+Current date 2024- 2- 8 and time 19:17: 9
 
 Welcome in qdyn modification date 20240208
 
@@ -26,7 +26,7 @@ Solute and solvent atoms coupled separately to heat bath.
 May redefine groups in later section
 Generating seed from system time, please set seed manually to reproduce results
 Initial velocities will be generated from Maxwell distribution:
-Maxwell temperature=      0.10 Random number seed=      9229
+Maxwell temperature=      0.10 Random number seed=      2767
  Using Shake as the constraint algorithm
 Shake constraints on solute bonds to any atoms : off
 Nonbonded method   = LRF Taylor expansion outside cut-off
@@ -308,15 +308,21 @@ node value solute-solute solute-water  water-water     Q-solute      Q-water    
 Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
 
 Backtrace for this error:
-#0  0x49c7ba
-#1  0x49bd85
-#2  0x50ae1f
-#3  0x417640
-#4  0x48b155
-#5  0x475854
-#6  0x406f59
-#7  0x435201
-#8  0x40198e
-#9  0x4fcaff
-#10  0x401f9d
-Segmentation fault (core dumped)
+#0  0x7fdaf4ba6d11 in ???
+#1  0x7fdaf4ba5ee5 in ???
+#2  0x7fdaf486d08f in ???
+	at /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/x86_64/sigaction.c:0
+#3  0x560acf67a8ab in __qmath_MOD_qvec_sub
+	at /home/nayanika/github/Q6/src/math.f90:166
+#4  0x560acf6f0a1c in __nonbondene_MOD_lrf_taylor
+	at /home/nayanika/github/Q6/src/nonbondene.f90:528
+#5  0x560acf6dd643 in __potene_MOD_pot_energy_nonbonds
+	at /home/nayanika/github/Q6/src/potene.f90:376
+#6  0x560acf6dde84 in __potene_MOD_pot_energy
+	at /home/nayanika/github/Q6/src/potene.f90:129
+#7  0x560acf669b70 in __md_MOD_md_run
+	at /home/nayanika/github/Q6/src/md.f90:1742
+#8  0x560acf696385 in qdyn6
+	at /home/nayanika/github/Q6/src/qdyn.f90:158
+#9  0x560acf696523 in main
+	at /home/nayanika/github/Q6/src/qdyn.f90:26
