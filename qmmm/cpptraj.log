@@ -1,0 +1,9 @@
+# 11/30/23 18:51:24
+# Args:  -p MouseCysGSSG.prmtop
+# Loaded topologies:
+#   MouseCysGSSG.prmtop
+trajin MouseCysGSSG.md2040.rst
+autoimage
+trajout input.rst
+go
+exit

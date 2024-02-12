@@ -1,0 +1,38 @@
+#
+# Submit job as: qsub job_g09.slm  mol01_A-.com
+#
+#!/bin/csh
+# SGE options and parameters
+#
+# Job  mol01_A-.com
+#$ -N  mol01_A-.com 
+# Number of cores
+#$ -pe smp 4
+# Queue
+#$ -q iqtc01.q
+# Shell
+#$ -S /bin/csh
+# Output files
+#$ -cwd
+#$ -o $JOB_ID.out
+#$ -e $JOB_ID.err
+# Remove the first '#' of the following 2 lines if you want to receive an email when the job ends.
+##$ -m e
+##$ -M  yourmail@ub.edu
+
+# Load the modules needed and set Gaussian scratch directory
+. /etc/profile
+module load gaussian/g09d01
+setenv GAUSS_SCRDIR $TMPDIR
+
+# Copy inputs and files needed to the directory where the jobs will run
+cd $TMPDIR
+set input = $1
+cp $SGE_O_WORKDIR/$input .
+
+# Run the job
+g09 $input
+
+# Copy the results to our submission directory
+cp * $SGE_O_WORKDIR
+

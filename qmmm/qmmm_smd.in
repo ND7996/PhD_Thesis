@@ -1,0 +1,36 @@
+QMMM 2ps
+&cntrl
+ ntx = 1, irest = 0, ntxo = 1,
+ ntpr = 50, ntwx =50,ntwv=-1,
+ ntf = 1, ntb = 2, dielc = 1.0,
+ cut = 10., nsnb = 10,
+ imin = 0, ibelly = 0, iwrap = 1,
+ nstlim=10000, dt = 0.0002,
+ temp0 = 300.0, tempi = 300.0,
+ ntt = 1, vlimit = 20.0,
+ ntp = 1,
+ ntc = 1, tol = 0.00001, pres0=1, comp=44.6,
+ jfastw=0, nscm=1000,
+ ifqnt=1,infe=1,
+/
+&qmmm
+qmmask = ":465 | :298@CG,HG2,HG3,CD,OE1,OE2 | :262@CB,HB2,HB3,CG,ND1,CE1,NE2,HE2,CD2,HD2",
+qmcharge=-1,
+qm_theory='EXTERN',
+qmshake=0,
+writepdb=1,
+verbosity=0,
+qmcut=12.,
+qm_ewald=0,
+printcharges = 1,
+printdipole = 1,
+peptide_corr = 0,
+/
+&orc
+ use_template=1,
+/
+&smd
+ cv_file= 'cv.in',
+ output_file = 'cv.txt',
+ output_freq = 1,
+/ 

@@ -1,0 +1,31 @@
+QMMM 2ps
+&cntrl
+ ntx = 1, irest = 0, ntxo = 1,
+ ntpr = 50, ntwx =50,ntwv=-1,
+ ntf = 1, ntb = 2, dielc = 1.0,
+ cut = 10., nsnb = 10,
+ imin = 0, ibelly = 0, iwrap = 1,
+ nstlim=10000, dt = 0.0002,
+ temp0 = 300.0, tempi = 300.0,
+ ntt = 1, vlimit = 20.0,
+ ntp = 1,
+ ntc = 1, tol = 0.00001, pres0=1, comp=44.6,
+ jfastw=0, nscm=1000,
+ ifqnt=1,infe=1,
+/
+&qmmm
+qmmask = ":190 | :46@CB,HB2,HB3,SG,HG | @2379-2396 | @1216-1226 | @3035-3037",
+qmcharge=-2,
+qm_theory='EXTERN',
+qmshake=0,
+writepdb=1,
+verbosity=0,
+qmcut=12.,
+qm_ewald=0,
+printcharges = 1,
+printdipole = 1,
+peptide_corr = 0,
+/
+&orc
+ use_template=1,
+/
