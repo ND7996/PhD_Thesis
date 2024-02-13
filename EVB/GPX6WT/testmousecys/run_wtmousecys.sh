@@ -1,10 +1,8 @@
-rm -rf /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/relax
-rm -rf replicamousecys*
+rm -rf /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/relax
 rm -rf relax
-relax=/home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/relax
-source $HOME/github/qtools/qtools_init.sh 
+relax=/home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/relax
+source /home/nayanika/github/qtools/qtools_init.sh 
 dir=`pwd` 
-replica=/home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/replica00
 echo '##################################################'
 echo 'running qprep6'
 echo '##################################################'
@@ -23,8 +21,8 @@ echo 'running qgenrelax'
 echo '##################################################'
 
 #mkdir relax
-cp /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/correctedGPX6_mousecys.fep /relax
-$HOME/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc \
+cp /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/correctedGPX6_mousecys.fep /relax
+/home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc \
           --top GPX6cys_mouse.top \
           --rs  run_qdyn.sh \
           --pdb GPX6cys_mouse.pdb  \

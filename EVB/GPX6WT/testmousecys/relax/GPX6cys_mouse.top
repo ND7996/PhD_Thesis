@@ -1,11 +1,11 @@
 Q topology file
 TITLE      GPX6cys_mouse.top
-DATE       20240208
+DATE       20240213
 VERSION    6.0.8 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9                         
-LIB_FILES  /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/qoplsaa.lib;/home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/GPX.lib
+LIB_FILES  /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/qoplsaa.lib;/home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/GPX.lib
 FORCEFIELD Q-OPLSAA
 FF_TYPE    2
-PRM_FILE   /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/qoplsaa_all.prm
+PRM_FILE   /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/qoplsaa_all.prm
 END        of header
     4798    3058       3   80100 = Total no. of atoms, no. of solute atoms, atoms per solvent molecule, solvent dielectric as eps*1000. Coordinates: (2*3 per line)
    52.101    23.067    23.527     53.288    23.937    23.513

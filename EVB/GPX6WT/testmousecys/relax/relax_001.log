@@ -9,7 +9,7 @@ Built:
       git id d993af2a20623fcf9dc867341fb6902d395c0ec9
       with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
 Qdyn version 6.0.8 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
-Current date 2024- 2- 8 and time 19:17: 9
+Current date 2024- 2-13 and time 14:41:26
 
 Welcome in qdyn modification date 20240208
 
@@ -26,7 +26,7 @@ Solute and solvent atoms coupled separately to heat bath.
 May redefine groups in later section
 Generating seed from system time, please set seed manually to reproduce results
 Initial velocities will be generated from Maxwell distribution:
-Maxwell temperature=      0.10 Random number seed=      2767
+Maxwell temperature=      0.10 Random number seed=      6223
  Using Shake as the constraint algorithm
 Shake constraints on solute bonds to any atoms : off
 Nonbonded method   = LRF Taylor expansion outside cut-off
@@ -177,10 +177,6 @@ q-atom_i q-atom_j
       10        2
        1        7
 
-No. of excluded non-bonded pairs =     1
-atom_i atom_j    excluded in state 1 state 2
-  3052   3053                      1       1
-
 Q-bond types:
 type #  Morse E_diss    alpha       b0  Harmonic force_k 
      1         54.00     2.32     1.32
@@ -296,7 +292,7 @@ Shell #    outer radius    inner radius
 Number of shake constraints             =          0
 No. molecules with shake constraints    =          1
 No. of Rcq indep. nb pairs involving q-atoms =   219 in state :  1
-No. of Rcq indep. nb pairs involving q-atoms =   208 in state :  2
+No. of Rcq indep. nb pairs involving q-atoms =   209 in state :  2
 
 Coordinates for  4798 atoms will be written to the trajectory.
 Initial x-constraint required   0 iterations per molecule on average.
@@ -304,25 +300,26 @@ Initial v-constraint required   0 iterations per molecule on average.
 ------------------------ Distribution of charge groups -----------------------
 node value solute-solute solute-water  water-water     Q-solute      Q-water       #Shake       #Atoms   #Molecules
      total           549          549          580          549          580            1         4798          583
+----------------------------- End of distribution ----------------------------
 
 Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
 
 Backtrace for this error:
-#0  0x7fdaf4ba6d11 in ???
-#1  0x7fdaf4ba5ee5 in ???
-#2  0x7fdaf486d08f in ???
+#0  0x7f9ab3078d11 in ???
+#1  0x7f9ab3077ee5 in ???
+#2  0x7f9ab2d3f08f in ???
 	at /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/x86_64/sigaction.c:0
-#3  0x560acf67a8ab in __qmath_MOD_qvec_sub
+#3  0x561aaaaa58ab in __qmath_MOD_qvec_sub
 	at /home/nayanika/github/Q6/src/math.f90:166
-#4  0x560acf6f0a1c in __nonbondene_MOD_lrf_taylor
+#4  0x561aaab1ba1c in __nonbondene_MOD_lrf_taylor
 	at /home/nayanika/github/Q6/src/nonbondene.f90:528
-#5  0x560acf6dd643 in __potene_MOD_pot_energy_nonbonds
+#5  0x561aaab08643 in __potene_MOD_pot_energy_nonbonds
 	at /home/nayanika/github/Q6/src/potene.f90:376
-#6  0x560acf6dde84 in __potene_MOD_pot_energy
+#6  0x561aaab08e84 in __potene_MOD_pot_energy
 	at /home/nayanika/github/Q6/src/potene.f90:129
-#7  0x560acf669b70 in __md_MOD_md_run
+#7  0x561aaaa94b70 in __md_MOD_md_run
 	at /home/nayanika/github/Q6/src/md.f90:1742
-#8  0x560acf696385 in qdyn6
+#8  0x561aaaac1385 in qdyn6
 	at /home/nayanika/github/Q6/src/qdyn.f90:158
-#9  0x560acf696523 in main
+#9  0x561aaaac1523 in main
 	at /home/nayanika/github/Q6/src/qdyn.f90:26
