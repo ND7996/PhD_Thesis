@@ -1,5 +1,5 @@
 # Generated with QTools, version 0.7.0
-# Date: Tue Feb 13 14:40:29 2024
+# Date: Wed Feb 14 12:53:18 2024
 # CWD: /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys
 # Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6cys_mouse.top --rs run_qdyn.sh --pdb GPX6cys_mouse.pdb --fep correctedGPX6_mousecys.fep --outdir relax
 [md]

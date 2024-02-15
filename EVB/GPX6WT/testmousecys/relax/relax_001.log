@@ -1,20 +1,22 @@
-
+ 
 Build and version information
-
-Build number 6.0.8
-Build date   20240208
+ 
+Build number 6.0.13
+Build date   20240214
 Built:       
       by     nayanika
       on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
       git id d993af2a20623fcf9dc867341fb6902d395c0ec9
-      with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
-Qdyn version 6.0.8 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
-Current date 2024- 2-13 and time 14:41:26
-
-Welcome in qdyn modification date 20240208
-
- Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
- Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+      with   ifort IFORT 2021.11.1 20231117
+Qdyn version 6.0.13 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
+Current date 2024- 2-14 and time 16:22:15
+ 
+Welcome in qdyn modification date 20240214
+ 
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerli
+ n and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welco
+ me
  to redistribute it under certain conditions. For details, add the --help flag.
 ----------------------- Reading input from relax_001.inp ----------------------
 Number of MD steps =       200  Stepsize (fs)    =     1.000
@@ -26,7 +28,7 @@ Solute and solvent atoms coupled separately to heat bath.
 May redefine groups in later section
 Generating seed from system time, please set seed manually to reproduce results
 Initial velocities will be generated from Maxwell distribution:
-Maxwell temperature=      0.10 Random number seed=      6223
+Maxwell temperature=      0.10 Random number seed=      2273
  Using Shake as the constraint algorithm
 Shake constraints on solute bonds to any atoms : off
 Nonbonded method   = LRF Taylor expansion outside cut-off
@@ -190,7 +192,7 @@ type #  Morse E_diss    alpha       b0  Harmonic force_k
      9         81.00     1.87     1.32
     10        102.00     2.26     0.96
     11        102.00     2.26     0.96
-
+ 
 
 No. of changing bonds    =    10
 atom_i atom_j   bond type in state 1 state 2
@@ -215,7 +217,7 @@ type #       force-k   theta0
      6        220.00   100.78
      7        200.00   104.52
      8        130.00   106.24
-
+ 
 
 No. of changing angles   =    14
 atom_i atom_j atom_k    angle type in state 1 state 2
@@ -241,7 +243,7 @@ type #       force-k     mult    delta
      3         -2.50     2.00   180.00
      4          0.24     3.00     0.00
      5          0.24     3.00     0.00
-
+ 
 
 No. of changing torsions =     6
 atom_i atom_j atom_k atom_l    torsion type in state 1 state 2
@@ -260,7 +262,7 @@ No softcore section found. Using normal LJ potentials.
 No. atom groups to monitor   =     1
 group 1:     730     733     729     731     732    3052    3053
     3054    3055    3056    3057    3058
-
+ 
 ---------------- Removing redefined interactions from topology ---------------
 type      atom1 atom2 atom3 atom4
 bond       3054  3052
@@ -271,7 +273,7 @@ angle      3054  3052  3053
 angle      3052  3053  3055
 angle      3057  3056  3058
 torsion    3054  3052  3053  3055
-
+ 
 ---------------------------- Initialising dynamics ---------------------------
 Total charge of non-Q atoms             =      -0.58
 Total charge of excluded atoms          =      -3.30
@@ -293,7 +295,7 @@ Number of shake constraints             =          0
 No. molecules with shake constraints    =          1
 No. of Rcq indep. nb pairs involving q-atoms =   219 in state :  1
 No. of Rcq indep. nb pairs involving q-atoms =   209 in state :  2
-
+ 
 Coordinates for  4798 atoms will be written to the trajectory.
 Initial x-constraint required   0 iterations per molecule on average.
 Initial v-constraint required   0 iterations per molecule on average.
@@ -301,25 +303,19 @@ Initial v-constraint required   0 iterations per molecule on average.
 node value solute-solute solute-water  water-water     Q-solute      Q-water       #Shake       #Atoms   #Molecules
      total           549          549          580          549          580            1         4798          583
 ----------------------------- End of distribution ----------------------------
-
-Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
-
-Backtrace for this error:
-#0  0x7f9ab3078d11 in ???
-#1  0x7f9ab3077ee5 in ???
-#2  0x7f9ab2d3f08f in ???
-	at /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/x86_64/sigaction.c:0
-#3  0x561aaaaa58ab in __qmath_MOD_qvec_sub
-	at /home/nayanika/github/Q6/src/math.f90:166
-#4  0x561aaab1ba1c in __nonbondene_MOD_lrf_taylor
-	at /home/nayanika/github/Q6/src/nonbondene.f90:528
-#5  0x561aaab08643 in __potene_MOD_pot_energy_nonbonds
-	at /home/nayanika/github/Q6/src/potene.f90:376
-#6  0x561aaab08e84 in __potene_MOD_pot_energy
-	at /home/nayanika/github/Q6/src/potene.f90:129
-#7  0x561aaaa94b70 in __md_MOD_md_run
-	at /home/nayanika/github/Q6/src/md.f90:1742
-#8  0x561aaaac1385 in qdyn6
-	at /home/nayanika/github/Q6/src/qdyn.f90:158
-#9  0x561aaaac1523 in main
-	at /home/nayanika/github/Q6/src/qdyn.f90:26
+ 
+Initial System total temperatures are : Ttot =      0.10 Tfree =      0.10
+Solute               temperatures are : Ttot =      0.10 Tfree =      0.10
+Solvent              temperatures are : Ttot =      0.11 Tfree =      0.11
+ 
+------------------------ Nonbonded pair list generation -----------------------
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libpthread-2.31.s  00007F281A5FE420  Unknown               Unknown  Unknown
+Qdyn6              00000000004C8CE4  Unknown               Unknown  Unknown
+Qdyn6              00000000004D6EC1  Unknown               Unknown  Unknown
+Qdyn6              000000000046A85A  Unknown               Unknown  Unknown
+Qdyn6              000000000040AF20  Unknown               Unknown  Unknown
+Qdyn6              000000000040428D  Unknown               Unknown  Unknown
+libc-2.31.so       00007F281A41C083  __libc_start_main     Unknown  Unknown
+Qdyn6              00000000004041AE  Unknown               Unknown  Unknown
