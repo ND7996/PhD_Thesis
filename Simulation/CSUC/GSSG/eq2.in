@@ -1,0 +1,45 @@
+Equilibration at 300K (NVT);
+ &cntrl
+    imin = 0,                     ! Turn off Minimization
+
+    ! Potential energy function options
+    cut=10.,                      ! Non-bonded cutoff in angstrom
+    nsnb=10,                      ! Frequency to update non-bonded list
+
+    ! Input settings
+    ntx=5,                        ! Option to read initial coordinates, velocities and box size 
+    irest=1,                       ! Flag to restart simulation
+
+    ! Output settings
+    ntpr=50,                      ! Print the progress of minimization every ntpr steps
+    ntwr=500,                     ! Print restart file every 5K steps
+    ntwx=500,                     ! Print coordinates every 5K step to the trajectory
+    ntxo=2,                       ! NetCDF format for coordinates
+    ioutfm=1,                     ! NetCDF format for trajectory
+    iwrap=1,                      ! Write coordinates into the primary cell
+
+    ! Restraint options
+    ntr=1,                        ! Flag for restrains
+    restraint_wt=30.,             ! Weight of the constrain
+    restraintmask=':1-189@CA',       ! Atoms to constrain
+
+    ! SHAKE
+    ntc=2,                        ! Constrain bonds containing hydrogens
+    ntf=2,                        ! Do not calculate forces of bonds containing hydrogens
+
+    ! Periodic Boundary Conditions
+    ntb=1,                        ! Constant volume simulation
+
+    ! Temperature and pression control
+    ntt=3,                        ! Langevin dynamics
+    gamma_ln=1.0,                 ! Friction coeficient (ps^-1)
+    tempi=300,                    ! Initial temperarute
+    temp0=300,                    ! Target temperature
+    ig=-1,                        ! Random seed for velocities
+
+
+    ! MD settings
+    nstlim=10000,                ! Simulation time
+    dt=0.002,                    ! Time step (ps)
+
+ &end

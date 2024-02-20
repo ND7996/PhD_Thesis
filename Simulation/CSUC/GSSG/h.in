@@ -1,0 +1,21 @@
+calentamiento con rampa 0 --> 303 k = 10 100ps V=cte (ntb=1) NVT
+&cntrl
+ nstlim = 500000, dt = 0.0002,
+ ntx = 1, irest = 0,iwrap=1,
+ ntpr = 50, ntwr = 500, ntwx = 500,
+ ntt = 3, gamma_ln=1.0, 
+ tempi=0.0, temp0=300.,
+ ntb = 1,ntp=0,ig=-1, 
+ ntc = 2, ntf = 2,
+ ntxo=2,
+ ntr = 1,
+ restraint_wt=200., restraintmask=":1-25,"
+ nmropt=1,
+/   
+&wt
+  type='TEMP0',   ! Varies the target temperature TEMP0
+  istep1=0,       ! Initial step
+  istep2=500000,    ! Final step
+  value1=100.0,     ! Initial temp0 (K)
+  value2=300.0 /  ! final temp0 (K)
+ &wt type='END' / ! End of varying conditions

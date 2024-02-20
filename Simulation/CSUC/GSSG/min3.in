@@ -1,0 +1,29 @@
+Minimization ofthe entire system
+ &cntrl
+    ! Minimization options
+    imin = 1,                     ! Turn on Minimization
+    maxcyc=20000,                 ! Maximum number of minimization cycles
+    ncyc=500,                     ! Change from steepest descend to conjugate gradient
+    ntmin = 1,                    ! Minimization method
+    drms = 0.001,                 ! Convergence RMSD criterion
+    dx0 = 0.1,                    ! Initial step lenght for minimization
+
+    ! Potential energy function options
+    cut=10.,                      ! Non-bonded cutoff in angstrom
+    nsnb=10,                      ! Frequency to update non-bonded list
+
+    ! Control of reading options
+    ntx = 1,                      ! Option to read initial coordinates, velocities and box size 
+    irest = 0,                     ! Flag to restart simulation
+
+    ! Control how often information is printed to the output file
+    ntpr = 500,                   ! Print the progress of minimization every ntpr steps
+    ntxo = 2,                     ! Format of the final coordinates
+
+    ! Restraint options
+    ntr=1,                        ! Flag for restrains
+    restraint_wt=200.,            ! Weight of the constrain
+    restraintmask=':1-189',         ! Atoms to constrain
+    nmropt = 0,                    ! NMR restrains options
+
+    &end
