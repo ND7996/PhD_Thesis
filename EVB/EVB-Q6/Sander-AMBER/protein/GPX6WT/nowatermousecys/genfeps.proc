@@ -1,0 +1,41 @@
+{GENERAL}
+#######################################################
+[MD]
+stepsize                0.1
+temperature             300
+bath_coupling           100  
+lrf                      on
+shake_hydrogens          on
+
+
+[cut-offs]
+q_atom                   99
+
+[intervals]
+non_bond                 30
+output                	500
+trajectory              500  
+temperature             200
+
+#######################################################
+{STEPS_EQUIL}
+#######################################################
+[MD]
+steps                10000
+initial_temperature	300
+temperature             300
+random_seed		 -1
+______________________________________________________
+
+#######################################################
+{FEP}
+#######################################################
+[MD]
+steps                10000
+
+[intervals]
+energy                  10
+trajectory	           500
+output                 500
+
+

@@ -1,0 +1,17 @@
+# Generated with q_ffld2q.py, version 0.7.0
+# Date: Tue Apr 25 16:31:37 2023
+#
+{PRX}
+    [atoms]
+        1  O1     prx.O1        -0.418000
+        2  O2     prx.O2        -0.418000
+        3  H1     prx.H1         0.418000
+        4  H2     prx.H2         0.418000
+    [bonds]
+        O1    O2
+        O1    H1
+        O2    H2
+    [charge_groups]
+        O1 O2 H1 H2
+*--------------------------------------------------------------------------------
+

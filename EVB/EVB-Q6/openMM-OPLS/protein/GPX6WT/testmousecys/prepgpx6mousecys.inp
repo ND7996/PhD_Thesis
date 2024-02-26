@@ -1,0 +1,11 @@
+readlib  /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/qoplsaa.lib          
+readlib  /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/GPX.lib
+readprm  /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/qoplsaa_all.prm
+readpdb  /home/nayanika/github/Thesis/EVB/GPX6WT/testmousecys/GPX6_cysM.pdb
+boundary sphere 49:SG 20.
+solvate 49:SG 20. grid HOH
+maketop  GPX6cys_mouse.top
+writetop GPX6cys_mouse.top
+writepdb GPX6cys_mouse.pdb y
+quit
+
