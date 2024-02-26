@@ -4,6 +4,8 @@ hbond.sh - specified the average of each solute-solute hydrogen bond formed over
 
 pdb_rmsd.sh - calculated rmsd over the course of the trajectory
 
+pdb.ipynb - visualize pdb structures and co-ordinate files 
+
 radgyr.sh - calculates radius of gyration for specified atoms
 
 rmsd-ipynb - plotting rmsd through the trajectories
