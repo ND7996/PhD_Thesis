@@ -25,21 +25,21 @@ scp -P 2122 min1.in biotectfg05@hpc.csuc.cat:/home/biotectfg05/GSSG
 #SBATCH -p std
 #SBATCH -n 1
 #SBATCH -t 0-02:00
- 
+
 module load apps/amber/18
- 
+
 ##
 #  Modify the input and output files!
- 
+
 cp -r ${SLURM_SUBMIT_DIR}/{min1.in,MouseCysGSSG.top,MouseCysGSSG.crd} ${SCRATCH}
 cd ${SCRATCH}
-  
+
 srun pmemd.MPI -O \
                -i amber_example.inp \
                -p amber_example.top \
                -c amber_example.crd \
                -o amber_example.out
-  
+
 cp ./*.out ${SLURM_SUBMIT_DIR}
 
 ```
@@ -71,3 +71,26 @@ cp ./*.mdout ${SLURM_SUBMIT_DIR}
 ```
 sbacth file.whataver
 ```
+
+
+
+
+#!/bin/bash
+#SBATCH -J mindao
+#SBATCH -e %J.%j.err
+#SBATCH -o %J.%j.out
+#SBATCH -p std
+#SBATCH -n 1
+#SBATCH -t 0-00:01
+module load apps/amber/18
+##
+#  Modify the input and output files!
+cp -r ${SLURM_SUBMIT_DIR}/{*.in,*.parm7,*.rst7} $SCRATCH
+cd $SCRATCH
+echo $(SCRATCH)
+echo $(SLURM_SUBMIT_DIR)
+echo $SCRATCH
+ls
+pwd
+sander -O -i min.in -p dao.parm7 -c dao.rst7 -o min3.out -r min1.rst7
+cp ./*.out ${SLURM_SUBMIT_DIR}
