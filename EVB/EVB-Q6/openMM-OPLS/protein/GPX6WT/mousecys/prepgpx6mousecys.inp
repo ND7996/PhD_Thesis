@@ -1,7 +1,7 @@
-readlib  /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/qoplsaa.lib          
-readlib  /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/GPX.lib
-readprm  /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/qoplsaa_all.prm
-readpdb  /home/nayanika/OneDrive/Thesis/EVB/GPX6WT/mousecys/GPX6_cysM.pdb
+readlib  qoplsaa.lib          
+readlib  GPX.lib
+readprm  qoplsaa_all.prm
+readpdb  GPX6_cysM.pdb
 boundary sphere 49:SG 20.
 solvate 49:SG 20. grid HOH
 maketop  GPX6cys_mouse.top
