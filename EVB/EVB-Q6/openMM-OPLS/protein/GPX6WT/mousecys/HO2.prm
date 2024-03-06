@@ -1,0 +1,14 @@
+ # Generated with q_ffld2q.py, version 0.7.0
+# Date: Tue May  2 17:49:17 2023
+#
+[options]
+
+
+[atom_types]
+ HO2.hw      0.00       0.00    0.00    0.00    0.00    1.008   ! TIP3P
+
+[bonds]
+ HO2.hw   HO2.ow  1106.0        0.957
+
+[angles]
+ HO2.hw     HO2.ow   HO2.hw      200.000        104.520 0.000   0.000

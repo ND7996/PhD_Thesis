@@ -52,10 +52,11 @@ temperature              10
 1.00  0.
 
 [sequence_restraints]
-# sequence restraints here
+ $1.N$      $195.O$
 
 [distance_restraints]
-# distance restraints here
+196.O1-196.O2
+49.SG-49.HG
 
 [angle_restraints]
 # angle restraints here

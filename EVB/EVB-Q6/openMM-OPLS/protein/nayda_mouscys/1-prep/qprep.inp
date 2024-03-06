@@ -1,0 +1,21 @@
+! new opls parameters and substrate parameters (ffld?)
+readlib  1-params/qoplsaa.lib          
+readlib  1-params/GPX.lib
+
+! parameters
+readprm  1-params/qoplsaa_all.prm
+
+! read in structure
+readpdb 3-solvate/solvated.pdb
+
+set solvent_pack 2.7
+
+! Solvate around C49
+boundary   sphere 49:SG 20.
+
+! write out topology and pdb with corresponding indices
+maketop GPX6_cysM
+writepdb GPX6_cysM_top.pdb y
+writetop GPX6_cysM.top y
+
+quit

@@ -1,0 +1,8 @@
+Run this command to generate inputs.
+q_genrelax.py genrelax_minim.proc --top ../1-prep/GPX6_cysM.top  --pdb ../1-prep/GPX6_cysM_top.pdb --fep ../1-prep/4-fep_files/GPX6_cysM.fep --outdir minim --rest top --rs run_Q5.10_amd.sh
+
+The run script will only work for our CSB cluster and needs to be mofified to run on a local pc or other clusters.
+
+There are example distance restraints at the top of the proc file that you can use to set up distance restraints for the bonds that get broken/made in your system.
+
+

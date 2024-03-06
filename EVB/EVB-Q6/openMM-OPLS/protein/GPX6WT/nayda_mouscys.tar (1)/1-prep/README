@@ -1,0 +1,23 @@
+
+Modify 1-params/merge_parameters.py so it reads all parameter files.
+
+1-params/qoplsaa.lib
+1-params/qoplsaa.prm
+
+The two files above have been swapped out for opls2015 files that have different hydrogens atom names, thus I removed all the hydrogens from your pdb file.
+2-structures/GPX6_cysM_no_hyd.pdb
+
+Then you solvate in 3-solvate using qprep:
+qprep < qprep.inp > qprep.out
+
+Use the find_shit_hoh.py script to find bad waters. In your case I couldn't find any.
+Also there are no crystal waters in your input pdb so make sure you aren't missing any important ones.
+
+Then you make the final topology by going back to this the 1-prep directory and using the qprep.inp file there:
+qprep < qprep.inp > qprep.out
+
+Now you should have generated two files that you can use to run the simulations:
+GPX6_cysM.top  GPX6_cysM_top.pdb
+
+For the fep file you can look in the 4-fep_files directory. Make sure you are happy with the soft-pair and Morse parameters.
+
