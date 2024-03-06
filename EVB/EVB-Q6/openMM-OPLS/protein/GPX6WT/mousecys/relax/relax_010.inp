@@ -3,11 +3,11 @@
 # CWD: /home/nayanika/github/PhD_Thesis/EVB/EVB-Q6/openMM-OPLS/protein/GPX6WT/mousecys
 # Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6cys_mouse.top --rs run_qdyn.sh --pdb GPX6cys_mouse.pdb --fep correctedGPX6_mousecys.fep --outdir relax
 [md]
-steps                                         50000
-random_seed                                  324361
+steps                                           200
+random_seed                                  851284
 temperature                                     0.1
-stepsize                                        0.5
-bath_coupling                                   0.5
+stepsize                                        0.1
+bath_coupling                                   0.1
 initial_temperature                             0.1
 separate_scaling                                 on
 lrf                                              on
@@ -25,22 +25,21 @@ shell_force                                     0.0
 
 [intervals]
 non_bond                                         25
-output                                         1000
-temperature                                    1000
-trajectory                                     1000
+output                                           10
+temperature                                      10
+trajectory                                       10
 
 [files]
 topology                          GPX6cys_mouse.top
-restart                                relax_005.re
-final                                  relax_006.re
-trajectory                            relax_006.dcd
+restart                                relax_009.re
+final                                  relax_010.re
+trajectory                            relax_010.dcd
 fep                      correctedGPX6_mousecys.fep
 
 [lambdas]
 1.00  0.
 
 [sequence_restraints]
-1      3051   20.0   0      0      0     
 
 [distance_restraints]
 

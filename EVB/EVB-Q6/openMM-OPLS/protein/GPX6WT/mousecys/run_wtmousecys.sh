@@ -5,9 +5,9 @@ relax=/home/nayanika/github/PhD_Thesis/EVB/EVB-Q6/openMM-OPLS/protein/GPX6WT/mou
 source $HOME/github/qtools/qtools_init.sh 
 dir=`pwd` 
 echo '##################################################'
-echo 'running qprep6'
+echo 'running qprep5'
 echo '##################################################'
-Qprep6 <prepgpx6mousecys.inp
+qprep5 <prepgpx6mousecys.inp
 echo '##################################################'
 echo 'running makefep'
 echo '##################################################'

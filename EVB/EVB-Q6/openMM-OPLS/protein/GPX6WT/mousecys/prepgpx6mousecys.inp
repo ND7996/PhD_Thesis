@@ -1,11 +1,13 @@
-readlib  qoplsaa.lib          
-readlib  GPX.lib
-readprm  qoplsaa_all.prm
-readpdb  GPX6_cysM.pdb
-boundary sphere 49:SG 20.
-solvate 49:SG 20. grid HOH
-maketop  GPX6cys_mouse.top
+readlib GPX.lib
+readlib qoplsaa.lib
+readprm qoplsaa_all.prm
+readpdb GPX6_cysM.pdb
+! set solute_density 0.05794
+! Solvent_pack is turned off
+! set solvent_pack 0.0
+boundary 1 43.704  34.968  42.174 20.0
+solvate 43.704  34.968  42.174 20.0 1 HOH
+maketop GPX6cys_mouse.top
 writetop GPX6cys_mouse.top
-writepdb GPX6cys_mouse.pdb y
-quit
-
+wp GPX6cys_mouse.pdb y
+q

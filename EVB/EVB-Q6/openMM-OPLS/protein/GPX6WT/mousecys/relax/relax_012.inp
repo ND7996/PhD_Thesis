@@ -4,7 +4,7 @@
 # Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6cys_mouse.top --rs run_qdyn.sh --pdb GPX6cys_mouse.pdb --fep correctedGPX6_mousecys.fep --outdir relax
 [md]
 steps                                         50000
-random_seed                                  324361
+random_seed                                  182878
 temperature                                     0.1
 stepsize                                        0.5
 bath_coupling                                   0.5
@@ -31,16 +31,15 @@ trajectory                                     1000
 
 [files]
 topology                          GPX6cys_mouse.top
-restart                                relax_005.re
-final                                  relax_006.re
-trajectory                            relax_006.dcd
+restart                                relax_011.re
+final                                  relax_012.re
+trajectory                            relax_012.dcd
 fep                      correctedGPX6_mousecys.fep
 
 [lambdas]
 1.00  0.
 
 [sequence_restraints]
-1      3051   20.0   0      0      0     
 
 [distance_restraints]
 
