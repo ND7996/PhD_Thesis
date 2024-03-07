@@ -1,10 +1,10 @@
 # Generated with QTools, version 0.7.0
-# Date: Wed Mar  6 12:05:39 2024
+# Date: Thu Mar  7 17:54:32 2024
 # CWD: /home/nayanika/github/PhD_Thesis/EVB/EVB-Q6/openMM-OPLS/protein/GPX6WT/mousecys
-# Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6cys_mouse.top --rs run_qdyn.sh --pdb GPX6cys_mouse.pdb --fep correctedGPX6_mousecys.fep --outdir relax
+# Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6cys_mouse.top --rs run_qdyn.sh --pdb GPX6cys_mouse.pdb --fep GPX6_wtmousecys.fep --outdir relax
 [md]
 steps                                           200
-random_seed                                  185429
+random_seed                                  607442
 temperature                                     0.1
 stepsize                                        0.1
 bath_coupling                                   0.1
@@ -34,7 +34,7 @@ topology                          GPX6cys_mouse.top
 restart                                relax_003.re
 final                                  relax_004.re
 trajectory                            relax_004.dcd
-fep                      correctedGPX6_mousecys.fep
+fep                             GPX6_wtmousecys.fep
 
 [lambdas]
 1.00  0.
@@ -43,5 +43,6 @@ fep                      correctedGPX6_mousecys.fep
 1      3051   20.0   0      0      0     
 
 [distance_restraints]
+3055   3056   0.0    3.5    10.    0     
 
 [angle_restraints]
