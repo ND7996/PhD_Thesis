@@ -1,0 +1,858 @@
+
+Build and version information
+
+Build number 6.0.8
+Build date   20240214
+Built:       
+      by     nayanika
+      on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
+      git id d993af2a20623fcf9dc867341fb6902d395c0ec9
+      with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
+Qdyn version 6.0.8 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
+Current date 2024- 3- 8 and time 18:35:31
+
+Welcome in qdyn modification date 20240214
+
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+ to redistribute it under certain conditions. For details, add the --help flag.
+----------------------- Reading input from relax_004.inp ----------------------
+Number of MD steps =       200  Stepsize (fs)    =     0.100
+ Not being verbose in temperature print out
+Target temperature =      0.10  T-relax time     =      0.10
+ No thermostat chosen. Berendsen thermostat will be used.
+ Leap frog integrator used by default.
+Solute and solvent atoms coupled separately to heat bath.
+May redefine groups in later section
+Initial velocities will be generated from Maxwell distribution:
+Maxwell temperature=      0.10 Random number seed=    290835
+Shake constraints on solvent bonds to any atoms : off
+Shake constraints on solute bonds to any atoms : off
+Nonbonded method   = LRF Taylor expansion outside cut-off
+Using default temperature coupling groups
+Boundary: sphere
+Cut-off radii for non-bonded interactions:
+Solute-solute:     10.00
+Solvent-solvent:   10.00
+Solute-solvent:    10.00
+Q-atom-non-Q-atom: 99.00
+LRF:               99.00
+Radius of inner restrained shell       =      20.000
+Excluded atoms force constant set to default
+Excluded atom restraint force constant         =  200.00
+Polarization force update at default 10/ps
+Update every 1000 steps
+Non-bonded pair list update interval   =      25
+Energy summary print-out interval      =      10
+Temperature print-out interval         =      10
+Trajectory write interval              =      10
+No energy file written.
+All atoms will be included in the trajectory.
+Topology file      = GPX6cys_mouse.top
+Initial coord. file= relax_003.re
+Final coord. file  = relax_004.re
+Trajectory file    = relax_004.dcd
+FEP input file     = GPX6_wtmousecys.fep
+
+lambda-values      =  1.00000 0.00000
+
+List of excluded atom groups
+No QCP section found, will not try to use RPMD.
+
+Listing of restraining data:
+
+No. of sequence restraints =         1
+  atom_i  atom_j      fc  H-flag to_centre
+       1    3051   20.00       0         0
+
+No. of distance restraints =         1
+atom_i atom_j   dist1   dist2   fc        state
+  3055   3056    0.00    3.50   10.00       0
+---------------------------- Reading topology file ---------------------------
+GPX6cys_mouse.top                                                               
+
+No. of solute atoms     =       3058
+No. of solvent atoms    =       1740
+Solvent dielectric*1000 =     80000
+No. of coordinates      =      14394
+No. of atom type codes  =       4798
+No. of solute bonds     =       3103
+No. of solvent bonds    =       1740
+No. of solute angles    =       5597
+No. of solvent angles   =        580
+No. of solute torsions  =      11365
+No. of solvent torsions =          0
+No. of solute impropers =        658
+No. of solvent impropers=          0
+No. of atomic charges   =       4798
+No. of solute chargegrps=        549
+No. of solvent chargegps=        580
+Charge group cut-off    : Switching atoms
+vdW  rule [ 1=G / 2=A ] =          1
+El-static 1-4 damping   =      0.500
+Coulomb constant        =   332.0716
+No. of atom types       =        145
+No. of LJ type 2 pairs  =          0
+No. of heavy atoms      =       2139
+No. of 1-4 neighbours   =       8175
+No. long-range 1-4 nbrs =          1
+No. of nbor exclusions  =      11020
+No. of long-range excls =          0
+No. of residues         =        777
+No of solute residues   =        197
+No. of molecules        =        583
+Atom type names         =        145
+SYBYL atom types        =        145
+Boundary: sphere
+Exclusion radius        =     20.000
+Eff. solvent radius     =     19.790
+Solvent density         =   0.03350000
+Solute centre           =     43.704    34.968    42.174
+Solvent centre          =     43.704    34.968    42.174
+No. of excluded atoms   =       1268
+Molecular topology read successfully.
+
+Found        0 solute atoms in the restrained shell region ( 20.00 to  20.00)
+----------------------------- Reading restart file ----------------------------
+Total number of atoms        =    4798
+Number of waters encountered =     580
+
+----------------------------- Reading Q atom list ----------------------------
+No. of fep/evb states    =     2
+No. of fep/evb atoms     =    12
+Atom nos.:   730   731   727   728   729  3055  3056  3057  3058  3052
+Atom nos.:  3053  3054
+--------------------------- Reading fep/evb strategy --------------------------
+
+No. of changing charges  =    12
+Effective Q-atom charges for all Q-atoms
+Q atom    charge in state 1 state 2
+     1               -0.335   0.121
+     2                0.155   0.417
+     3                0.060  -0.018
+     4                0.060   0.060
+     5                0.060   0.060
+     6               -0.418  -0.834
+     7               -0.418  -0.640
+     8                0.418   0.417
+     9                0.418   0.418
+    10               -0.834  -0.834
+    11                0.417   0.417
+    12                0.417   0.417
+
+   SUM               -0.000   0.000
+
+No. of Q-atom types  =    14
+Name            Ai      Bi      Ci     ai Ai(1-4) Bi(1-4)    Mass
+S200       2838.18   60.83  165.00  2.50  2006.89   43.01   32.06
+snn.SG     2593.94   55.60  165.00  2.50  1834.19   39.31   32.06
+H204          0.00    0.00    0.00  2.50     0.00    0.00    1.01
+HWN           0.00    0.00    0.00  2.50     0.00    0.00    1.01
+C206        944.52   22.03    1.00  2.50   667.88   15.58   12.01
+snn.CB      944.52   22.03    1.00  2.50   667.88   15.58   12.01
+H140         84.57    5.41    1.00  2.50    59.80    3.83    1.01
+snn.HB2      84.57    5.41    1.00  2.50    59.80    3.83    1.01
+snn.HB3      84.57    5.41    1.00  2.50    59.80    3.83    1.01
+prx.O       760.64   25.04  110.00  2.50   537.86   17.71   16.00
+OWN         762.89   24.39  110.00  2.50   539.44   17.25   16.00
+snn.OS      760.64   25.04  110.00  2.50   537.86   17.71   16.00
+prx.H         0.01    0.04    1.00  2.50     0.00    0.03    1.01
+snn.HG        0.01    0.04    1.00  2.50     0.00    0.03    1.01
+
+Assigning Q-atom types to all Q atoms:
+Q atom    atom type in  state 1  state 2
+     1                  S200     snn.SG  
+     2                  H204     HWN     
+     3                  C206     snn.CB  
+     4                  H140     snn.HB2 
+     5                  H140     snn.HB3 
+     6                  prx.O    OWN     
+     7                  prx.O    snn.OS  
+     8                  prx.H    HWN     
+     9                  prx.H    snn.HG  
+    10                  OWN      OWN     
+    11                  HWN      HWN     
+    12                  HWN      HWN     
+
+No. of soft repulsion non-bonded pairs =     6
+q-atom_i q-atom_j
+      10       12
+       6        7
+       1        2
+       6       12
+      10        2
+       1        7
+
+Q-bond types:
+type #  Morse E_diss    alpha       b0  Harmonic force_k 
+     1        102.00     2.26     0.96
+     2         54.00     2.32     1.32
+     3         81.00     1.87     1.32
+     4         81.00     1.87     1.32
+     5                            0.94           1106.00
+     6                            0.96           1106.00
+
+
+No. of changing bonds    =     7
+atom_i atom_j   bond type in state 1 state 2
+  3052   3054                      1       0
+  3055   3056                      2       0
+   730    731                      3       0
+  3054   3055                      0       1
+   731   3052                      0       1
+   730   3056                      0       4
+  3055   3057                      5       6
+
+Q-angle types:
+type #       force-k   theta0
+     1        200.00   104.52
+     2        160.00   102.22
+     3         88.00    96.00
+     4        220.00   100.78
+     5        130.00   106.24
+
+
+No. of changing angles   =     8
+atom_i atom_j atom_k    angle type in state 1 state 2
+  3053   3052   3054                        1       0
+  3055   3056   3058                        2       0
+  3056   3055   3057                        2       0
+   727    730    731                        3       0
+  3054   3055   3057                        0       1
+   727    730   3056                        0       4
+   731   3052   3053                        0       1
+   730   3056   3058                        0       5
+
+Q-torsion types:
+type #       force-k     mult    delta
+     1         -2.50     2.00   180.00
+     2          0.24     3.00     0.00
+     3         -2.50     2.00   180.00
+     4          0.24     3.00     0.00
+     5          0.24     3.00     0.00
+
+
+No. of changing torsions =     7
+atom_i atom_j atom_k atom_l    torsion type in state 1 state 2
+  3057   3055   3056   3058                          1       0
+   728    727    730    731                          2       0
+   729    727    730    731                          2       0
+   727    730   3056   3058                          0       3
+   728    727    730   3056                          0       4
+   729    727    730   3056                          0       5
+   731    730    727    725                          0       0
+
+No. of offdiagonal (Hij) functions =     1
+state_i state_j atom_k atom_l     Aij mu_ij
+      1       2      1      7    0.00  0.00
+No softcore section found. Using normal LJ potentials.
+
+---------------- Removing redefined interactions from topology ---------------
+type      atom1 atom2 atom3 atom4
+bond        730   731
+bond       3052  3054
+bond       3057  3055
+bond       3055  3056
+angle       727   730   731
+angle      3053  3052  3054
+angle      3057  3055  3056
+angle      3055  3056  3058
+torsion     731   730   727   725
+torsion     731   730   727   725
+torsion     731   730   727   725
+torsion     731   730   727   728
+torsion     731   730   727   729
+torsion    3057  3055  3056  3058
+
+---------------------------- Initialising dynamics ---------------------------
+Total charge of non-Q atoms             =      -1.00
+Total charge of excluded atoms          =      -3.00
+Total charge of system                  =      -1.00
+Target water sphere radius              =      19.79
+Surface inward harmonic force constant  =      60.00
+Surface attraction well depth           =       0.84
+Surface attraction well width           =       0.48
+Water polarisation restraints           : ON, Born correction enabled
+Radial polarisation force constant      =      20.00
+
+Setting up 3 water shells for polarisation restraints.
+Loaded polarisation restraint data from restart file.
+Shell #    outer radius    inner radius
+      1           19.79           19.29
+      2           19.29           18.29
+      3           18.29           16.79
+
+Number of shake constraints             =          0
+No. molecules with shake constraints    =          1
+No. of Rcq indep. nb pairs involving q-atoms =    91 in state :  1
+No. of Rcq indep. nb pairs involving q-atoms =    91 in state :  2
+
+Coordinates for  4798 atoms will be written to the trajectory.
+Initial x-constraint required   0 iterations per molecule on average.
+Initial v-constraint required   0 iterations per molecule on average.
+------------------------ Distribution of charge groups -----------------------
+node value solute-solute solute-water  water-water     Q-solute      Q-water       #Shake       #Atoms   #Molecules
+     total           549          549          580          549          580            1         4798          583
+----------------------------- End of distribution ----------------------------
+
+Initial System total temperatures are : Ttot =      0.10 Tfree =      0.10
+Solute               temperatures are : Ttot =      0.10 Tfree =      0.10
+Solvent              temperatures are : Ttot =      0.10 Tfree =      0.10
+
+------------------------ Nonbonded pair list generation -----------------------
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000000675  0.0000000000001137 -0.0000000000001448
+Total force after                     Nonbond qw -0.0000000000000115  0.0000000000000782 -0.0000000000001554
+Total force after            Classical Nonbonded -0.2792972009725929 -0.2511765403893573 -0.0587314541564385
+Total force after                  Bonds protein -0.2792972009712287 -0.2511765403879931 -0.0587314541567796
+Total force after                    Bonds water -0.2792972009680028 -0.2511765403892010 -0.0587314541568977
+Total force after                 Angles protein -0.2792972009702765 -0.2511765403887463 -0.0587314541561019
+Total force after                   Angles water -0.2792972009741250 -0.2511765403864246 -0.0587314541563773
+Total force after               Torsions protein -0.2792972009741250 -0.2511765403879025 -0.0587314541571731
+Total force after                 Torsions water -0.2792972009741250 -0.2511765403879025 -0.0587314541571731
+Total force after              Impropers protein -0.2792972009741250 -0.2511765403877888 -0.0587314541571731
+Total force after                Impropers water -0.2792972009741250 -0.2511765403877888 -0.0587314541571731
+Total force after                          Shell -0.6041516205817503 -1.4237704363403942 -4.1939835312363662
+Total force after                   p_restrain 3 -0.7679238516751399 -2.2129031747042269 -4.9696729454755779
+Total force after                     Restraints -0.7679238516751399 -2.2129031747042269 -4.9696729454755779
+Total force after               Water restraints 53.2164732884784470  3.4636640057705055 22.9953413524869639
+Total force after  Water polarization restraints 53.7362249709091415  3.5265545240068317 23.5711804610651576
+Total force after                    Q Nonbonded 53.7362249709091415  3.5265545240068317 23.5711804610651576
+=======================  Energy summary at step      0 ========================
+                          el         vdW        bond       angle     torsion    improper
+solute              -3909.44     -134.48      634.73      864.43     1739.27      177.32
+solvent              -227.36     -157.65       19.04       13.90        0.00        0.00
+solute-solvent         90.77     1310.27
+LRF                   -44.79
+Q-atom                 19.58      -11.13     -189.63        0.15       -4.01        0.00
+
+                       total         fix   slvnt_rad   slvnt_pol       shell      solute
+restraints           -207.27        3.50     -222.07       11.11        0.00        0.19
+
+                       total   potential     kinetic
+SUM                   -13.46      -16.33        2.86
+======================= Q-atom energies at step      0 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.89     -0.05
+Q-Q     2 0.0000     12.94     18.73
+
+Q-prot  1 1.0000     -4.70     -7.83
+Q-prot  2 0.0000    -12.24     -7.19
+
+Q-wat   1 1.0000      9.39     -3.26
+Q-wat   2 0.0000     19.14     -3.19
+
+Q-surr. 1 1.0000      4.69    -11.08
+Q-surr. 2 0.0000      6.90    -10.38
+
+Q-any   1 1.0000     19.58    -11.13   -189.63      0.15     -4.01      0.00
+Q-any   2 0.0000     19.84      8.35     -8.56     56.28     -1.89      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -185.05      0.00
+Q-SUM   2 0.0000     74.02      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.75
+===============================================================================
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000001910 -0.0000000000000444  0.0000000000001332
+Total force after                     Nonbond qw  0.0000000000000728 -0.0000000000000195  0.0000000000001386
+Total force after            Classical Nonbonded -0.2796589424210074 -0.2509726563057395 -0.0590545022792242
+Total force after                  Bonds protein -0.2796589424200979 -0.2509726563116512 -0.0590545022780873
+Total force after                    Bonds water -0.2796589424171421 -0.2509726563126513 -0.0590545022778040
+Total force after                 Angles protein -0.2796589424185063 -0.2509726563092407 -0.0590545022791682
+Total force after                   Angles water -0.2796589424214275 -0.2509726563085266 -0.0590545022796451
+Total force after               Torsions protein -0.2796589424227918 -0.2509726563076171 -0.0590545022790767
+Total force after                 Torsions water -0.2796589424227918 -0.2509726563076171 -0.0590545022790767
+Total force after              Impropers protein -0.2796589424232465 -0.2509726563087540 -0.0590545022785083
+Total force after                Impropers water -0.2796589424232465 -0.2509726563087540 -0.0590545022785083
+Total force after                          Shell -0.7291071311214132 -1.4368465203129865 -4.1791511178178613
+Total force after                   p_restrain 3 -0.8916435465133832 -2.2259653986948766 -4.9588870812403236
+Total force after                     Restraints -0.8916435465133832 -2.2259653986948766 -4.9588870812403236
+Total force after               Water restraints 53.9673578760802570  3.5439269035082273 23.4495352930674237
+Total force after  Water polarization restraints 54.5163059281907465  3.5927598244405363 24.0683055370616827
+Total force after                    Q Nonbonded 54.5163059281902918  3.5927598244405363 24.0683055370617964
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000003455  0.0000000000000835 -0.0000000000000462
+Total force after                     Nonbond qw -0.0000000000001750  0.0000000000002238 -0.0000000000000284
+Total force after            Classical Nonbonded -0.2799405704146478 -0.2508122557421757 -0.0592969619475436
+Total force after                  Bonds protein -0.2799405704151026 -0.2508122557430852 -0.0592969619467478
+Total force after                    Bonds water -0.2799405704172120 -0.2508122557429928 -0.0592969619468198
+Total force after                 Angles protein -0.2799405704183489 -0.2508122557414012 -0.0592969619488093
+Total force after                   Angles water -0.2799405704194928 -0.2508122557411774 -0.0592969619488848
+Total force after               Torsions protein -0.2799405704167643 -0.2508122557411774 -0.0592969619483164
+Total force after                 Torsions water -0.2799405704167643 -0.2508122557411774 -0.0592969619483164
+Total force after              Impropers protein -0.2799405704172191 -0.2508122557425416 -0.0592969619479753
+Total force after                Impropers water -0.2799405704172191 -0.2508122557425416 -0.0592969619479753
+Total force after                          Shell -0.8035671117968501 -1.4481346787573628 -4.1754358770932640
+Total force after                   p_restrain 3 -0.9655857310254259 -2.2389962585708645 -4.9595156540281229
+Total force after                     Restraints -0.9655857310254259 -2.2389962585708645 -4.9595156540281229
+Total force after               Water restraints 54.0603025042088063  3.5503232769669566 23.5339961604109007
+Total force after  Water polarization restraints 54.6094906726202680  3.5991811731057073 24.1533612052767168
+Total force after                    Q Nonbonded 54.6094906726202680  3.5991811731057073 24.1533612052767168
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000002842 -0.0000000000001616  0.0000000000000693
+Total force after                     Nonbond qw  0.0000000000001839 -0.0000000000001261  0.0000000000000746
+Total force after            Classical Nonbonded -0.2801487068463180 -0.2506938157666596 -0.0594537202705911
+Total force after                  Bonds protein -0.2801487068449537 -0.2506938157680239 -0.0594537202709322
+Total force after                    Bonds water -0.2801487068427493 -0.2506938157685870 -0.0594537202709517
+Total force after                 Angles protein -0.2801487068445683 -0.2506938157654037 -0.0594537202710654
+Total force after                   Angles water -0.2801487068429482 -0.2506938157640324 -0.0594537202709278
+Total force after               Torsions protein -0.2801487068424935 -0.2506938157653966 -0.0594537202716099
+Total force after                 Torsions water -0.2801487068424935 -0.2506938157653966 -0.0594537202716099
+Total force after              Impropers protein -0.2801487068443125 -0.2506938157663061 -0.0594537202709278
+Total force after                Impropers water -0.2801487068443125 -0.2506938157663061 -0.0594537202709278
+Total force after                          Shell -0.8477250636914961 -1.4582652263760192 -4.1783348027928335
+Total force after                   p_restrain 3 -1.0096512398831381 -2.2518872127999554 -4.9668965445666027
+Total force after                     Restraints -1.0096512398831381 -2.2518872127999554 -4.9668965445666027
+Total force after               Water restraints 54.0820816024816651  3.5459247188585454 23.5601182336798445
+Total force after  Water polarization restraints 54.6315589125056675  3.5947159499350398 24.1799583631760555
+Total force after                    Q Nonbonded 54.6315589125056675  3.5947159499348125 24.1799583631760555
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000002238  0.0000000000000071 -0.0000000000001741
+Total force after                     Nonbond qw  0.0000000000002274 -0.0000000000000888 -0.0000000000001616
+Total force after            Classical Nonbonded -0.2803005993837697 -0.2506089309438337 -0.0595459692905003
+Total force after                  Bonds protein -0.2803005993851340 -0.2506089309440611 -0.0595459692898181
+Total force after                    Bonds water -0.2803005993845558 -0.2506089309441659 -0.0595459692895730
+Total force after                 Angles protein -0.2803005993813725 -0.2506089309409827 -0.0595459692908236
+Total force after                   Angles water -0.2803005993807499 -0.2506089309410662 -0.0595459692908316
+Total force after               Torsions protein -0.2803005993830237 -0.2506089309415209 -0.0595459692906042
+Total force after                 Torsions water -0.2803005993830237 -0.2506089309415209 -0.0595459692906042
+Total force after              Impropers protein -0.2803005993825689 -0.2506089309428852 -0.0595459692909452
+Total force after                Impropers water -0.2803005993825689 -0.2506089309428852 -0.0595459692909452
+Total force after                          Shell -0.8732894827510176 -1.4674291764154042 -4.1849355650584119
+Total force after                   p_restrain 3 -1.0353679629254042 -2.2643093088492954 -4.9779240287855107
+Total force after                     Restraints -1.0353679629254042 -2.2643093088492954 -4.9779240287855107
+Total force after               Water restraints 54.0701359589406252  3.5362642780345901 23.5559157570636799
+Total force after  Water polarization restraints 54.6199322609217006  3.5849261441977269 24.1761415166039946
+Total force after                    Q Nonbonded 54.6199322609212459  3.5849261441979543 24.1761415166043356
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000000471  0.0000000000000320  0.0000000000002691
+Total force after                     Nonbond qw  0.0000000000002247 -0.0000000000000302  0.0000000000002167
+Total force after            Classical Nonbonded -0.2804155077406243 -0.2505462699223457 -0.0595937529503239
+Total force after                  Bonds protein -0.2804155077397148 -0.2505462699216636 -0.0595937529503239
+Total force after                    Bonds water -0.2804155077402086 -0.2505462699217471 -0.0595937529507031
+Total force after                 Angles protein -0.2804155077402086 -0.2505462699217471 -0.0595937529499073
+Total force after                   Angles water -0.2804155077401456 -0.2505462699220136 -0.0595937529498558
+Total force after               Torsions protein -0.2804155077392361 -0.2505462699234915 -0.0595937529503106
+Total force after                 Torsions water -0.2804155077392361 -0.2505462699234915 -0.0595937529503106
+Total force after              Impropers protein -0.2804155077387813 -0.2505462699225820 -0.0595937529512200
+Total force after                Impropers water -0.2804155077387813 -0.2505462699225820 -0.0595937529512200
+Total force after                          Shell -0.8883034538848813 -1.4760735597712777 -4.1936633867799067
+Total force after                   p_restrain 3 -1.0506744233130387 -2.2765071771338992 -4.9910614855030353
+Total force after                     Restraints -1.0506744233130387 -2.2765071771338992 -4.9910614855030353
+Total force after               Water restraints 54.0637476574767319  3.5260890489564041 23.5469120199449442
+Total force after  Water polarization restraints 54.6138773950153933  3.5745812098923633 24.1674555553664270
+Total force after                    Q Nonbonded 54.6138773950153933  3.5745812098921359 24.1674555553663133
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000002318  0.0000000000001403  0.0000000000000506
+Total force after                     Nonbond qw  0.0000000000001794  0.0000000000000675  0.0000000000001181
+Total force after            Classical Nonbonded -0.2805052119721019 -0.2504990563703338 -0.0596108299970703
+Total force after                  Bonds protein -0.2805052119743756 -0.2504990563691969 -0.0596108299970703
+Total force after                    Bonds water -0.2805052119729909 -0.2504990563693230 -0.0596108299973830
+Total force after                 Angles protein -0.2805052119707172 -0.2504990563681861 -0.0596108299964735
+Total force after                   Angles water -0.2805052119713043 -0.2504990563680423 -0.0596108299961138
+Total force after               Torsions protein -0.2805052119735780 -0.2504990563696339 -0.0596108299978191
+Total force after                 Torsions water -0.2805052119735780 -0.2504990563696339 -0.0596108299978191
+Total force after              Impropers protein -0.2805052119722138 -0.2504990563709981 -0.0596108299969096
+Total force after                Impropers water -0.2805052119722138 -0.2504990563709981 -0.0596108299969096
+Total force after                          Shell -0.8972483352721969 -1.4843963435269600 -4.2035410062547029
+Total force after                   p_restrain 3 -1.0599903426272590 -2.2885377517897476 -5.0053218132616664
+Total force after                     Restraints -1.0599903426272590 -2.2885377517897476 -5.0053218132616664
+Total force after               Water restraints 54.0528759329305970  3.5148263450916062 23.5313323154394993
+Total force after  Water polarization restraints 54.5959177281581347  3.5344412402193832 24.1615147708712676
+Total force after                    Q Nonbonded 54.5959177281590442  3.5344412402191558 24.1615147708714950
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000002940 -0.0000000000002238  0.0000000000001039
+Total force after                     Nonbond qw  0.0000000000002425 -0.0000000000002256  0.0000000000001359
+Total force after            Classical Nonbonded -0.2805792685014996 -0.2504620388455496 -0.0596072929802931
+Total force after                  Bonds protein -0.2805792685010449 -0.2504620388439580 -0.0596072929805205
+Total force after                    Bonds water -0.2805792685033737 -0.2504620388410643 -0.0596072929807958
+Total force after                 Angles protein -0.2805792685065569 -0.2504620388435654 -0.0596072929801137
+Total force after                   Angles water -0.2805792685052211 -0.2504620388447965 -0.0596072929804867
+Total force after               Torsions protein -0.2805792685024926 -0.2504620388445691 -0.0596072929820783
+Total force after                 Torsions water -0.2805792685024926 -0.2504620388445691 -0.0596072929820783
+Total force after              Impropers protein -0.2805792685038568 -0.2504620388459333 -0.0596072929815099
+Total force after                Impropers water -0.2805792685038568 -0.2504620388459333 -0.0596072929815099
+Total force after                          Shell -0.9027452552289787 -1.4925578451997001 -4.2140521933574044
+Total force after                   p_restrain 3 -1.0659035414167990 -2.3005002656819489 -5.0202066529601703
+Total force after                     Restraints -1.0659035414167990 -2.3005002656819489 -5.0202066529601703
+Total force after               Water restraints 54.0454187893643052  3.5035180634124234 23.5150294325611569
+Total force after  Water polarization restraints 54.6160911479225888  3.5094459547336729 24.1220025472262520
+Total force after                    Q Nonbonded 54.6160911479225888  3.5094459547336729 24.1220025472259110
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000000258 -0.0000000000001243  0.0000000000000719
+Total force after                     Nonbond qw -0.0000000000000737 -0.0000000000002149  0.0000000000001235
+Total force after            Classical Nonbonded -0.2806427814509522 -0.2504323651749925 -0.0595896649103649
+Total force after                  Bonds protein -0.2806427814514070 -0.2504323651752198 -0.0595896649101375
+Total force after                    Bonds water -0.2806427814496164 -0.2504323651765006 -0.0595896649105052
+Total force after                 Angles protein -0.2806427814514354 -0.2504323651728626 -0.0595896649115284
+Total force after                   Angles water -0.2806427814506840 -0.2504323651727223 -0.0595896649106757
+Total force after               Torsions protein -0.2806427814511387 -0.2504323651734044 -0.0595896649106757
+Total force after                 Torsions water -0.2806427814511387 -0.2504323651734044 -0.0595896649106757
+Total force after              Impropers protein -0.2806427814488650 -0.2504323651743139 -0.0595896649109031
+Total force after                Impropers water -0.2806427814488650 -0.2504323651743139 -0.0595896649109031
+Total force after                          Shell -0.9062757671171546 -1.5006383138821615 -4.2248813642654364
+Total force after                   p_restrain 3 -1.0698760176077702 -2.3124342071274713 -5.0354036938480258
+Total force after                     Restraints -1.0698760176077702 -2.3124342071274713 -5.0354036938480258
+Total force after               Water restraints 54.0377795375501577  3.4919373207591544 23.4972720873078309
+Total force after  Water polarization restraints 54.6088032598970585  3.4976467078919864 24.1044633055297055
+Total force after                    Q Nonbonded 54.6088032598975133  3.4976467078917590 24.1044633055295918
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000003491 -0.0000000000001048 -0.0000000000001839
+Total force after                     Nonbond qw  0.0000000000004388 -0.0000000000000639 -0.0000000000001261
+Total force after            Classical Nonbonded -0.2806994085333994 -0.2504075191271653 -0.0595625713591810
+Total force after                  Bonds protein -0.2806994085320351 -0.2504075191287569 -0.0595625713597494
+Total force after                    Bonds water -0.2806994085347547 -0.2504075191277799 -0.0595625713596650
+Total force after                 Angles protein -0.2806994085370285 -0.2504075191277799 -0.0595625713597219
+Total force after                   Angles water -0.2806994085348089 -0.2504075191283590 -0.0595625713601526
+Total force after               Torsions protein -0.2806994085325352 -0.2504075191267674 -0.0595625713600390
+Total force after                 Torsions water -0.2806994085325352 -0.2504075191267674 -0.0595625713600390
+Total force after              Impropers protein -0.2806994085361731 -0.2504075191265400 -0.0595625713586747
+Total force after                Impropers water -0.2806994085361731 -0.2504075191265400 -0.0595625713586747
+Total force after                          Shell -0.9086882105342484 -1.5086910089709598 -4.2358559029845546
+Total force after                   p_restrain 3 -1.0727453942084795 -2.3243730807785585 -5.0507461516199124
+Total force after                     Restraints -1.0727453942084795 -2.3243730807785585 -5.0507461516199124
+Total force after               Water restraints 54.0312837691858974  3.4802998212796634 23.4793441404644305
+Total force after  Water polarization restraints 54.6026597911585441  3.4857849367821956 24.0867398026705146
+Total force after                    Q Nonbonded 54.6026597911580893  3.4857849367819682 24.0867398026702872
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000001030 -0.0000000000000355 -0.0000000000003482
+Total force after                     Nonbond qw  0.0000000000000666  0.0000000000000195 -0.0000000000002860
+Total force after            Classical Nonbonded -0.2807514998897487 -0.2503858662425973 -0.0595290861952575
+Total force after                  Bonds protein -0.2807514998879297 -0.2503858662448710 -0.0595290861946891
+Total force after                    Bonds water -0.2807514998882077 -0.2503858662441534 -0.0595290861944493
+Total force after                 Angles protein -0.2807514998882077 -0.2503858662423344 -0.0595290861946767
+Total force after                   Angles water -0.2807514998913172 -0.2503858662429366 -0.0595290861952167
+Total force after               Torsions protein -0.2807514998935909 -0.2503858662447556 -0.0595290861947619
+Total force after                 Torsions water -0.2807514998935909 -0.2503858662447556 -0.0595290861947619
+Total force after              Impropers protein -0.2807514998917719 -0.2503858662445282 -0.0595290861957851
+Total force after                Impropers water -0.2807514998917719 -0.2503858662445282 -0.0595290861957851
+Total force after                          Shell -0.9104652079814013 -1.5167440838375406 -4.2468723939812998
+Total force after                   p_restrain 3 -1.0749880664762346 -2.3363325370255730 -5.0661325352904010
+Total force after                     Restraints -1.0749880664762346 -2.3363325370255730 -5.0661325352904010
+Total force after               Water restraints 54.0249891144579024  3.4685576843649564 23.4611271675424717
+Total force after  Water polarization restraints 54.5967182877773709  3.4738146209243155 24.0687182108625102
+Total force after                    Q Nonbonded 54.5967182877782804  3.4738146209243155 24.0687182108628512
+=======================  Energy summary at step     10 ========================
+                          el         vdW        bond       angle     torsion    improper
+solute              -3909.96     -135.36      629.90      863.85     1735.85      176.51
+solvent              -232.85     -157.62       19.33       14.52        0.00        0.00
+solute-solvent         89.32     1290.26
+LRF                   -44.83
+Q-atom                 19.52      -11.12     -190.97        0.15       -4.01        0.00
+
+                       total         fix   slvnt_rad   slvnt_pol       shell      solute
+restraints           -206.71        3.81     -221.80       11.07        0.00        0.21
+
+                       total   potential     kinetic
+SUM                   -51.15      -54.21        3.06
+======================= Q-atom energies at step     10 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.88     -0.05
+Q-Q     2 0.0000     12.60     18.39
+
+Q-prot  1 1.0000     -4.74     -7.82
+Q-prot  2 0.0000    -12.27     -7.19
+
+Q-wat   1 1.0000      9.37     -3.26
+Q-wat   2 0.0000     19.13     -3.19
+
+Q-surr. 1 1.0000      4.64    -11.08
+Q-surr. 2 0.0000      6.86    -10.38
+
+Q-any   1 1.0000     19.52    -11.12   -190.97      0.15     -4.01      0.00
+Q-any   2 0.0000     19.46      8.01     -8.57     56.23     -1.89      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -186.43      0.00
+Q-SUM   2 0.0000     73.25      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.75
+===============================================================================
+        Total System temperature at step      10 T=       0.2 Average =    0.212 +-    0.000
+         Free System temperature at step      10 T=       0.3 Average =    0.258 +-    0.000
+              Solute temperature at step      10 T=       0.3 Average =    0.304 +-    0.000
+             Solvent temperature at step      10 T=       0.2 Average =    0.211 +-    0.000
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000001563  0.0000000000000373 -0.0000000000000187
+Total force after                     Nonbond qw -0.0000000000002673 -0.0000000000000515 -0.0000000000000790
+Total force after            Classical Nonbonded -0.2808006400922762 -0.2503662895233187 -0.0594912987408014
+Total force after                  Bonds protein -0.2808006400927310 -0.2503662895226366 -0.0594912987402330
+Total force after                    Bonds water -0.2808006400937897 -0.2503662895231589 -0.0594912987400527
+Total force after                 Angles protein -0.2808006400933349 -0.2503662895238410 -0.0594912987402800
+Total force after                   Angles water -0.2808006400911554 -0.2503662895242300 -0.0594912987398786
+Total force after               Torsions protein -0.2808006400920648 -0.2503662895240026 -0.0594912987403333
+Total force after                 Torsions water -0.2808006400920648 -0.2503662895240026 -0.0594912987403333
+Total force after              Impropers protein -0.2808006400916101 -0.2503662895246848 -0.0594912987405607
+Total force after                Impropers water -0.2808006400916101 -0.2503662895246848 -0.0594912987405607
+Total force after                          Shell -0.9118823954733370 -1.5248150025115770 -4.2578728081778667
+Total force after                   p_restrain 3 -1.0768762111949082 -2.3483235180578683 -5.0815065953065108
+Total force after                     Restraints -1.0768762111949082 -2.3483235180578683 -5.0815065953065108
+Total force after               Water restraints 54.0190546547072614  3.4567559144074984 23.4429058338480480
+Total force after  Water polarization restraints 54.5911378221191370  3.4617819973545441 24.0506863208902502
+Total force after                    Q Nonbonded 54.5911378221191370  3.4617819973545441 24.0506863208903638
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000003277  0.0000000000000995 -0.0000000000003473
+Total force after                     Nonbond qw -0.0000000000000639  0.0000000000000870 -0.0000000000004210
+Total force after            Classical Nonbonded -0.2808478703096000 -0.2503480475695898 -0.0594506100037711
+Total force after                  Bonds protein -0.2808478703150570 -0.2503480475693625 -0.0594506100032026
+Total force after                    Bonds water -0.2808478703178610 -0.2503480475694708 -0.0594506100033501
+Total force after                 Angles protein -0.2808478703101303 -0.2503480475703803 -0.0594506100050554
+Total force after                   Angles water -0.2808478703133002 -0.2503480475697213 -0.0594506100055128
+Total force after               Torsions protein -0.2808478703133002 -0.2503480475692665 -0.0594506100033527
+Total force after                 Torsions water -0.2808478703133002 -0.2503480475692665 -0.0594506100033527
+Total force after              Impropers protein -0.2808478703155739 -0.2503480475717677 -0.0594506100041485
+Total force after                Impropers water -0.2808478703155739 -0.2503480475717677 -0.0594506100041485
+Total force after                          Shell -0.9130970046268114 -1.5329132848746045 -4.2688228941903414
+Total force after                   p_restrain 3 -1.0785650724884484 -2.3603515682461973 -5.0968348101016669
+Total force after                     Restraints -1.0785650724884484 -2.3603515682461973 -5.0968348101016669
+Total force after               Water restraints 54.0132340613763944  3.4448869286049639 23.4246745738558886
+Total force after  Water polarization restraints 54.5856720915276128  3.4496802991256601 24.0326406909860744
+Total force after                    Q Nonbonded 54.5856720915276128  3.4496802991254327 24.0326406909858470
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000001181  0.0000000000001439 -0.0000000000001332
+Total force after                     Nonbond qw -0.0000000000002238  0.0000000000001634 -0.0000000000000036
+Total force after            Classical Nonbonded -0.2808938891009234 -0.2503306380919827 -0.0594079676645478
+Total force after                  Bonds protein -0.2808938891004686 -0.2503306380913006 -0.0594079676659121
+Total force after                    Bonds water -0.2808938890996382 -0.2503306380909933 -0.0594079676663783
+Total force after                 Angles protein -0.2808938890991834 -0.2503306380916754 -0.0594079676654689
+Total force after                   Angles water -0.2808938891018506 -0.2503306380922279 -0.0594079676652246
+Total force after               Torsions protein -0.2808938891036696 -0.2503306380913184 -0.0594079676654520
+Total force after                 Torsions water -0.2808938891036696 -0.2503306380913184 -0.0594079676654520
+Total force after              Impropers protein -0.2808938891041244 -0.2503306380922279 -0.0594079676647699
+Total force after                Impropers water -0.2808938891041244 -0.2503306380922279 -0.0594079676647699
+Total force after                          Shell -0.9141988891739938 -1.5410445861235562 -4.2797031651875628
+Total force after                   p_restrain 3 -1.0801433961148259 -2.3724201709368078 -5.1120982158158270
+Total force after                     Restraints -1.0801433961148259 -2.3724201709368078 -5.1120982158158270
+Total force after               Water restraints 54.0075254296211469  3.4329613143005453 23.4065009024946455
+Total force after  Water polarization restraints 54.5647355871770188  3.4592919275499465 23.9924350548162870
+Total force after                    Q Nonbonded 54.5647355871770188  3.4592919275499465 23.9924350548159460
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000002878 -0.0000000000000995 -0.0000000000003260
+Total force after                     Nonbond qw  0.0000000000001359 -0.0000000000000675 -0.0000000000002842
+Total force after            Classical Nonbonded -0.2809394872191682 -0.2503137111586149 -0.0593641313760092
+Total force after                  Bonds protein -0.2809394872223514 -0.2503137111587286 -0.0593641313762365
+Total force after                    Bonds water -0.2809394872245052 -0.2503137111590803 -0.0593641313764817
+Total force after                 Angles protein -0.2809394872245052 -0.2503137111627183 -0.0593641313763680
+Total force after                   Angles water -0.2809394872226889 -0.2503137111633631 -0.0593641313767579
+Total force after               Torsions protein -0.2809394872208699 -0.2503137111631357 -0.0593641313768716
+Total force after                 Torsions water -0.2809394872208699 -0.2503137111631357 -0.0593641313768716
+Total force after              Impropers protein -0.2809394872231437 -0.2503137111606346 -0.0593641313767579
+Total force after                Impropers water -0.2809394872231437 -0.2503137111606346 -0.0593641313767579
+Total force after                          Shell -0.9152397222445003 -1.5492119980432761 -4.2905023472927644
+Total force after                   p_restrain 3 -1.0816622290565787 -2.3845311178383071 -5.1272857677051560
+Total force after                     Restraints -1.0816622290565787 -2.3845311178383071 -5.1272857677051560
+Total force after               Water restraints 54.0018693147085500  3.4209797963793473 23.3883947304197690
+Total force after  Water polarization restraints 54.5593106174585358  3.4711456895013608 23.9655712998085626
+Total force after                    Q Nonbonded 54.5593106174589906  3.4711456895015882 23.9655712998084489
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000000160 -0.0000000000003979  0.0000000000000515
+Total force after                     Nonbond qw  0.0000000000001616 -0.0000000000003624  0.0000000000001652
+Total force after            Classical Nonbonded -0.2809850456399294 -0.2502969700621804 -0.0593195982370940
+Total force after                  Bonds protein -0.2809850456403842 -0.2502969700596793 -0.0593195982382309
+Total force after                    Bonds water -0.2809850456413745 -0.2502969700598747 -0.0593195982383081
+Total force after                 Angles protein -0.2809850456418292 -0.2502969700601021 -0.0593195982366028
+Total force after                   Angles water -0.2809850456422662 -0.2502969700609849 -0.0593195982366614
+Total force after               Torsions protein -0.2809850456411294 -0.2502969700634861 -0.0593195982368888
+Total force after                 Torsions water -0.2809850456411294 -0.2502969700634861 -0.0593195982368888
+Total force after              Impropers protein -0.2809850456411294 -0.2502969700639408 -0.0593195982375141
+Total force after                Impropers water -0.2809850456411294 -0.2502969700639408 -0.0593195982375141
+Total force after                          Shell -0.9162489479568716 -1.5574172226987688 -4.3012139752699250
+Total force after                   p_restrain 3 -1.0831506716975650 -2.3966853745420602 -5.1423911349620335
+Total force after                     Restraints -1.0831506716975650 -2.3966853745420602 -5.1423911349620335
+Total force after               Water restraints 53.9962497660217409  3.4089450696143473 23.3703711363219213
+Total force after  Water polarization restraints 54.5540507767249920  3.4588671282475136 23.9477339526909958
+Total force after                    Q Nonbonded 54.5540507767249920  3.4588671282475136 23.9477339526908821
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000002434  0.0000000000003109 -0.0000000000001936
+Total force after                     Nonbond qw  0.0000000000000426  0.0000000000002416 -0.0000000000002176
+Total force after            Classical Nonbonded -0.2810306419663835 -0.2502802880047135 -0.0592745980190266
+Total force after                  Bonds protein -0.2810306419636550 -0.2502802880028945 -0.0592745980193676
+Total force after                    Bonds water -0.2810306419643203 -0.2502802880025712 -0.0592745980195000
+Total force after                 Angles protein -0.2810306419670487 -0.2502802880030259 -0.0592745980193863
+Total force after                   Angles water -0.2810306419682780 -0.2502802880032142 -0.0592745980195941
+Total force after               Torsions protein -0.2810306419660042 -0.2502802880027595 -0.0592745980195941
+Total force after                 Torsions water -0.2810306419660042 -0.2502802880027595 -0.0592745980195941
+Total force after              Impropers protein -0.2810306419655495 -0.2502802880037827 -0.0592745980195941
+Total force after                Impropers water -0.2810306419655495 -0.2502802880037827 -0.0592745980195941
+Total force after                          Shell -0.9172432424924954 -1.5656612317865655 -4.3118341881616331
+Total force after                   p_restrain 3 -1.0846252140522443 -2.4088834696759580 -5.1574105049904055
+Total force after                     Restraints -1.0846252140522443 -2.4088834696759580 -5.1574105049904055
+Total force after               Water restraints 53.9906348935510039  3.3968565519781304 23.3524275612465715
+Total force after  Water polarization restraints 54.5137787960799471  3.4590472849077507 23.9219006987454321
+Total force after                    Q Nonbonded 54.5137787960808566  3.4590472849072960 23.9219006987454321
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000001288  0.0000000000000409  0.0000000000001243
+Total force after                     Nonbond qw  0.0000000000001625 -0.0000000000000568  0.0000000000001936
+Total force after            Classical Nonbonded -0.2810760130221261 -0.2502638960853609 -0.0592285640827184
+Total force after                  Bonds protein -0.2810760130248546 -0.2502638960842241 -0.0592285640827184
+Total force after                    Bonds water -0.2810760130208445 -0.2502638960845029 -0.0592285640827681
+Total force after                 Angles protein -0.2810760130190255 -0.2502638960860946 -0.0592285640829955
+Total force after                   Angles water -0.2810760130194492 -0.2502638960859009 -0.0592285640827992
+Total force after               Torsions protein -0.2810760130235419 -0.2502638960831725 -0.0592285640832539
+Total force after                 Torsions water -0.2810760130235419 -0.2502638960831725 -0.0592285640832539
+Total force after              Impropers protein -0.2810760130235419 -0.2502638960836272 -0.0592285640823444
+Total force after                Impropers water -0.2810760130235419 -0.2502638960836272 -0.0592285640823444
+Total force after                          Shell -0.9182318234373295 -1.5739448560788531 -4.3223600350236930
+Total force after                   p_restrain 3 -1.0860949788787675 -2.4211259709565365 -5.1723409396284561
+Total force after                     Restraints -1.0860949788787675 -2.4211259709565365 -5.1723409396284561
+Total force after               Water restraints 53.9850796264792478  3.3847214269628871 23.3346002547278530
+Total force after  Water polarization restraints 54.5085887939640372  3.4466630349393252 23.9042612760487216
+Total force after                    Q Nonbonded 54.5085887939640372  3.4466630349393252 23.9042612760487216
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000002531 -0.0000000000003091  0.0000000000001261
+Total force after                     Nonbond qw -0.0000000000003517 -0.0000000000001883  0.0000000000001616
+Total force after            Classical Nonbonded -0.2811212966802126 -0.2502476301584888 -0.0591818398918278
+Total force after                  Bonds protein -0.2811212966824863 -0.2502476301587162 -0.0591818398919983
+Total force after                    Bonds water -0.2811212966832342 -0.2502476301580767 -0.0591818398921635
+Total force after                 Angles protein -0.2811212966809604 -0.2502476301614873 -0.0591818398922772
+Total force after                   Angles water -0.2811212966789434 -0.2502476301619314 -0.0591818398928510
+Total force after               Torsions protein -0.2811212966789434 -0.2502476301607945 -0.0591818398922825
+Total force after                 Torsions water -0.2811212966789434 -0.2502476301607945 -0.0591818398922825
+Total force after              Impropers protein -0.2811212966803076 -0.2502476301621588 -0.0591818398922825
+Total force after                Impropers water -0.2811212966803076 -0.2502476301621588 -0.0591818398922825
+Total force after                          Shell -0.9192202392982551 -1.5822682292777603 -4.3327904557345223
+Total force after                   p_restrain 3 -1.0875654713813248 -2.4334128468877427 -5.1871813654785663
+Total force after                     Restraints -1.0875654713813248 -2.4334128468877427 -5.1871813654785663
+Total force after               Water restraints 53.9794693250902924  3.3725290565497890 23.3168357951927661
+Total force after  Water polarization restraints 54.5033471597367623  3.4342193613896637 23.8866860551333069
+Total force after                    Q Nonbonded 54.5033471597372170  3.4342193613898910 23.8866860551333069
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000003695  0.0000000000000178 -0.0000000000001510
+Total force after                     Nonbond qw  0.0000000000001847  0.0000000000001048 -0.0000000000001190
+Total force after            Classical Nonbonded -0.2811665784643997 -0.2502313844501032 -0.0591346498795922
+Total force after                  Bonds protein -0.2811665784621260 -0.2502313844476021 -0.0591346498795922
+Total force after                    Bonds water -0.2811665784614652 -0.2502313844474813 -0.0591346498797005
+Total force after                 Angles protein -0.2811665784601010 -0.2502313844481634 -0.0591346498793595
+Total force after                   Angles water -0.2811665784596213 -0.2502313844481563 -0.0591346498790433
+Total force after               Torsions protein -0.2811665784609856 -0.2502313844479289 -0.0591346498792706
+Total force after                 Torsions water -0.2811665784609856 -0.2502313844479289 -0.0591346498792706
+Total force after              Impropers protein -0.2811665784641688 -0.2502313844474742 -0.0591346498792706
+Total force after                Impropers water -0.2811665784641688 -0.2502313844474742 -0.0591346498792706
+Total force after                          Shell -0.9202116585864415 -1.5906313721660439 -4.3431248500891488
+Total force after                   p_restrain 3 -1.0890398464533639 -2.4457440114264415 -5.2019311567733499
+Total force after                     Restraints -1.0890398464533639 -2.4457440114264415 -5.2019311567733499
+Total force after               Water restraints 53.9738816020730994  3.3602884501156201 23.2991760427000223
+Total force after  Water polarization restraints 54.4981307305284446  3.4217259292684030 23.8692166537691577
+Total force after                    Q Nonbonded 54.4981307305279898  3.4217259292687441 23.8692166537691577
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000002576 -0.0000000000000782  0.0000000000001066
+Total force after                     Nonbond qw -0.0000000000002149 -0.0000000000000409  0.0000000000000098
+Total force after            Classical Nonbonded -0.2812119162085240 -0.2502150863354231 -0.0590871468620193
+Total force after                  Bonds protein -0.2812119162062503 -0.2502150863358779 -0.0590871468604277
+Total force after                    Bonds water -0.2812119162054225 -0.2502150863351673 -0.0590871468603114
+Total force after                 Angles protein -0.2812119162054225 -0.2502150863365316 -0.0590871468605387
+Total force after                   Angles water -0.2812119162055415 -0.2502150863380344 -0.0590871468603309
+Total force after               Torsions protein -0.2812119162073605 -0.2502150863357606 -0.0590871468606720
+Total force after                 Torsions water -0.2812119162073605 -0.2502150863357606 -0.0590871468606720
+Total force after              Impropers protein -0.2812119162078153 -0.2502150863357606 -0.0590871468601035
+Total force after                Impropers water -0.2812119162078153 -0.2502150863357606 -0.0590871468601035
+Total force after                          Shell -0.9212078896395530 -1.5990342365431669 -4.3533628825915516
+Total force after                   p_restrain 3 -1.0905199156879277 -2.4581193421102867 -5.2165899444905905
+Total force after                     Restraints -1.0905199156879277 -2.4581193421102867 -5.2165899444905905
+Total force after               Water restraints 53.9682889447743506  3.3479974007974409 23.2816086635074235
+Total force after  Water polarization restraints 54.4929114637115219  3.4091809790408689 23.8518405717153286
+Total force after                    Q Nonbonded 54.4929114637110672  3.4091809790408689 23.8518405717151012
+=======================  Energy summary at step     20 ========================
+                          el         vdW        bond       angle     torsion    improper
+solute              -3910.49     -136.29      624.59      863.26     1732.29      175.67
+solvent              -238.87     -157.59       19.63       15.20        0.00        0.00
+solute-solvent         87.72     1270.31
+LRF                   -44.88
+Q-atom                 19.45      -11.11     -192.30        0.16       -4.00        0.00
+
+                       total         fix   slvnt_rad   slvnt_pol       shell      solute
+restraints           -206.40        4.15     -221.80       11.03        0.00        0.23
+
+                       total   potential     kinetic
+SUM                   -90.59      -93.63        3.04
+======================= Q-atom energies at step     20 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.87     -0.04
+Q-Q     2 0.0000     12.28     18.05
+
+Q-prot  1 1.0000     -4.78     -7.82
+Q-prot  2 0.0000    -12.30     -7.18
+
+Q-wat   1 1.0000      9.36     -3.26
+Q-wat   2 0.0000     19.12     -3.19
+
+Q-surr. 1 1.0000      4.58    -11.07
+Q-surr. 2 0.0000      6.81    -10.37
+
+Q-any   1 1.0000     19.45    -11.11   -192.30      0.16     -4.00      0.00
+Q-any   2 0.0000     19.09      7.68     -8.59     56.19     -1.89      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -187.80      0.00
+Q-SUM   2 0.0000     72.49      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.75
+===============================================================================
+        Total System temperature at step      20 T=       0.2 Average =    0.213 +-    0.000
+         Free System temperature at step      20 T=       0.3 Average =    0.263 +-    0.000
+              Solute temperature at step      20 T=       0.3 Average =    0.304 +-    0.000
+             Solvent temperature at step      20 T=       0.2 Average =    0.220 +-    0.000
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000000071 -0.0000000000001563 -0.0000000000004006
+Total force after                     Nonbond qw -0.0000000000000115 -0.0000000000001066 -0.0000000000004690
+Total force after            Classical Nonbonded -0.2812573467995474 -0.2501986878394504 -0.0590394323763297
+Total force after                  Bonds protein -0.2812573468000021 -0.2501986878412694 -0.0590394323761023
+Total force after                    Bonds water -0.2812573468002002 -0.2501986878410829 -0.0590394323762515
+Total force after                 Angles protein -0.2812573467997455 -0.2501986878406282 -0.0590394323755694
+Total force after                   Angles water -0.2812573467941766 -0.2501986878408076 -0.0590394323755836
+Total force after               Torsions protein -0.2812573467937218 -0.2501986878403528 -0.0590394323762657
+Total force after                 Torsions water -0.2812573467937218 -0.2501986878403528 -0.0590394323762657
+Total force after              Impropers protein -0.2812573467928123 -0.2501986878398981 -0.0590394323759247
+Total force after                Impropers water -0.2812573467928123 -0.2501986878398981 -0.0590394323759247
+Total force after                          Shell -0.9222099567215798 -1.6074767400508669 -4.3635043652569365
+Total force after                   p_restrain 3 -1.0920067162748444 -2.4705387015019404 -5.2311575031759610
+Total force after                     Restraints -1.0920067162748444 -2.4705387015019404 -5.2311575031759610
+Total force after               Water restraints 53.9626990282548604  3.3356572037928256 23.2641384765791983
+Total force after  Water polarization restraints 54.4876966777142968  3.3965861068070460 23.8345625163012400
+Total force after                    Q Nonbonded 54.4876966777142968  3.3965861068070460 23.8345625163014674
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000000835 -0.0000000000002807  0.0000000000001252
+Total force after                     Nonbond qw -0.0000000000000107 -0.0000000000002967  0.0000000000001172
+Total force after            Classical Nonbonded -0.2813028938691176 -0.2501821570280924 -0.0589915742229383
+Total force after                  Bonds protein -0.2813028938668438 -0.2501821570317304 -0.0589915742243026
+Total force after                    Bonds water -0.2813028938658668 -0.2501821570306131 -0.0589915742246703
+Total force after                 Angles protein -0.2813028938663216 -0.2501821570286804 -0.0589915742228513
+Total force after                   Angles water -0.2813028938712225 -0.2501821570295419 -0.0589915742227562
+Total force after               Torsions protein -0.2813028938730415 -0.2501821570281777 -0.0589915742229836
+Total force after                 Torsions water -0.2813028938730415 -0.2501821570281777 -0.0589915742229836
+Total force after              Impropers protein -0.2813028938744058 -0.2501821570274956 -0.0589915742232110
+Total force after                Impropers water -0.2813028938744058 -0.2501821570274956 -0.0589915742232110
+Total force after                          Shell -0.9232184334300175 -1.6159587814118375 -4.3735491933420825
+Total force after                   p_restrain 3 -1.0935008402729611 -2.4830019441683273 -5.2456336882991472
+Total force after                     Restraints -1.0935008402729611 -2.4830019441683273 -5.2456336882991472
+Total force after               Water restraints 53.9571085572124076  3.3232679038291977 23.2467643892066533
+Total force after  Water polarization restraints 54.4824828347811874  3.3839415608521577 23.8173813186094527
+Total force after                    Q Nonbonded 54.4824828347802779  3.3839415608522714 23.8173813186093390
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww  0.0000000000001936  0.0000000000000444 -0.0000000000000355
+Total force after                     Nonbond qw  0.0000000000000524  0.0000000000000711 -0.0000000000000915
+Total force after            Classical Nonbonded -0.2813485718961477 -0.2501654731115117 -0.0589436170939610
+Total force after                  Bonds protein -0.2813485718956930 -0.2501654731103748 -0.0589436170939610
+Total force after                    Bonds water -0.2813485718938180 -0.2501654731104850 -0.0589436170939095
+Total force after                 Angles protein -0.2813485718960917 -0.2501654731088934 -0.0589436170935684
+Total force after                   Angles water -0.2813485718947462 -0.2501654731084777 -0.0589436170930888
+Total force after               Torsions protein -0.2813485718929272 -0.2501654731123431 -0.0589436170943394
+Total force after                 Torsions water -0.2813485718929272 -0.2501654731123431 -0.0589436170943394
+Total force after              Impropers protein -0.2813485718938367 -0.2501654731112062 -0.0589436170941120
+Total force after                Impropers water -0.2813485718938367 -0.2501654731112062 -0.0589436170941120
+Total force after                          Shell -0.9242336332294556 -1.6244802502417386 -4.3834973089795426
+Total force after                   p_restrain 3 -1.0950026227851088 -2.4955089219861684 -5.2600184011176090
+Total force after                     Restraints -1.0950026227851088 -2.4955089219861684 -5.2600184011176090
+Total force after               Water restraints 53.9515181148555030  3.3108298800500595 23.2294870508334093
+Total force after  Water polarization restraints 54.4772703534496543  3.3712478573859102 23.8002975760648212
+Total force after                    Q Nonbonded 54.4772703534491995  3.3712478573859102 23.8002975760647075
+Total force after                        Initial  0.0000000000000000  0.0000000000000000  0.0000000000000000
+Total force after                     Nonbond ww -0.0000000000001252  0.0000000000000515 -0.0000000000000391
+Total force after                     Nonbond qw  0.0000000000000275  0.0000000000001119  0.0000000000000124
+Total force after            Classical Nonbonded -0.2813943893213846 -0.2501486227940877 -0.0588955901496302
+Total force after                  Bonds protein -0.2813943893200204 -0.2501486227936329 -0.0588955901495165
+Total force after                    Bonds water -0.2813943893174882 -0.2501486227929952 -0.0588955901493184
+Total force after                 Angles protein -0.2813943893179429 -0.2501486227934500 -0.0588955901503416
+Total force after                   Angles water -0.2813943893156496 -0.2501486227932777 -0.0588955901503860
+Total force after               Torsions protein -0.2813943893165591 -0.2501486227919134 -0.0588955901504997
+Total force after                 Torsions water -0.2813943893165591 -0.2501486227919134 -0.0588955901504997
+Total force after              Impropers protein -0.2813943893156496 -0.2501486227937324 -0.0588955901501587
