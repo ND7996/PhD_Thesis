@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/structure/_structure.py", line 1476, in __delitem__
+    self._cpp_atom.deleteProperty(item)
+IndexError: Atom "8" does not have a property named "i_pa_changeable_index". 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/schrodinger2022-1/mmshare-v5.7/python/scripts/protassign.py", line 170, in <module>
+    assignment.ProtAssign(
+  File "/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/protein/assignment.py", line 5513, in __init__
+    self.setup(ct)
+  File "/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/protein/assignment.py", line 5590, in setup
+    self.cluster(ct)
+  File "/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/protein/assignment.py", line 6030, in cluster
+    del ct.atom[heavy].property['i_pa_changeable_index']
+  File "/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/structure/_structure.py", line 1483, in __delitem__
+    raise KeyError(*e.args)
+KeyError: 'Atom "8" does not have a property named "i_pa_changeable_index". '

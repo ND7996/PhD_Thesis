@@ -1,0 +1,52 @@
+{
+    "_version_": 57137,
+    "_value_": {
+        "input": {
+            "struct": "f_m_ct { \n s_m_title\n s_m_entry_id\n s_m_entry_name\n s_m_Source_Path\n s_m_Source_File\n i_m_Source_File_Index\n i_m_ct_format\n :::\n Structure1 \n  2 \n  Structure1 \n  /home/nayanika/github/PhD_Thesis/EVB/EVB-Q6/openMM-OPLS/protein_stepwise \n  gln_protonated.mae \n  1\n  2\n m_atom[51] { \n  # First column is atom index #\n  i_m_mmod_type\n  r_m_x_coord\n  r_m_y_coord\n  r_m_z_coord\n  i_m_residue_number\n  s_m_mmod_res\n  s_m_chain_name\n  i_m_color\n  s_m_pdb_residue_name\n  s_m_pdb_atom_name\n  s_m_grow_name\n  i_m_atomic_number\n  s_m_color_rgb\n  s_m_atom_name\n  s_m_label_format\n  i_m_label_color\n  s_m_label_user_text\n  :::\n  1 25 -0.458014 -1.827950 0.839156 2 Q A 38 \"GLN \" \" N  \" \"  c1\" 7 2E2EFF  \"N4\"  \"%PA\"  2 \"\" \n  2 3 -0.214006 -0.807751 -0.171644 2 Q A 24 \"GLN \" \" CA \" \"  g0\" 6 808080  \"C5\"  \"%PA\"  2 \"\" \n  3 2 1.102545 -1.124931 -0.896655 2 Q A 24 \"GLN \" \" C  \" \"  n1\" 6 808080  \"C6\"  \"%PA\"  2 \"\" \n  4 15 1.774678 -2.111806 -0.596709 2 Q A 70 \"GLN \" \" O  \" \"    \" 8 FF2E2E  \"O7\"  \"%PA\"  2 \"\" \n  5 3 -0.257078 0.609626 0.438048 2 Q A 24 \"GLN \" \" CB \" \"  g1\" 6 808080  \"C8\"  \"%PA\"  2 \"\" \n  6 3 -0.018016 1.804148 -0.500932 2 Q A 24 \"GLN \" \" CG \" \"    \" 6 808080  \"C9\"  \"%PA\"  2 \"\" \n  7 3 -0.076108 3.167509 0.172540 2 Q A 2 \"GLN \" \" CD \" \"    \" 6 A0A0A0  \"C10\"  \"%PA\"  2 \"\" \n  8 16 0.928635 3.684171 0.649452 2 Q A 70 \"GLN \" \" OE1\" \"    \" 8 FF2F2F  \"O11\"  \"%PA\"  2 \"\" \n  9 26 -1.261764 3.766023 0.226758 2 Q A 38 \"GLN \" \" NE2\" \"    \" 7 2E2EFF  \"N12\"  \"%PA\"  2 \"\" \n  10 43 0.226213 -2.565587 0.927623 2 Q A 21 \"GLN \" \" H  \" \"    \" 1 FFFFFF  \"H18\"  \"%PA\"  2 \"\" \n  11 41 -1.083294 -0.726899 -0.824255 2 Q A 21 \"GLN \" \" HA \" \"    \" 1 FFFFFF  \"H19\"  \"%PA\"  2 \"\" \n  12 41 -1.238310 0.786600 0.878462 2 Q A 21 \"GLN \" \" HB2\" \"    \" 1 FFFFFF  \"H20\"  \"%PA\"  2 \"\" \n  13 41 0.508003 0.697290 1.209453 2 Q A 21 \"GLN \" \" HB3\" \"    \" 1 FFFFFF  \"H21\"  \"%PA\"  2 \"\" \n  14 41 0.970208 1.719526 -0.952986 2 Q A 21 \"GLN \" \" HG2\" \"    \" 1 FFFFFF  \"H22\"  \"%PA\"  2 \"\" \n  15 41 -0.776081 1.808701 -1.284142 2 Q A 21 \"GLN \" \" HG3\" \"    \" 1 FFFFFF  \"H23\"  \"%PA\"  2 \"\" \n  16 43 -1.350521 4.672166 0.663938 2 Q A 21 \"GLN \" \"HE22\" \"    \" 1 FFFFFF  \"H24\"  \"%PA\"  2 \"\" \n  17 43 -2.073892 3.314642 -0.169226 2 Q A 21 \"GLN \" \"HE21\" \"    \" 1 FFFFFF  \"H25\"  \"%PA\"  2 \"\" \n  18 25 1.461850 -0.234658 -1.887975 3 A A 38 \"ALA \" \" N  \" \"  c1\" 7 2E2EFF  \"N24\"  \"\"  1 \"\" \n  19 3 2.678349 -0.382929 -2.675509 3 A A 24 \"ALA \" \" CA \" \"  g0\" 6 808080  \"C25\"  \"\"  1 \"\" \n  20 2 2.768155 0.773852 -3.682158 3 A A 24 \"ALA \" \" C  \" \"  n1\" 6 808080  \"C26\"  \"\"  1 \"\" \n  21 15 1.896749 1.641811 -3.736466 3 A A 70 \"ALA \" \" O  \" \"    \" 8 FF2E2E  \"O27\"  \"\"  1 \"\" \n  22 25 3.846458 0.761457 -4.477272 4 X A 38 \"NMA \" \" N  \" \"  n2\" 7 2E2EFF  \"N33\"  \"\"  1 \"\" \n  23 3 4.097854 1.776828 -5.489720 4 X A 24 \"NMA \" \" CA \" \"    \" 6 808080  \"C34\"  \"\"  1 \"\" \n  24 43 0.871564 0.559061 -2.092112 3 A A 21 \"ALA \" \" H  \" \"    \" 1 FFFFFF  \"H35\"  \"\"  1 \"\" \n  25 41 3.535484 -0.471036 -2.007935 3 A A 21 \"ALA \" \" HA \" \"    \" 1 FFFFFF  \"H36\"  \"\"  1 \"\" \n  26 43 4.530601 0.023730 -4.388916 4 X A 21 \"NMA \" \" H  \" \"    \" 1 FFFFFF  \"H43\"  \"\"  1 \"\" \n  27 41 5.031752 1.553108 -6.005358 4 X A 21 \"NMA \" \" HA1\" \"    \" 1 FFFFFF  \"H44\"  \"\"  1 \"\" \n  28 41 3.278941 1.783986 -6.209046 4 X A 21 \"NMA \" \" HA2\" \"    \" 1 FFFFFF  \"H45\"  \"\"  1 \"\" \n  29 41 4.171368 2.754731 -5.013903 4 X A 21 \"NMA \" \" HA3\" \"    \" 1 FFFFFF  \"H46\"  \"\"  1 \"\" \n  30 3 -4.531104 -3.386910 5.145536 0 X A 24 \"ACE \" \" CH3\" \"    \" 6 808080  \"C41\"  \"\"  1 \"\" \n  31 2 -3.223389 -3.686839 4.413109 0 X A 24 \"ACE \" \" C  \" \"  c2\" 6 808080  \"C42\"  \"\"  1 \"\" \n  32 15 -2.563490 -4.675975 4.724032 0 X A 70 \"ACE \" \" O  \" \"    \" 8 FF2E2E  \"O43\"  \"\"  1 \"\" \n  33 25 -2.875090 -2.823829 3.452136 1 A A 38 \"ALA \" \" N  \" \"  c1\" 7 2E2EFF  \"N44\"  \"\"  1 \"\" \n  34 3 -1.658592 -2.972100 2.664602 1 A A 24 \"ALA \" \" CA \" \"  g0\" 6 808080  \"C45\"  \"\"  1 \"\" \n  35 2 -1.568785 -1.815319 1.657953 1 A A 24 \"ALA \" \" C  \" \"  n1\" 6 808080  \"C46\"  \"\"  1 \"\" \n  36 15 -2.440296 -0.947474 1.603503 1 A A 70 \"ALA \" \" O  \" \"    \" 8 FF2E2E  \"O47\"  \"\"  1 \"\" \n  37 41 -4.975568 -2.478344 4.739260 0 X A 21 \"ACE \" \"HH31\" \"    \" 1 FFFFFF  \"H53\"  \"\"  1 \"\" \n  38 41 -5.221850 -4.219549 5.012556 0 X A 21 \"ACE \" \"HH32\" \"    \" 1 FFFFFF  \"H54\"  \"\"  1 \"\" \n  39 41 -4.329733 -3.248660 6.207814 0 X A 21 \"ACE \" \"HH33\" \"    \" 1 FFFFFF  \"H55\"  \"\"  1 \"\" \n  40 43 -3.465380 -2.030113 3.247994 1 A A 21 \"ALA \" \" H  \" \"    \" 1 FFFFFF  \"H56\"  \"\"  1 \"\" \n  41 41 -0.801456 -3.060207 3.332176 1 A A 21 \"ALA \" \" HA \" \"    \" 1 FFFFFF  \"H57\"  \"\"  1 \"\" \n  42 3 2.756992 -1.762665 -3.322672 3 A A 2 \"ALA \" \" CB \" \"  g1\" 6 A0A0A0  \"\"  \"\"  1 \"\" \n  43 41 3.255013 -1.683442 -4.289005 3 A A 21 \"ALA \" \" HB1\" \"    \" 1 FFFFFF  \"\"  \"\"  1 \"\" \n  44 41 3.321861 -2.435521 -2.677468 3 A A 21 \"ALA \" \" HB2\" \"    \" 1 FFFFFF  \"\"  \"\"  1 \"\" \n  45 41 1.750355 -2.155958 -3.464459 3 A A 21 \"ALA \" \" HB3\" \"    \" 1 FFFFFF  \"\"  \"\"  1 \"\" \n  46 3 -1.579948 -4.351836 2.017438 1 A A 2 \"ALA \" \" CB \" \"  g1\" 6 A0A0A0  \"\"  \"\"  1 \"\" \n  47 41 -1.081928 -4.272612 1.051106 1 A A 21 \"ALA \" \" HB1\" \"    \" 1 FFFFFF  \"\"  \"\"  1 \"\" \n  48 41 -1.015079 -5.024692 2.662642 1 A A 21 \"ALA \" \" HB2\" \"    \" 1 FFFFFF  \"\"  \"\"  1 \"\" \n  49 41 -2.586585 -4.745128 1.875651 1 A A 21 \"ALA \" \" HB3\" \"    \" 1 FFFFFF  \"\"  \"\"  1 \"\" \n  50 41 0.126498 3.650691 -0.783277 2 Q A 21 \"GLN \" \" HD \" \"    \" 1 FFFFFF  \"\"  \"%PA\"  2 \"\" \n  51 42 0.701457 4.536145 1.029097 2 Q A 21 \"GLN \" \" HE1\" \"    \" 1 FFFFFF  \"\"  \"%PA\"  2 \"\" \n  :::\n } \n m_bond[50] { \n  # First column is bond index #\n  i_m_from\n  i_m_to\n  i_m_order\n  :::\n  1 1 2 1\n  2 1 10 1\n  3 1 35 1\n  4 2 3 1\n  5 2 5 1\n  6 2 11 1\n  7 3 4 2\n  8 3 18 1\n  9 5 6 1\n  10 5 12 1\n  11 5 13 1\n  12 6 7 1\n  13 6 14 1\n  14 6 15 1\n  15 7 9 1\n  16 7 8 1\n  17 7 50 1\n  18 8 51 1\n  19 9 16 1\n  20 9 17 1\n  21 18 19 1\n  22 18 24 1\n  23 19 20 1\n  24 19 25 1\n  25 19 42 1\n  26 20 21 2\n  27 20 22 1\n  28 22 23 1\n  29 22 26 1\n  30 23 27 1\n  31 23 28 1\n  32 23 29 1\n  33 30 31 1\n  34 30 37 1\n  35 30 38 1\n  36 30 39 1\n  37 31 32 2\n  38 31 33 1\n  39 33 34 1\n  40 33 40 1\n  41 34 35 1\n  42 34 41 1\n  43 34 46 1\n  44 35 36 2\n  45 42 43 1\n  46 42 44 1\n  47 42 45 1\n  48 46 47 1\n  49 46 48 1\n  50 46 49 1\n  :::\n } \n} \n\n",
+            "reference_struct": null,
+            "preprocess_delete_far_waters": false,
+            "preprocess_watdist": 8.0,
+            "treat_metals": true,
+            "assign_bond_orders": true,
+            "use_ccd": true,
+            "add_hydrogens": false,
+            "readd_hydrogens": true,
+            "add_terminal_oxygens": true,
+            "treat_disulfides": true,
+            "treat_glycosylation": false,
+            "treat_palmitoylation": false,
+            "antibody_cdr_scheme": 2,
+            "renumber_ab_residues": true,
+            "selenomethionines": false,
+            "fillsidechains": true,
+            "fillloops": false,
+            "custom_fasta_file": null,
+            "cap_termini": true,
+            "run_epik": true,
+            "idealize_hydrogen_tf": true,
+            "generate_states_settings": {
+                "use_epikx": false,
+                "epik_pH": 7.4,
+                "epik_pHt": 2.0,
+                "max_states": 1,
+                "process_detected_ligands": true,
+                "process_metals_and_ions": true,
+                "process_non_water_solvents": false,
+                "process_other_hets": true
+            }
+        },
+        "output": [],
+        "status": 0,
+        "name": "Structure1-proteinprep_1-preprocess",
+        "progress": 0,
+        "max_progress": 0,
+        "progress_string": "",
+        "_run_as_backend": true,
+        "_failure_info": null,
+        "_failure_tb": null,
+        "_combo_id": "oxjafj7z981e",
+        "_task_module": "schrodinger.application.prepwizard2.tasks",
+        "_task_class": "PreprocessTask",
+        "_task_script": ""
+    }
+}
