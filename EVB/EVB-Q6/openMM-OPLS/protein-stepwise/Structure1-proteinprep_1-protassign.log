@@ -1,0 +1,42 @@
+
+Clusters to optimize:
+    Cluster 1:
+        A:GLN 3
+    Cluster 2:
+        A:GLN 1
+    Cluster 3:
+        A:GLN 2:    
+
+Working on cluster #1...
+    A:GLN 3 : 2 states
+
+  Scoring exhaustively (2 potential combinations)...
+
+  Cluster results:
+    A:GLN 3 : No Flip
+
+Working on cluster #2...
+    A:GLN 1 : 2 states
+
+  Scoring exhaustively (2 potential combinations)...
+
+  Cluster results:
+    A:GLN 1 : No Flip
+
+Working on cluster #3...
+    A:GLN 2:     : 5 states
+
+  Scoring exhaustively (5 potential combinations)...
+
+  Cluster results:
+    A:GLN 2:     : Orientation 1/5
+
+
+Recalculating pKas to identify changes in protonation penalties...
+    No changes in protonation penalties found.
+
+Total score for structure: -0.028946954544077957
+Structure extracted from file: /home/nayanika/github/PhD_Thesis/EVB/EVB-Q6/openMM-OPLS/protein-stepwise/Structure1-proteinprep_1-protassign.maegz
+Output structure will be written to: Structure1-proteinprep_1-protassign-out.maegz
+
+Complete. Output file: Structure1-proteinprep_1-protassign-out.maegz
