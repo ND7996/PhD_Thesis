@@ -30,3 +30,12 @@ q_automapper.py 5.0 -10.0 0. 0. --temp 300 --dirs replicamousecys00? --qfep_exec
 
 q_mapper.py 79.106841 -92.883878 --bins 50 --skip 100 --min 10 --temp 300.0 --dirs replica* --qfep_exec qfep5
 
+#Contcatnate DCD
+
+$ catdcd -o combined.dcd relax_01?.dcd
+
+#Local computer
+
+#plotting 
+
+q_plot.py qaf.PlotData.json 
