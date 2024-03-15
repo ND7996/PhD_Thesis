@@ -24,7 +24,7 @@ echo '##################################################'
 #mkdir relax
 $HOME/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc \
           --top GPX6cys_mouse.top \
-          --rs  run_qdyn_5.sh \
+          --rs   \
           --pdb GPX6cys_mouse.pdb  \
           --fep GPX6_wtmousecys.fep\
           --outdir relax
@@ -32,6 +32,9 @@ cd relax
 cd $relax
 
 
+
+
+q_genrelax.py genrelax_minim.proc --top ../1-prep/GPX6_cysM.top  --pdb ../1-prep/GPX6_cysM_top.pdb --fep ../1-prep/4-fep_files/GPX6_cysM.fep --outdir minim --rest top --rs run_Q5.10_amd.sh
 
 
 

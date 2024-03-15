@@ -10,7 +10,7 @@ SOLUTE            $1.N$      $195.O$
 [MD]
 stepsize                0.1
 temperature             300
-bath_coupling           100  
+bath_coupling            10  
 lrf                      on
 shake_hydrogens          on
 
@@ -30,12 +30,6 @@ temperature             200
 #######################################################
 {STEPS_EQUIL}
 #######################################################
-[MD]
-steps                10000
-initial_temperature	300
-temperature             300
-random_seed		 -1
-_____________________________________________________________ 
 
 # solvent heat-up 
  
@@ -46,7 +40,7 @@ temperature              1
 random_seed              -1 
  
 [sequence_restraints] 
-SOLUTE     20.0 0 0 0 
+SOLUTE     10.0 0 0 0 
 _____________________________________________________________ 
  
 [MD] 
@@ -54,14 +48,14 @@ steps                  3000 # 100 K 10. kcal solute restraints
 temperature             100 
  
 [sequence_restraints] 
-SOLUTE     20.0 0 0 0 
+SOLUTE     10.0 0 0 0 
 _____________________________________________________________ 
  
 [MD] 
-steps                  5000 # 293 K 10. kcal solute restraints 
+steps                  5000 # 300 K 10. kcal solute restraints 
  
 [sequence_restraints] 
-SOLUTE     20.0 0 0 0 
+SOLUTE     10.0 0 0 0 
 _____________________________________________________________ 
  
 # releasing restraints 

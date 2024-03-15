@@ -1,0 +1,625 @@
+
+Build and version information
+
+Build number 5.10.22
+Build date   20240304
+Built:       
+      by     nayanika
+      on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
+      git id 9325b9c29ad62a733df16f540968e33ee6c78260
+      with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
+Current date 2024- 3-15 and time 13:45:16
+
+----------------------- Reading input from relax_001.inp ----------------------
+Boundary: sphere
+Number of MD steps =       100  Stepsize (fs)    =     0.100
+Target temperature =      0.10  T-relax time     =      0.10
+ No thermostat chosen. Berendsen thermostat will be used.
+ Leap frog integrator used by default.
+Solute and solvent atoms coupled separately to heat bath.
+Initial velocities will be generated from Maxwell distribution:
+Maxwell temperature=      0.10 Random number seed=    422252
+Shake constaints on all solvent bonds    : off
+Shake constaints on all solute bonds     : off
+Shake constaints on all bonds to hydrogen: off
+Nonbonded method   = LRF Taylor expansion outside cut-off
+Cut-off radii for non-bonded interactions:
+Solute-solute:     10.00
+Solvent-solvent:   10.00
+Solute-solvent:    10.00
+Q-atom-non-Q-atom: 99.00
+LRF:               99.00
+Radius of inner restrained shell       =      20.000
+Excluded atoms force constant set to default
+Excluded atom restraint force constant         =  200.00
+Non-bonded pair list update interval   =      25
+Energy summary print-out interval      =      10
+Temperature print-out interval         =      10
+Trajectory write interval              =      10
+No energy file written.
+All atoms will be included in the trajectory.
+Topology file      = GPX6cys_mouse.top
+Initial coordinates taken from topology.
+Final coord. file  = relax_001.re
+Trajectory file    = relax_001.dcd
+FEP input file     = GPX6_wtmousecys.fep
+
+lambda-values      =  1.00000 0.00000
+
+List of excluded atom groups
+
+Listing of restraining data:
+
+No. of sequence restraints =         1
+  atom_i  atom_j      fc  H-flag to_centre
+       1    3051   20.00       0         0
+
+No. of distance restraints =         1
+atom_i atom_j   dist1   dist2   fc        state
+  3055   3056    0.00    3.50   10.00       0
+---------------------------- Reading topology file ---------------------------
+GPX6cys_mouse.top                                                               
+
+No. of solute atoms     =       3058
+No. of solvent atoms    =          0
+No. of coordinates      =       9174
+No. of atom type codes  =       3058
+No. of solute bonds     =       3103
+No. of solvent bonds    =          0
+No. of solute angles    =       5597
+No. of solvent angles   =          0
+No. of solute torsions  =      11365
+No. of solvent torsions =          0
+No. of solute impropers =        658
+No. of solvent impropers=          0
+No. of atomic charges   =       3058
+No. of solute chargegrps=        549
+No. of solvent chargegps=          0
+Charge group cut-off    : Switching atoms
+vdW  rule [ 1=G / 2=A ] =          1
+El-static 1-4 damping   =      0.500
+Coulomb constant        =   332.0716
+No. of atom types       =        145
+No. of LJ type 2 pairs  =          0
+No. of heavy atoms      =       1559
+No. of 1-4 neighbours   =       8175
+No. long-range 1-4 nbrs =          1
+No. of nbor exclusions  =       8700
+No. of long-range excls =          0
+No. of residues         =        197
+No. of molecules        =          3
+Atom type names         =        145
+SYBYL atom types        =        145
+Boundary: sphere
+Exclusion radius        =     20.000
+Eff. solvent radius     =      0.000
+Solute centre           =     43.704    34.968    42.174
+Solvent centre          =     43.704    34.968    42.174
+No. of excluded atoms   =       1268
+Molecular topology read successfully.
+
+Found        0 solute atoms in the restrained shell region ( 20.00 to  20.00)
+----------------------------- Reading Q atom list ----------------------------
+No. of fep/evb states    =     2
+No. of fep/evb atoms     =    12
+Atom nos.:   730   731   727   728   729  3055  3056  3057  3058  3052
+Atom nos.:  3053  3054
+--------------------------- Reading fep/evb strategy --------------------------
+
+No. of changing charges  =    12
+Effective Q-atom charges for all Q-atoms
+Q atom    charge in state 1 state 2
+     1               -0.335   0.121
+     2                0.155   0.417
+     3                0.060  -0.018
+     4                0.060   0.060
+     5                0.060   0.060
+     6               -0.418  -0.834
+     7               -0.418  -0.640
+     8                0.418   0.417
+     9                0.418   0.418
+    10               -0.834  -0.834
+    11                0.417   0.417
+    12                0.417   0.417
+
+   SUM               -0.000   0.000
+
+No. of Q-atom types  =    14
+Name            Ai      Bi      Ci     ai Ai(1-4) Bi(1-4)    Mass
+S200       2838.18   60.83  165.00  2.50  2006.89   43.01   32.06
+snn.SG     2593.94   55.60  165.00  2.50  1834.19   39.31   32.06
+H204          0.00    0.00    0.00  2.50     0.00    0.00    1.01
+HWN           0.00    0.00    0.00  2.50     0.00    0.00    1.01
+C206        944.52   22.03    1.00  2.50   667.88   15.58   12.01
+snn.CB      944.52   22.03    1.00  2.50   667.88   15.58   12.01
+H140         84.57    5.41    1.00  2.50    59.80    3.83    1.01
+snn.HB2      84.57    5.41    1.00  2.50    59.80    3.83    1.01
+snn.HB3      84.57    5.41    1.00  2.50    59.80    3.83    1.01
+prx.O       760.64   25.04  110.00  2.50   537.86   17.71   16.00
+OWN         762.89   24.39  110.00  2.50   539.44   17.25   16.00
+snn.OS      760.64   25.04  110.00  2.50   537.86   17.71   16.00
+prx.H         0.01    0.04    1.00  2.50     0.00    0.03    1.01
+snn.HG        0.01    0.04    1.00  2.50     0.00    0.03    1.01
+
+Assigning Q-atom types to all Q atoms:
+Q atom    atom type in  state 1  state 2
+     1                  S200     snn.SG  
+     2                  H204     HWN     
+     3                  C206     snn.CB  
+     4                  H140     snn.HB2 
+     5                  H140     snn.HB3 
+     6                  prx.O    OWN     
+     7                  prx.O    snn.OS  
+     8                  prx.H    HWN     
+     9                  prx.H    snn.HG  
+    10                  OWN      OWN     
+    11                  HWN      HWN     
+    12                  HWN      HWN     
+
+No. of soft repulsion non-bonded pairs =     6
+q-atom_i q-atom_j
+      10       12
+       6        7
+       1        2
+       6       12
+      10        2
+       1        7
+
+Q-bond types:
+type #  Morse E_diss    alpha       b0  Harmonic force_k 
+     1        102.00     2.26     0.96
+     2         54.00     2.32     1.32
+     3         81.00     1.87     1.32
+     4         81.00     1.87     1.32
+     5                            0.94           1106.00
+     6                            0.96           1106.00
+
+
+No. of changing bonds    =     7
+atom_i atom_j   bond type in state 1 state 2
+  3052   3054                      1       0
+  3055   3056                      2       0
+   730    731                      3       0
+  3054   3055                      0       1
+   731   3052                      0       1
+   730   3056                      0       4
+  3055   3057                      5       6
+
+Q-angle types:
+type #       force-k   theta0
+     1        200.00   104.52
+     2        160.00   102.22
+     3         88.00    96.00
+     4        220.00   100.78
+     5        130.00   106.24
+
+
+No. of changing angles   =     8
+atom_i atom_j atom_k    angle type in state 1 state 2
+  3053   3052   3054                        1       0
+  3055   3056   3058                        2       0
+  3056   3055   3057                        2       0
+   727    730    731                        3       0
+  3054   3055   3057                        0       1
+   727    730   3056                        0       4
+   731   3052   3053                        0       1
+   730   3056   3058                        0       5
+
+Q-torsion types:
+type #       force-k     mult    delta
+     1         -2.50     2.00   180.00
+     2          0.24     3.00     0.00
+     3         -2.50     2.00   180.00
+     4          0.24     3.00     0.00
+     5          0.24     3.00     0.00
+
+
+No. of changing torsions =     7
+atom_i atom_j atom_k atom_l    torsion type in state 1 state 2
+  3057   3055   3056   3058                          1       0
+   728    727    730    731                          2       0
+   729    727    730    731                          2       0
+   727    730   3056   3058                          0       3
+   728    727    730   3056                          0       4
+   729    727    730   3056                          0       5
+   731    730    727    725                          0       0
+
+No. of offdiagonal (Hij) functions =     1
+state_i state_j atom_k atom_l     Aij mu_ij
+      1       2      1      7    0.00  0.00
+No softcore section found. Using normal LJ potentials.
+
+---------------- Removing redefined interactions from topology ---------------
+type      atom1 atom2 atom3 atom4
+bond        730   731
+bond       3052  3054
+bond       3057  3055
+bond       3055  3056
+angle       727   730   731
+angle      3053  3052  3054
+angle      3057  3055  3056
+angle      3055  3056  3058
+torsion     731   730   727   725
+torsion     731   730   727   725
+torsion     731   730   727   725
+torsion     731   730   727   728
+torsion     731   730   727   729
+torsion    3057  3055  3056  3058
+
+---------------------------- Initialising dynamics ---------------------------
+
+Number of shake constraints             =          0
+No. molecules with shake constraints    =          1
+No. of Rcq indep. nb pairs involving q-atoms =    91 in state :  1
+No. of Rcq indep. nb pairs involving q-atoms =    91 in state :  2
+
+Coordinates for  3058 atoms will be written to the trajectory.
+Initial x-shaking required   0 interations per molecule on average.
+Initial v-shaking required   0 interations per molecule on average.
+------------------------ Distribution of charge groups -----------------------
+node value solute-solute solute-water  water-water     Q-solute      Q-water       #Shake       #Atoms   #Molecules
+     total           549          549            0          549            0            1         3058            3
+----------------------------- End of distribution ----------------------------
+
+Initial temperatures are : Ttot =      0.10 Tfree =      0.10
+
+------------------------ Nonbonded pair list generation -----------------------
+=======================  Energy summary at step      0 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3897.60     -108.29      525.76      881.63     1813.53      195.04
+solute-solvent          0.00        0.00
+LRF                   -39.92
+Q-atom                 11.30       -8.10     -143.04        0.00       -4.10        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.00        0.00        0.00        0.00        0.00        0.00
+
+                     total potential   kinetic
+SUM                  -771.99     -773.78        1.79
+======================= Q-atom energies at step      0 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     15.02     -0.16
+Q-Q     2 0.0000     22.67     30.34
+
+Q-prot  1 1.0000     -3.72     -7.95
+Q-prot  2 0.0000    -11.48     -7.31
+
+Q-surr. 1 1.0000     -3.72     -7.95
+Q-surr. 2 0.0000    -11.48     -7.31
+
+Q-any   1 1.0000     11.30     -8.10   -143.04      0.00     -4.10      0.00
+Q-any   2 0.0000     11.19     23.02     -8.27     57.37     -1.99      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -143.94      0.00
+Q-SUM   2 0.0000     81.32      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.71
+===============================================================================
+Temperature at step       0:         T_tot=       0.2         T_free=       0.2
+Temperature at step       1:         T_tot=       0.2         T_free=       0.3
+=======================  Energy summary at step     10 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3898.42     -111.84      518.56      877.09     1808.91      193.99
+solute-solvent          0.00        0.00
+LRF                   -39.94
+Q-atom                 11.24       -8.09     -147.20        0.00       -4.09        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.02        0.01        0.00        0.00        0.00        0.00
+
+                     total potential   kinetic
+SUM                  -797.75     -799.77        2.02
+======================= Q-atom energies at step     10 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     15.02     -0.15
+Q-Q     2 0.0000     21.90     29.31
+
+Q-prot  1 1.0000     -3.77     -7.94
+Q-prot  2 0.0000    -11.52     -7.31
+
+Q-surr. 1 1.0000     -3.77     -7.94
+Q-surr. 2 0.0000    -11.52     -7.31
+
+Q-any   1 1.0000     11.24     -8.09   -147.20      0.00     -4.09      0.00
+Q-any   2 0.0000     10.38     22.00     -8.29     57.27     -1.99      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -148.14      0.00
+Q-SUM   2 0.0000     79.38      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.72
+===============================================================================
+Temperature at step      10:         T_tot=       0.2         T_free=       0.3
+=======================  Energy summary at step     20 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3899.27     -115.33      511.09      872.32     1804.03      192.88
+solute-solvent          0.00        0.00
+LRF                   -39.95
+Q-atom                 11.18       -8.08     -151.35        0.00       -4.09        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.06        0.06        0.00        0.00        0.00        0.00
+
+                     total potential   kinetic
+SUM                  -824.50     -826.51        2.01
+======================= Q-atom energies at step     20 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     15.01     -0.14
+Q-Q     2 0.0000     21.13     28.28
+
+Q-prot  1 1.0000     -3.83     -7.93
+Q-prot  2 0.0000    -11.57     -7.30
+
+Q-surr. 1 1.0000     -3.83     -7.93
+Q-surr. 2 0.0000    -11.57     -7.30
+
+Q-any   1 1.0000     11.18     -8.08   -151.35      0.00     -4.09      0.00
+Q-any   2 0.0000      9.56     20.98     -8.30     57.18     -1.98      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -152.33      0.00
+Q-SUM   2 0.0000     77.43      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.72
+===============================================================================
+Temperature at step      20:         T_tot=       0.2         T_free=       0.3
+------------------------ Nonbonded pair list generation -----------------------
+=======================  Energy summary at step     30 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3900.14     -118.63      503.73      867.59     1799.13      191.77
+solute-solvent          0.00        0.00
+LRF                   -39.97
+Q-atom                 11.12       -8.06     -155.27        0.01       -4.09        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.14        0.13        0.00        0.00        0.00        0.01
+
+                     total potential   kinetic
+SUM                  -850.69     -852.68        1.99
+======================= Q-atom energies at step     30 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     15.01     -0.14
+Q-Q     2 0.0000     20.39     27.32
+
+Q-prot  1 1.0000     -3.89     -7.93
+Q-prot  2 0.0000    -11.62     -7.29
+
+Q-surr. 1 1.0000     -3.89     -7.93
+Q-surr. 2 0.0000    -11.62     -7.29
+
+Q-any   1 1.0000     11.12     -8.06   -155.27      0.01     -4.09      0.00
+Q-any   2 0.0000      8.77     20.02     -8.32     57.08     -1.97      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -156.29      0.00
+Q-SUM   2 0.0000     75.58      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.72
+===============================================================================
+Temperature at step      30:         T_tot=       0.2         T_free=       0.3
+=======================  Energy summary at step     40 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3900.97     -121.75      496.48      862.90     1794.20      190.65
+solute-solvent          0.00        0.00
+LRF                   -39.99
+Q-atom                 11.05       -8.05     -158.96        0.02       -4.08        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.24        0.23        0.00        0.00        0.00        0.01
+
+                     total potential   kinetic
+SUM                  -876.28     -878.25        1.98
+======================= Q-atom energies at step     40 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     15.00     -0.13
+Q-Q     2 0.0000     19.68     26.40
+
+Q-prot  1 1.0000     -3.95     -7.92
+Q-prot  2 0.0000    -11.66     -7.29
+
+Q-surr. 1 1.0000     -3.95     -7.92
+Q-surr. 2 0.0000    -11.66     -7.29
+
+Q-any   1 1.0000     11.05     -8.05   -158.96      0.02     -4.08      0.00
+Q-any   2 0.0000      8.02     19.12     -8.34     56.99     -1.97      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -160.02      0.00
+Q-SUM   2 0.0000     73.82      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.72
+===============================================================================
+Temperature at step      40:         T_tot=       0.2         T_free=       0.3
+------------------------ Nonbonded pair list generation -----------------------
+=======================  Energy summary at step     50 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3901.78     -124.71      489.34      858.25     1789.26      189.53
+solute-solvent          0.00        0.00
+LRF                   -40.04
+Q-atom                 10.99       -8.03     -162.44        0.03       -4.08        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.38        0.37        0.00        0.00        0.00        0.02
+
+                     total potential   kinetic
+SUM                  -901.35     -903.32        1.96
+======================= Q-atom energies at step     50 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     15.00     -0.12
+Q-Q     2 0.0000     19.00     25.54
+
+Q-prot  1 1.0000     -4.01     -7.91
+Q-prot  2 0.0000    -11.71     -7.28
+
+Q-surr. 1 1.0000     -4.01     -7.91
+Q-surr. 2 0.0000    -11.71     -7.28
+
+Q-any   1 1.0000     10.99     -8.03   -162.44      0.03     -4.08      0.00
+Q-any   2 0.0000      7.29     18.26     -8.36     56.90     -1.96      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -163.54      0.00
+Q-SUM   2 0.0000     72.14      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.73
+===============================================================================
+Temperature at step      50:         T_tot=       0.2         T_free=       0.3
+=======================  Energy summary at step     60 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3902.60     -127.55      482.31      853.65     1784.31      188.40
+solute-solvent          0.00        0.00
+LRF                   -40.05
+Q-atom                 10.93       -8.02     -165.73        0.04       -4.08        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.55        0.53        0.00        0.00        0.00        0.02
+
+                     total potential   kinetic
+SUM                  -925.90     -927.85        1.95
+======================= Q-atom energies at step     60 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.99     -0.11
+Q-Q     2 0.0000     18.34     24.72
+
+Q-prot  1 1.0000     -4.06     -7.91
+Q-prot  2 0.0000    -11.75     -7.27
+
+Q-surr. 1 1.0000     -4.06     -7.91
+Q-surr. 2 0.0000    -11.75     -7.27
+
+Q-any   1 1.0000     10.93     -8.02   -165.73      0.04     -4.08      0.00
+Q-any   2 0.0000      6.59     17.45     -8.37     56.82     -1.96      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -166.87      0.00
+Q-SUM   2 0.0000     70.53      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.73
+===============================================================================
+Temperature at step      60:         T_tot=       0.2         T_free=       0.3
+=======================  Energy summary at step     70 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3903.40     -130.26      475.38      849.09     1779.34      187.28
+solute-solvent          0.00        0.00
+LRF                   -40.06
+Q-atom                 10.86       -8.01     -168.84        0.05       -4.07        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.75        0.72        0.00        0.00        0.00        0.03
+
+                     total potential   kinetic
+SUM                  -949.96     -951.89        1.93
+======================= Q-atom energies at step     70 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.98     -0.11
+Q-Q     2 0.0000     17.71     23.95
+
+Q-prot  1 1.0000     -4.12     -7.90
+Q-prot  2 0.0000    -11.79     -7.27
+
+Q-surr. 1 1.0000     -4.12     -7.90
+Q-surr. 2 0.0000    -11.79     -7.27
+
+Q-any   1 1.0000     10.86     -8.01   -168.84      0.05     -4.07      0.00
+Q-any   2 0.0000      5.92     16.69     -8.39     56.74     -1.95      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -170.01      0.00
+Q-SUM   2 0.0000     69.00      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.73
+===============================================================================
+Temperature at step      70:         T_tot=       0.2         T_free=       0.3
+------------------------ Nonbonded pair list generation -----------------------
+=======================  Energy summary at step     80 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3904.20     -132.87      468.55      844.59     1774.36      186.14
+solute-solvent          0.00        0.00
+LRF                   -40.09
+Q-atom                 10.80       -7.99     -171.77        0.06       -4.07        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              0.98        0.94        0.00        0.00        0.00        0.04
+
+                     total potential   kinetic
+SUM                  -973.59     -975.51        1.92
+======================= Q-atom energies at step     80 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.97     -0.10
+Q-Q     2 0.0000     17.10     23.22
+
+Q-prot  1 1.0000     -4.17     -7.89
+Q-prot  2 0.0000    -11.84     -7.26
+
+Q-surr. 1 1.0000     -4.17     -7.89
+Q-surr. 2 0.0000    -11.84     -7.26
+
+Q-any   1 1.0000     10.80     -7.99   -171.77      0.06     -4.07      0.00
+Q-any   2 0.0000      5.27     15.96     -8.41     56.66     -1.95      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -172.97      0.00
+Q-SUM   2 0.0000     67.53      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.73
+===============================================================================
+Temperature at step      80:         T_tot=       0.2         T_free=       0.3
+=======================  Energy summary at step     90 ========================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3904.98     -135.37      461.83      840.14     1769.38      185.01
+solute-solvent          0.00        0.00
+LRF                   -40.10
+Q-atom                 10.74       -7.98     -174.55        0.08       -4.07        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              1.23        1.18        0.00        0.00        0.00        0.05
+
+                     total potential   kinetic
+SUM                  -996.74     -998.65        1.91
+======================= Q-atom energies at step     90 ========================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.96     -0.09
+Q-Q     2 0.0000     16.52     22.53
+
+Q-prot  1 1.0000     -4.23     -7.89
+Q-prot  2 0.0000    -11.88     -7.25
+
+Q-surr. 1 1.0000     -4.23     -7.89
+Q-surr. 2 0.0000    -11.88     -7.25
+
+Q-any   1 1.0000     10.74     -7.98   -174.55      0.08     -4.07      0.00
+Q-any   2 0.0000      4.64     15.28     -8.42     56.58     -1.94      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -175.78      0.00
+Q-SUM   2 0.0000     66.14      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.74
+===============================================================================
+Temperature at step      90:         T_tot=       0.2         T_free=       0.3
+
+=========================== FINAL  Energy summary =============================
+                        el       vdW      bond     angle   torsion  improper
+solute              -3905.75     -137.79      455.21      835.74     1764.39      183.88
+solute-solvent          0.00        0.00
+LRF                   -40.15
+Q-atom                 10.67       -7.97     -177.17        0.09       -4.06        0.00
+
+                     total       fix slvnt_rad slvnt_pol     shell    solute
+restraints              1.52        1.45        0.00        0.00        0.00        0.06
+
+                     total potential   kinetic
+SUM                 -1019.49    -1021.39        1.89
+=========================== FINAL Q-atom energies =============================
+type   st lambda        el       vdW      bond     angle   torsion  improper
+Q-Q     1 1.0000     14.96     -0.09
+Q-Q     2 0.0000     15.96     21.87
+
+Q-prot  1 1.0000     -4.28     -7.88
+Q-prot  2 0.0000    -11.92     -7.25
+
+Q-surr. 1 1.0000     -4.28     -7.88
+Q-surr. 2 0.0000    -11.92     -7.25
+
+Q-any   1 1.0000     10.67     -7.97   -177.17      0.09     -4.06      0.00
+Q-any   2 0.0000      4.04     14.63     -8.44     56.51     -1.94      0.00
+
+type   st lambda     total restraint
+Q-SUM   1 1.0000   -178.44      0.00
+Q-SUM   2 0.0000     64.80      0.00
+H( 1, 2) =    0.00 dist. between Q-atoms   1   7 =    5.74
+===============================================================================
+Total time of main loop:                                 7.8(s)
+ QDyn version 5.10.22 , git id=9325b9c29ad62a733df16f540968e33ee6c78260 terminated normally.
+###############################################################################
