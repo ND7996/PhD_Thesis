@@ -1,0 +1,17 @@
+
+** maxlevel set to 4
+  **
+  ** Beginning refinement level 0
+  **
+
+WARNING Unable to checkout 1 IMPACT_MAIN v94 license(s). Error is -5: No such feature exists. Tried 1 time(s) in 0 seconds.
+
+=============================================================
+Could not obtain license for feature "IMPACT_MAIN" of Impact
+** -5: No such feature exists. **
+
+=============================================================
+ FATAL ERROR in Impact.
+ Failed to check out an IMPACT_MAIN license.
+ Make sure your $SCHRODINGER/license file contains valid licenses
+Refinement level 0 failed: 4352.  See selenolate-proteinprep_1-impref-out_ref0.out

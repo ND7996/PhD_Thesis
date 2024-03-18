@@ -1,0 +1,8 @@
+WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  38 
+mmlewis warning: Now attempting to fix the lewis structure.
+FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  38
+Skipping molecule with title:
+
