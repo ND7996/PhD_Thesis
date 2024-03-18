@@ -1,0 +1,28 @@
+# Generated with QTools, version 0.7.0
+# Date: Fri Mar  8 22:47:26 2024
+# CWD: /home/nayanika/github/PhD_Thesis/EVB/EVB-Q6/openMM-OPLS/protein/GPX6WT/mousesec
+# Cmdline: /home/nayanika/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc --top GPX6sec_mouse.top --rs run_qdyn.sh --pdb GPX6sec_mouse.pdb --fep GPX6_wtmousesecnew.fep --outdir relax
+[md]
+steps                                           200
+temperature                                      10
+stepsize                                          1
+bath_coupling                                   100
+lrf                                              on
+
+[cut-offs]
+q_atom                                           99
+
+[intervals]
+non_bond                                         30
+output                                          100
+trajectory                                      100
+
+[files]
+topology                          GPX6sec_mouse.top
+restart                                relax_001.re
+final                                  relax_002.re
+trajectory                            relax_002.dcd
+fep                          GPX6_wtmousesecnew.fep
+
+[lambdas]
+0.90  0.10

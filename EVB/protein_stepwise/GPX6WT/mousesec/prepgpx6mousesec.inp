@@ -1,0 +1,11 @@
+readlib  qoplsaa.lib          
+readlib  GPX.lib
+readprm  qoplsaa_all.prm
+readpdb  GPX6_secM.pdb
+boundary sphere 49:SE 20.
+solvate 49:SE 20. grid HOH
+maketop  GPX6sec_mouse.top
+writetop GPX6sec_mouse.top
+writepdb GPX6sec_mouse.pdb y
+quit
+
