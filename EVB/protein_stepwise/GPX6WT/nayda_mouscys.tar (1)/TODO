@@ -1,6 +1,0 @@
-
-Things you need to fix before starting production runs:
-- check if you are missing important crystal waters
-- add missing parameter files to the 1-prep/1-params directory
-- decharge ionized residues near the border of your simulation
-- fix the parameters in your fep file (Morse/soft pair)
