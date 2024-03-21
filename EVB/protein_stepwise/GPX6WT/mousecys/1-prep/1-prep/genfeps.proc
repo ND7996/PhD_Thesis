@@ -12,8 +12,7 @@ stepsize                0.1
 temperature             300
 bath_coupling            10  
 lrf                      on
-shake_hydrogens          on
-
+shake_solvent            on
 
 [cut-offs]
 solute_solute             10
@@ -26,6 +25,14 @@ non_bond                 30
 output                	500
 trajectory              500  
 temperature             200
+
+[distance_restraints]
+$49.SG$    $196.O1$     0.0  3.2  10. 0 
+$83.OE1$   $196.O1$     0.0  3.2  10. 0  
+$49.SG$    $49.HG1$     0.0  1.5   5. 1
+$196.O1$   $196.H1$     0.0  1.5   5. 1 
+$83.OE1$   $196.H1$     0.0  1.5   5. 2 
+$196.O1$   $49.HG1$     0.0  1.5   5. 2 
 
 #######################################################
 {STEPS_EQUIL}

@@ -26,7 +26,7 @@ $HOME/github/qtools/qscripts-cli/q_genrelax.py genrelax.proc \
           --top GPX6cys_mouse.top \
           --rs  run_qdyn_5.sh \
           --pdb GPX6cys_mouse.pdb  \
-          --fep GPX6_wtmousecys.fep\
+          --fep corrected.fep\
           --outdir relax
 cd relax
 cd $relax
