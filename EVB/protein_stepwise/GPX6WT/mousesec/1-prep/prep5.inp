@@ -1,0 +1,22 @@
+!new opls parameters and substrate parameters (ffld?)
+readlib  qoplsaa.lib          
+readlib  GPX.lib
+
+! parameters
+readprm  qoplsaa_all2.prm
+
+! read in structure
+readpdb GPX6_secM.pdb
+
+set solvent_pack 2.7
+
+! Solvate around C49
+boundary   sphere 49:SE 25.
+solvate           49:SE 25. grid HOH
+
+! write out topology and pdb with corresponding indices
+maketop GPX6sec_mouse.top
+writetop GPX6sec_mouse.top
+writepdb GPX6sec_mouse.pdb y
+
+quit
