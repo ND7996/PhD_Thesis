@@ -123,7 +123,7 @@ OPLSAA FORCE FIELD TYPE ASSIGNED
  C19      235  C2   C        0.5000   3.7500   0.1050 high   C: C=O in amide or unsaturated amide.
  O20      233  O2   O       -0.5000   2.9600   0.2100 high   O: C=O in amide.
  C21      135  C1   CT      -0.0182   3.5000   0.0660 high   C: alkanes
-Se22      121  Se1  Se      -0.1890   3.6500   0.5600 high  Selenium
+Se22      121  Se1  Se      -0.1890   3.7400   0.2000 high  Selenium
  H23      240  H8   H        0.3000   0.5000   0.0300 high   H on neutral N
  H24      140  H1   HC       0.0600   2.5000   0.0300 high   H(C)-N dmf
  H25      140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes

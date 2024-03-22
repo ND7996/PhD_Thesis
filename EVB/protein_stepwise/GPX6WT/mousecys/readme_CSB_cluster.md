@@ -24,11 +24,19 @@ ml list
 
 q_automapper.py 5.0 -10.0 10.0 -200.0 --temp 298 --dirs replicamousecys00? -h
 
+q_automapper.py 15.0 5.0 50. 100. --temp 300 --dirs replicamousesec* --qfep_exec qfep5
+
+q_automapper.py 15.0 0.0 40. 140. --temp 300 --dirs replicamousesec000 --qfep_exec qfep5
+
+
 #running mapper to map free energies
+
 
 q_automapper.py 5.0 -10.0 0. 0. --temp 300 --dirs replicamousecys00? --qfep_exec qfep5
 
 q_mapper.py 79.106841 -92.883878 --bins 50 --skip 100 --min 10 --temp 300.0 --dirs replica* --qfep_exec qfep5
+
+q_analysefeps.py replicamousesec00*
 
 #Contcatnate DCD
 
