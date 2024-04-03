@@ -9,7 +9,7 @@ q_genrelax.py genrelax.proc --top GPX6cys_mouse.top  --pdb GPX6cys_mouse.pdb --f
 
 #Run this command to generate inputs.
 
-q_genfeps.py genfeps.proc --pdb GPX6cys_mouse.pdb relax_008.inp relax --repeats 5 --frames 51 --fromlambda 0.90 --prefix replicamousecys --rs run_Q5.10_amd.sh
+q_genfeps.py genfeps.proc --pdb GPX6cys_mouse.pdb relax_008.inp relax --repeats 5 --frames 51 --fromlambda 1.0 --prefix replicamousecys --rs run_Q5.10_amd.sh
 
 
 #RUNNING FEP
