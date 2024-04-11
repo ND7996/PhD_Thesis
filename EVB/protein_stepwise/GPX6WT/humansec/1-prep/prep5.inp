@@ -3,20 +3,40 @@ readlib  qoplsaa.lib
 readlib  GPX.lib
 
 ! parameters
-readprm  qoplsaa_all.prm
+readprm  qoplsaa_all2.prm
 
 ! read in structure
-readpdb no_hyd.pdb
+readpdb GPX6_secM.pdb
 
 set solvent_pack 2.7
 
 ! Solvate around C49
-boundary   sphere 49:SG 25.
-solvate           49:SG 25. grid HOH
+boundary   sphere 49:SE 25.
+solvate           49:SE 25. grid HOH
 
 ! write out topology and pdb with corresponding indices
-maketop GPX6cys_human.top
-writetop GPX6cys_human.top
-writepdb GPX6cys_human.pdb y
+maketop GPX6sec_mouse.top
+writetop GPX6sec_mouse.top
+writepdb GPX6sec_mouse.pdb y
+
+quit
+
+
+
+! Read in library files
+rl ../../1-prep/1-params/ASE.lib
+rl ../../1-prep/1-params/FA4.lib
+rl ../../1-prep/1-params/INT.lib
+rl ../../1-prep/1-params/NUC.lib
+rl ../../1-prep/1-params/qoplsaa.lib
+
+! Read in parameter files
+rprm ../../1-prep/1-params/qoplsaa_lipase.prm
+
+! read in structure
+readtop rep_num_100ps/pLipA.top
+rx      rep_num_100ps/fep_000_1.000.re
+
+writepdb rep_num_100ps.pdb y
 
 quit
