@@ -8,7 +8,7 @@ Built:
       on     nayanika-HP-Pavilion-Gaming-Laptop-15-ec0xxx
       git id 9325b9c29ad62a733df16f540968e33ee6c78260
       with   GNU Fortran Ubuntu 9.4.0-1ubuntu1~20.04.2 9.4.0
-Current date 2024- 4-11 and time 19:31:51
+Current date 2024- 4-15 and time 18:59:27
 
 Welcome in qprep modification date 20240304
 
@@ -66,8 +66,9 @@ SNN      12   0.00     11      0      2      3
 SEN      12   0.00     11      0      2      3
 GLP      18   1.00     17      0      4      1
 SUL      10  -1.00      9      0      2      1
+HO2       3   0.00      2      0      0      1
 
-Accumulated no. of library entries loaded =  42
+Accumulated no. of library entries loaded =  43
 
 Qprep> Qprep> 
 Reading force field parameter file.
@@ -79,14 +80,14 @@ Cut-off rule:                  switching atoms
 Improper potential:            PERIODIC
 Improper generation:           EXPLICIT
 Coulomb constant:              332.0716
-Read  171 atom types
+Read  173 atom types
 >>>>> WARNING: No SYBYL name for one or more atom types.
 Read    0 atom type alias names
 Read    0 LJ type 2 pairs
-Read  261 bond types
+Read  262 bond types
 Read   46 unique bond parameters
 >>>>> WARNING: No SYBYL bond type for one or more bond types.
-Read  626 angle types
+Read  627 angle types
 Read   82  unique angle parameters
 Read 1867 torsion types
 Read  250 unique torsion parameters
@@ -96,100 +97,174 @@ Force field parameters successfully read.
 Qprep> Qprep> 
 >>>WARNING: ignoring unrecognised line in PDB file
 END
-PDB file contains  1558 atoms.
-The number of atoms in the topology will be  3055
+PDB file contains  1559 atoms.
+The number of atoms in the topology will be  3058
 molecule    1: PRO     1 - SER   195
-molecule    2: PRX   196
+molecule    2: HO2   196
+molecule    3: PRX   197
 
-Successfully read PDB file with    2 molecules,
-  196 residues totally (  196 in solute).
- 3055 atoms totally ( 3055 in solute).
+Successfully read PDB file with    3 molecules,
+  197 residues totally (  197 in solute).
+ 3058 atoms totally ( 3058 in solute).
 
 Sequence listing:
 
 PRO  GLN  LYS  SER  LYS  VAL  ASP  CYX  ASN  LYS  GLY  VAL  THR  GLY  THR  VAL 
 TYR  GLU  TYR  GLY  ALA  ASN  THR  ILE  ASP  GLY  GLY  GLU  PHE  VAL  ASN  PHE 
 GLN  GLN  TYR  ALA  GLY  LYS  HID  ILE  LEU  PHE  VAL  ASN  VAL  ALA  SER  PHE 
-CYS  GLY  LEU  THR  ALA  THR  TYR  PRO  GLU  LEU  ASN  THR  LEU  GLN  GLU  GLU 
+SUL  GLY  LEU  THR  ALA  THR  TYR  PRO  GLU  LEU  ASN  THR  LEU  GLN  GLU  GLU 
 LEU  LYS  PRO  PHE  ASN  VAL  THR  VAL  LEU  GLY  PHE  PRO  CYS  ASN  GLN  PHE 
-GLY  LYS  GLN  GLU  PRO  GLY  LYS  ASN  SER  GLU  ILE  LEU  LEU  GLY  LEU  LYS 
+GLY  LYS  GLP  GLU  PRO  GLY  LYS  ASN  SER  GLU  ILE  LEU  LEU  GLY  LEU  LYS 
 TYR  VAL  ARG  PRO  GLY  GLY  GLY  TYR  VAL  PRO  ASN  PHE  GLN  LEU  PHE  GLU 
 LYS  GLY  ASP  VAL  ASN  GLY  ASP  ASN  GLU  GLN  LYS  VAL  PHE  SER  PHE  LEU 
 LYS  ASN  SER  CYX  PRO  PRO  THR  SER  GLU  LEU  PHE  GLY  SER  PRO  GLU  HID 
 LEU  PHE  TRP  ASP  PRO  MET  LYS  VAL  HID  ASP  ILE  ARG  TRP  ASN  PHE  GLU 
 LYS  PHE  LEU  VAL  GLY  PRO  ASP  GLY  VAL  PRO  VAL  MET  ARG  TRP  PHE  HID 
 HID  THR  PRO  VAL  ARG  ILE  VAL  GLN  SER  ASP  ILE  MET  GLU  TYR  LEU  ASN 
-GLN  THR  SER  PRX 
+GLN  THR  SER  HO2  PRX 
 
 Qprep> Qprep> Qprep> Qprep> 
-Simulation sphere centre                   :     37.629  31.841  48.721
+Simulation sphere centre                   :     43.704  34.968  42.174
 Simulation radius                          :     25.000
 Qprep> 
-Solvation sphere centre                   :     37.629  31.841  48.721
+Solvation sphere centre                   :     43.704  34.968  42.174
 Library entry used to generate solvent  :       HOH 
 Radius of solvent sphere                =      25.00 A
 Grid spacing                            =       3.10 A 
 No. of solvent molecules in the sphere:  2109
 Minimum distance to solute heavy atoms:  2.70 A
-No. of solvent molecules to add to the system:  1263
-Qprep> Qprep> Assigned  6844 atom types.
-Assigned  6844 atomic charges.
-Made      3101 solute bonds.
+No. of solvent molecules to add to the system:  1244
+Qprep> Qprep> Assigned  6790 atom types.
+Assigned  6790 atomic charges.
+Made      3103 solute bonds.
 Made         0 extra bonds.
-Made      3789 solvent bonds.
-Made      5596 solute angles.
-Made      1263 solvent angles.
-Made     11365 solute torsions.
+Made      3732 solvent bonds.
+>>> Missing bond type for atom types C235     sul.N   
+ atoms:          721         723
+>>> Missing bond type for atom types sul.C    N238    
+ atoms:          725         733
+>>> Missing bond type for atom types C235     glp.N   
+ atoms:         1244        1246
+>>> Missing bond type for atom types glp.C    N238    
+ atoms:         1248        1264
+Made      5581 solute angles.
+Made      1244 solvent angles.
+>>> Missing torsion type for atom types sul.N    C235     C224     C149    
+ atoms:          723         721         705         707
+>>> Missing torsion type for atom types sul.N    C235     C224     N238    
+ atoms:          723         721         705         703
+>>> Missing torsion type for atom types sul.N    C235     C224     H140    
+ atoms:          723         721         705         706
+>>> Missing torsion type for atom types C224     C235     sul.N    sul.CA  
+ atoms:          705         721         723         724
+>>> Missing torsion type for atom types C224     C235     sul.N    sul.H   
+ atoms:          705         721         723         729
+>>> Missing torsion type for atom types O236     C235     sul.N    sul.CA  
+ atoms:          722         721         723         724
+>>> Missing torsion type for atom types O236     C235     sul.N    sul.H   
+ atoms:          722         721         723         729
+>>> Missing torsion type for atom types C235     sul.N    sul.CA   sul.C   
+ atoms:          721         723         724         725
+>>> Missing torsion type for atom types C235     sul.N    sul.CA   sul.CB  
+ atoms:          721         723         724         727
+>>> Missing torsion type for atom types C235     sul.N    sul.CA   sul.HA  
+ atoms:          721         723         724         730
+>>> Missing torsion type for atom types sul.N    sul.CA   sul.C    N238    
+ atoms:          723         724         725         733
+>>> Missing torsion type for atom types sul.CB   sul.CA   sul.C    N238    
+ atoms:          727         724         725         733
+>>> Missing torsion type for atom types sul.HA   sul.CA   sul.C    N238    
+ atoms:          730         724         725         733
+>>> Missing torsion type for atom types sul.CA   sul.C    N238     H241    
+ atoms:          724         725         733         734
+>>> Missing torsion type for atom types sul.CA   sul.C    N238     C223    
+ atoms:          724         725         733         735
+>>> Missing torsion type for atom types sul.O    sul.C    N238     H241    
+ atoms:          726         725         733         734
+>>> Missing torsion type for atom types sul.O    sul.C    N238     C223    
+ atoms:          726         725         733         735
+>>> Missing torsion type for atom types sul.C    N238     C223     C235    
+ atoms:          725         733         735         738
+>>> Missing torsion type for atom types sul.C    N238     C223     H140    
+ atoms:          725         733         735         736
+>>> Missing torsion type for atom types sul.C    N238     C223     H140    
+ atoms:          725         733         735         737
+>>> Missing torsion type for atom types glp.N    C235     C224     C136    
+ atoms:         1246        1244        1226        1228
+>>> Missing torsion type for atom types glp.N    C235     C224     N238    
+ atoms:         1246        1244        1226        1224
+>>> Missing torsion type for atom types glp.N    C235     C224     H140    
+ atoms:         1246        1244        1226        1227
+>>> Missing torsion type for atom types C224     C235     glp.N    glp.CA  
+ atoms:         1226        1244        1246        1247
+>>> Missing torsion type for atom types C224     C235     glp.N    glp.H   
+ atoms:         1226        1244        1246        1255
+>>> Missing torsion type for atom types O236     C235     glp.N    glp.CA  
+ atoms:         1245        1244        1246        1247
+>>> Missing torsion type for atom types O236     C235     glp.N    glp.H   
+ atoms:         1245        1244        1246        1255
+>>> Missing torsion type for atom types C235     glp.N    glp.CA   glp.C   
+ atoms:         1244        1246        1247        1248
+>>> Missing torsion type for atom types C235     glp.N    glp.CA   glp.CB  
+ atoms:         1244        1246        1247        1250
+>>> Missing torsion type for atom types C235     glp.N    glp.CA   glp.HA  
+ atoms:         1244        1246        1247        1256
+>>> Missing torsion type for atom types glp.N    glp.CA   glp.C    N238    
+ atoms:         1246        1247        1248        1264
+>>> Missing torsion type for atom types glp.CB   glp.CA   glp.C    N238    
+ atoms:         1250        1247        1248        1264
+>>> Missing torsion type for atom types glp.HA   glp.CA   glp.C    N238    
+ atoms:         1256        1247        1248        1264
+>>> Missing torsion type for atom types glp.CA   glp.C    N238     H241    
+ atoms:         1247        1248        1264        1265
+>>> Missing torsion type for atom types glp.CA   glp.C    N238     C224    
+ atoms:         1247        1248        1264        1266
+>>> Missing torsion type for atom types glp.O    glp.C    N238     H241    
+ atoms:         1249        1248        1264        1265
+>>> Missing torsion type for atom types glp.O    glp.C    N238     C224    
+ atoms:         1249        1248        1264        1266
+>>> Missing torsion type for atom types glp.C    N238     C224     C136    
+ atoms:         1248        1264        1266        1268
+>>> Missing torsion type for atom types glp.C    N238     C224     C235    
+ atoms:         1248        1264        1266        1277
+>>> Missing torsion type for atom types glp.C    N238     C224     H140    
+ atoms:         1248        1264        1266        1267
+Made     11283 solute torsions.
 Made         0 solvent torsions.
+>>> Missing improper type for atom types O236     C235     C224     sul.N   
+Atoms of missing improper:  722  721  705  723
+>>> Missing improper type for atom types C235     sul.N    sul.CA   sul.H   
+Atoms of missing improper:  721  723  724  729
+>>> Missing improper type for atom types sul.CA   sul.C    N238     sul.O   
+Atoms of missing improper:  724  725  733  726
+>>> Missing improper type for atom types H241     N238     sul.C    C223    
+Atoms of missing improper:  734  733  725  735
+>>> Missing improper type for atom types O236     C235     C224     glp.N   
+Atoms of missing improper: 1245 1244 1226 1246
+>>> Missing improper type for atom types C235     glp.N    glp.CA   glp.H   
+Atoms of missing improper: 1244 1246 1247 1255
+>>> Missing improper type for atom types glp.CA   glp.C    N238     glp.O   
+Atoms of missing improper: 1247 1248 1264 1249
+>>> Missing improper type for atom types H241     N238     glp.C    C224    
+Atoms of missing improper: 1265 1264 1248 1266
 Made       658 solute impropers.
 Made         0 solvent impropers.
-Made      8175 entries in the 1-4 neighbour list.
+Made      8134 entries in the 1-4 neighbour list.
 Made         1 entries in the long-range 1-4 neighbour list.
-Made     13749 entries in list of excluded neighbours.
+Made     13660 entries in list of excluded neighbours.
 Made         0 entries in list of long-range excluded neighbours.
->>> WARNING: Positioning of hydrogen  1653 bound to atom  1652 didn't converge.
-Potential is    3.139 kcal/mol.
-Made      1497 solute hydrogens.
-Made      2526 solvent hydrogens.
-Made      759 solute  charge groups comprising a total of   2500 atoms.
-Made     1263 solvent charge groups comprising a total of   3789 atoms.
-Skipped   178excluded charge groups comprising a total of    555 atoms.
-Effective water radius                     : 24.11
-Topology successfully generated.
-Qprep> 
----------------------------- Writing topology file ---------------------------
-solute atoms                :   3055
-solvent atoms               :   3789
-solvent mol atoms           :      3
-co-ordinates                :  20532
-integer atom codes          :   6844
-solute bonds                :   3101
-solvent bonds               :   3789
-bond parameters             :     34
-solute angles               :   5596
-solvent angles              :   1263
-angle parameters            :     55
-torsions                    :  11365
-torsion parameters          :    178
-impropers                   :    658
-improper parameters         :     30
-charges                     :   6844
-total charge of not excluded:  -3.00
-charge groups               :   2022
-atom type parameters        :    171
-polar LJ pairs              :      0
-neighbour list              :   8175
-long-range neighbour list   :      1
-neighbour exclusion list    :  13749
-long-range exclusions       :      0
-residues                    :   1459
-molecules                   :   1265
-Atom type names             :    171
-SYBYL type information      :    171
-excluded atom list          :    555
+Made      1499 solute hydrogens.
+Made      2488 solvent hydrogens.
+Made      748 solute  charge groups comprising a total of   2482 atoms.
+Made     1244 solvent charge groups comprising a total of   3732 atoms.
+Skipped   183excluded charge groups comprising a total of    576 atoms.
+Effective water radius                     : 23.98
 
-Qprep> 
+ERROR: There are missing parameters!
 
-PDB file successfully written.
-
-Qprep> Qprep> 
+You need to add parameters and do readprm + maketop again.
+parameter file: qoplsaa.prm
+Qprep>  WARNING: The topology is incomplete due to missing parameters!
+ Do you realLY want to write this erronenous topology?
+ Enter yes to proceed, anything else to cancel.
+-----> Write _ERRONENOUS_ topology [yes/NO] ? Qprep> Qprep> 
