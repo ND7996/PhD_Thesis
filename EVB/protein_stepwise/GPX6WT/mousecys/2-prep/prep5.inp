@@ -6,7 +6,7 @@ readlib  GPX.lib
 readprm  qoplsaa_all.prm
 
 ! read in structure
-readpdb no_hyd.pdb
+readpdb intermediate.pdb
 
 set solvent_pack 2.7
 
