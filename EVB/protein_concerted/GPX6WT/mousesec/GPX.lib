@@ -133,6 +133,7 @@
     [bonds]
        O3   H4
        O3   H5
+       H4   H5 !for shake
     [charge_groups]
        O3   H4   H5
        
