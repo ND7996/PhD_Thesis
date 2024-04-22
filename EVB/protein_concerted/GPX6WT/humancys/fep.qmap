@@ -1,15 +1,15 @@
 # q atom (q)			PDB ID		LIB ID (resname.name)
 # or neighbour (n)?		(resid.name)	STATE 1		STATE 2
-q				49.SE		SEC.SE		SEN.SE1  
-q				49.HG		SEC.HG		HOH.H2  
-q				49.CB		SEC.CB		SEN.CB   
-q				49.HB2		SEC.HB2		SEN.HB2  
-q				49.HB3		SEC.HB3		SEN.HB3  
-q				199.O1		PRX.O1		HO2.O3
-q				199.O2		PRX.O2		SEN.OS 
-q				199.H1		PRX.H1		HO2.H5
-q				199.H2		PRX.H2		SEN.HG  
-q               198.O3      HO2.O3      HOH.O
-q               198.H4      HO2.H4      HOH.H1
-q               198.H5      HO2.H5      HO2.H4
+q				49.SG		CYS.SG	    SNN.SG  
+q				49.HG1		CYS.HG1	    HO3.H1  
+q				49.CB		CYS.CB	    SNN.CB   
+q				49.HB1		CYS.HB1	    SNN.HB2  
+q				49.HB2		CYS.HB2	    SNN.HB3  
+q				199.O1		PRX.O1		HO2.O
+q				199.O2		PRX.O2		SNN.OS 
+q				199.H1		PRX.H1		HO2.H2
+q				199.H2		PRX.H2		SNN.HG  
+q               198.O       HO2.O       HO3.O
+q               198.H1      HO2.H1      HO3.H2
+q               198.H2      HO2.H2      HO2.H1
 

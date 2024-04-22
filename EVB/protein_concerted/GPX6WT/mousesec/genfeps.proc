@@ -1,4 +1,3 @@
-
 #######################################################
 {SCRIPT_VARS}
 #######################################################
@@ -12,7 +11,7 @@ stepsize                0.1
 temperature             300
 bath_coupling            10  
 lrf                      on
-shake_hydrogens          on
+shake_solvent            on
 
 
 [cut-offs]
@@ -27,13 +26,8 @@ output                	500
 trajectory              500  
 temperature             200
 
-
 [distance_restraints]
-$197.O1$   $197.O2$    0.0  3.5  10. 0 
-$49.SG$    $49.HG1$    0.0  3.5  10. 1
-$49.SG$    $197.O2$    0.0  3.5  10. 2
-$49.HG1$   $196.O$     0.0  3.5  10. 0
-
+$197.O1$   $197.O2$    0.0  1.5  5. 0
 
 #######################################################
 {STEPS_EQUIL}
@@ -118,5 +112,4 @@ steps                10000
 energy                   5
 trajectory	           500
 output                 500
-
 

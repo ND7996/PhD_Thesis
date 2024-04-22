@@ -22,21 +22,3 @@ writepdb GPX6sec_human.pdb y
 quit
 
 
-
-! Read in library files
-rl ../../1-prep/1-params/ASE.lib
-rl ../../1-prep/1-params/FA4.lib
-rl ../../1-prep/1-params/INT.lib
-rl ../../1-prep/1-params/NUC.lib
-rl ../../1-prep/1-params/qoplsaa.lib
-
-! Read in parameter files
-rprm ../../1-prep/1-params/qoplsaa_lipase.prm
-
-! read in structure
-readtop rep_num_100ps/pLipA.top
-rx      rep_num_100ps/fep_000_1.000.re
-
-writepdb rep_num_100ps.pdb y
-
-quit
