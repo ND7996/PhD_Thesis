@@ -52,7 +52,7 @@ temperature              10
 1.00  0.
 
 [distance_restraints]
-$197.O1$   $197.O2$    0.0  1.5  5. 0
+$199.O1$   $199.O2$    0.0  1.5  5. 0
  
 #[angle_restraints]
 # angle restraints here
