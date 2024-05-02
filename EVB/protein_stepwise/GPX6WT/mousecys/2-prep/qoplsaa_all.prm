@@ -109,24 +109,24 @@ ala.HB2         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 #
 ala.HB3         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
 ala.N          971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: N_N1_238 N: secondary amide
 ala.O          616.4387   616.4387    23.7692    435.888    16.8074     15.999 # FFLD: O_O2_233 O: C=O in amide.
-glp.C        1802.2385  1802.2385    34.1758  1274.3751    24.1659     12.011 # FFLD: C_C2_235 C: C=O in amide or unsaturated amide.
-glp.CA         944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT1_C1_224 C alpha
-glp.CB         944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
-glp.CD       1802.2385  1802.2385    34.1758  1274.3751    24.1659     12.011 # FFLD: CG_C2_241 iminium carbon
-glp.CG         944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
-glp.H           0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H on neutral N
-glp.HA         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H(C)-N dmf
-glp.HB2        84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
-glp.HB3        84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
-glp.HE1         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: HO_H8_240 H(O): alcohols
-glp.HE21        0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
-glp.HE22        0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
-glp.HG2        84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
-glp.HG3        84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
-glp.N         971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: N_N1_238 N: secondary amide
-glp.NE2       971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: NIP_N7_379 protonated or alkylated imine N
-glp.O         616.4387   616.4387    23.7692    435.888    16.8074     15.999 # FFLD: O_O2_233 O: C=O in amide.
-glp.OE1        760.645    760.645    25.0448   537.8572    17.7093     15.999 # FFLD: OH_O3_154 O: mono alcohols
+glp.C         1802.2385  1802.2385    34.1758  1274.3751    24.1659     12.011 # FFLD: C_C2_235 C: C=O in amide or unsaturated amide.
+glp.CA          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT1_C1_224 C alpha
+glp.CB          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+glp.CD        1802.2385  1802.2385    34.1758  1274.3751    24.1659     12.011 # FFLD: CG_C2_241 iminium carbon
+glp.CG          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+glp.H            0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H on neutral N
+glp.HA          84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H(C)-N dmf
+glp.HB2         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+glp.HB3         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+glp.HE1          0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: HO_H8_240 H(O): alcohols
+glp.HE21         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
+glp.HE22         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
+glp.HG2         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+glp.HG3         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+glp.N          971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: N_N1_238 N: secondary amide
+glp.NE2        971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: NIP_N7_379 protonated or alkylated imine N
+glp.O          616.4387   616.4387    23.7692    435.888    16.8074     15.999 # FFLD: O_O2_233 O: C=O in amide.
+glp.OE1         760.645    760.645    25.0448   537.8572    17.7093     15.999 # FFLD: OH_O3_154 O: mono alcohols
 nma.CA          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
 nma.H            0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H on neutral N
 nma.HA1         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H(C)-N dmf
@@ -146,6 +146,16 @@ sec.HG          84.5728    84.5728     5.4127     59.802     3.8274     1.0079 #
 sec.N          971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: N_N1_238 N: secondary amide
 sec.O          616.4387   616.4387    23.7692    435.888    16.8074     15.999 # FFLD: O_O2_233 O: C=O in amide.
 sec.SE        3539.0052  3539.0052    72.7784  2502.4546    51.4621      78.96 # FFLD: Se_Se1_121 Selenium
+sel.C         1802.2385  1802.2385    34.1758  1274.3751    24.1659     12.011 # FFLD: C_C2_235 C: C=O in amide or unsaturated amide.
+sel.CA          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT1_C1_224 C alpha
+sel.CB          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_415 C in RS- thiolate
+sel.H            0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H on neutral N
+sel.HA          84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H(C)-N dmf
+sel.HB2         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H in CH3S-
+sel.HB3         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H in CH3S-
+sel.N          971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: N_N1_238 N: secondary amide
+sel.O          616.4387   616.4387    23.7692    435.888    16.8074     15.999 # FFLD: O_O2_233 O: C=O in amide.
+sel.SE1       2593.9355  2593.9355     55.597  1834.1894     39.313     32.065 # FFLD: SM_S1_417 S in RS-
 sen.C         1802.2385  1802.2385    34.1758  1274.3751    24.1659     12.011 # FFLD: C_C2_235 C: C=O in amide or unsaturated amide.
 sen.CA          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT1_C1_224 C alpha
 sen.CB          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
@@ -258,6 +268,7 @@ C224         C274              536.0      1.529
 C224         C505              536.0      1.529
 C224         H140              680.0       1.09
 C224         N238              674.0      1.449
+glp.C        N238              674.0      1.449
 C235         C246              634.0      1.522
 C235         C292              634.0      1.522
 C235         C293              634.0      1.522
@@ -333,6 +344,7 @@ C942         N941             1000.0      1.261
 C942         N943              764.0      1.385
 C944         H140              680.0       1.09
 C944         N943              764.0      1.448
+C235         glp.N             764.0      1.448
 H155         O154             1106.0      0.945
 H168         O167             1106.0      0.945
 H204         S200              548.0      1.336
@@ -360,9 +372,10 @@ ace.CH3      ace.HH32          680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC
 ace.CH3      ace.HH33          680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
 ala.C        ala.CA            634.0      1.522 # FFLD: high 0 => 0 CT1-C ==> CT1-C
 ala.C        ala.O            1140.0      1.229 # FFLD: high 0 => 0 C-O ==> O-C
-ala.C        glp.N            980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
+ala.C        glp.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.C        nma.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.C        sec.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
+ala.C        sel.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.C        sen.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.C        snn.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.C        sul.N             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
@@ -373,28 +386,29 @@ ala.CB       ala.HB1           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC
 ala.CB       ala.HB2           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
 ala.CB       ala.HB3           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
 ala.H        ala.N             868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
-ala.N        glp.C            980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
+ala.N        glp.C             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.N        sec.C             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
+ala.N        sel.C             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.N        sen.C             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.N        snn.C             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
 ala.N        sul.C             980.0      1.335 # FFLD: high 0 => 0 C-N ==> N-C
-glp.C       glp.CA           634.0      1.522 # FFLD: high 0 => 0 CT1-C ==> CT1-C
-glp.C       glp.O           1140.0      1.229 # FFLD: high 0 => 0 C-O ==> O-C
-glp.CA      glp.CB           536.0      1.529 # FFLD: high 0 => 0 CT1-CT ==> CT1-CT
-glp.CA      glp.HA           680.0       1.09 # FFLD: high 0 => 0 CT1-HC ==> HC-CT1
-glp.CA      glp.N            674.0      1.449 # FFLD: high 0 => 0 N-CT1 ==> N-CT1
-glp.CB      glp.CG           536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
-glp.CB      glp.HB2          680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
-glp.CB      glp.HB3          680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
-glp.CD      glp.CG           580.0      1.488 # FFLD: high 0 => 0 CT-CG ==> CT-CG
-glp.CD      glp.NE2         1270.0      1.286 # FFLD: high 0 => 0 CG-NIP ==> NIP-CG
-glp.CD      glp.OE1          880.0      1.374 # FFLD: high 0 => 0 CG-OH ==> CD-OH
-glp.CG      glp.HG2          680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
-glp.CG      glp.HG3          680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
-glp.H       glp.N            868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
-glp.HE1     glp.OE1         1106.0      0.945 # FFLD: high 0 => 0 OH-HO ==> OH-HO
-glp.HE21    glp.NE2          980.0      1.015 # FFLD: high 0 => 0 NIP-H ==> NIP-H
-glp.HE22    glp.NE2          980.0      1.015 # FFLD: high 0 => 0 NIP-H ==> NIP-H
+glp.C        glp.CA            634.0      1.522 # FFLD: high 0 => 0 CT1-C ==> CT1-C
+glp.C        glp.O            1140.0      1.229 # FFLD: high 0 => 0 C-O ==> O-C
+glp.CA       glp.CB            536.0      1.529 # FFLD: high 0 => 0 CT1-CT ==> CT1-CT
+glp.CA       glp.HA            680.0       1.09 # FFLD: high 0 => 0 CT1-HC ==> HC-CT1
+glp.CA       glp.N             674.0      1.449 # FFLD: high 0 => 0 N-CT1 ==> N-CT1
+glp.CB       glp.CG            536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
+glp.CB       glp.HB2           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+glp.CB       glp.HB3           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+glp.CD       glp.CG            580.0      1.488 # FFLD: high 0 => 0 CT-CG ==> CT-CG
+glp.CD       glp.NE2          1270.0      1.286 # FFLD: high 0 => 0 CG-NIP ==> NIP-CG
+glp.CD       glp.OE1           880.0      1.374 # FFLD: high 0 => 0 CG-OH ==> CD-OH
+glp.CG       glp.HG2           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+glp.CG       glp.HG3           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+glp.H        glp.N             868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
+glp.HE1      glp.OE1          1106.0      0.945 # FFLD: high 0 => 0 OH-HO ==> OH-HO
+glp.HE21     glp.NE2           980.0      1.015 # FFLD: high 0 => 0 NIP-H ==> NIP-H
+glp.HE22     glp.NE2           980.0      1.015 # FFLD: high 0 => 0 NIP-H ==> NIP-H
 nma.CA       nma.HA1           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
 nma.CA       nma.HA2           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
 nma.CA       nma.HA3           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
@@ -412,6 +426,15 @@ sec.CB       sec.HB3           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC
 sec.CB       sec.SE            444.0      1.968 # FFLD: high 0 => 0 CT-Se ==> Se-CT
 sec.H        sec.N             868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
 sec.HG       sec.SE            444.0       1.41 # FFLD: high 0 => 0 Se-H ==> Se-H
+sel.C        sel.CA            634.0      1.522 # FFLD: high 0 => 0 CT1-C ==> CT1-C
+sel.C        sel.O            1140.0      1.229 # FFLD: high 0 => 0 C-O ==> O-C
+sel.CA       sel.CB            536.0      1.529 # FFLD: high 0 => 0 CT1-CT ==> CT1-CT
+sel.CA       sel.HA            680.0       1.09 # FFLD: high 0 => 0 CT1-HC ==> HC-CT1
+sel.CA       sel.N             674.0      1.449 # FFLD: high 0 => 0 N-CT1 ==> N-CT1
+sel.CB       sel.HB2           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+sel.CB       sel.HB3           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+sel.CB       sel.SE1           444.0       1.81 # FFLD: high 0 => 0 CT-SM ==> SM-CT
+sel.H        sel.N             868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
 sen.C        sen.CA            634.0      1.522 # FFLD: high 0 => 0 CT1-C ==> CT1-C
 sen.C        sen.O            1140.0      1.229 # FFLD: high 0 => 0 C-O ==> O-C
 sen.CA       sen.CB            536.0      1.529 # FFLD: high 0 => 0 CT1-CT ==> CT1-CT
@@ -445,6 +468,13 @@ sul.CB       sul.SG            444.0       1.81 # FFLD: high 0 => 0 CT-SM ==> SM
 sul.H        sul.N             868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
 
 [angles]
+
+glp.C       N238        H241 
+glp.C       N238        C224 
+glp.O       glp.C       N238   
+glp.CA      glp.C       N238
+C235        glp.N       glp.H 
+C235        glp.N       glp.CA 
 C135         C136         C136              116.7      112.7
 C135         C136         C137              116.7      112.7
 C135         C136         C224              116.7      112.7
@@ -503,6 +533,7 @@ C136         C235         N237              140.0      116.6
 C136         C235         O236              160.0      120.4
 C136         C245         H140               75.0      110.7
 C136         C245         N239              160.0      109.7
+C224         C235         glp.N             160.0      109.7
 C136         C246         C235              126.0      111.1
 C136         C246         H140               75.0      110.7
 C136         C246         N239              160.0      109.7
@@ -897,6 +928,7 @@ HW           OW           HW                200.0     104.52
 N237         C235         O236              160.0      122.9
 N238         C235         O236              160.0      122.9
 N239         C235         O236              160.0      122.9
+O236         C235         glp.N             160.0      122.9
 N300         C302         N300              140.0      120.0
 N300         C302         N303              140.0      120.0
 N503         C506         N511              140.0      120.0
@@ -920,12 +952,14 @@ ace.O        ace.C        ala.N             160.0      122.9 # FFLD: high 0 O-C-
 ala.C        ala.CA       ala.CB            126.0      111.1 # FFLD: high 0 C-CT1-CT ==> CT-CT1-C
 ala.C        ala.CA       ala.HA             70.0      109.5 # FFLD: high 0 C-CT1-HC ==> HC-CT1-C
 ala.C        ala.CA       ala.N             126.0      110.1 # FFLD: high 0 N-CT1-C ==> N-CT1-C
-ala.C        glp.N       glp.CA           100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
-ala.C        glp.N       glp.H             70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
+ala.C        glp.N        glp.CA            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
+ala.C        glp.N        glp.H              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.C        nma.N        nma.CA            100.0      121.9 # FFLD: high 0 C-N-CT ==> CT-N-C
 ala.C        nma.N        nma.H              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.C        sec.N        sec.CA            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.C        sec.N        sec.H              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
+ala.C        sel.N        sel.CA            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
+ala.C        sel.N        sel.H              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.C        sen.N        sen.CA            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.C        sen.N        sen.H              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.C        snn.N        snn.CA            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
@@ -933,9 +967,10 @@ ala.C        snn.N        snn.H              70.0      119.8 # FFLD: high 0 C-N-
 ala.C        sul.N        sul.CA            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.C        sul.N        sul.H              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.CA       ala.C        ala.O             160.0      120.4 # FFLD: high 0 CT1-C-O ==> O-C-CT1
-ala.CA       ala.C        glp.N            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
+ala.CA       ala.C        glp.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.CA       ala.C        nma.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.CA       ala.C        sec.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
+ala.CA       ala.C        sel.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.CA       ala.C        sen.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.CA       ala.C        snn.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.CA       ala.C        sul.N             140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
@@ -943,15 +978,17 @@ ala.CA       ala.CB       ala.HB1            75.0      110.7 # FFLD: high 0 CT1-
 ala.CA       ala.CB       ala.HB2            75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
 ala.CA       ala.CB       ala.HB3            75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
 ala.CA       ala.N        ala.H              76.0      118.4 # FFLD: high 0 CT1-N-H ==> H-N-CT1
-ala.CA       ala.N        glp.C            100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
+ala.CA       ala.N        glp.C             100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.CA       ala.N        sec.C             100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
+ala.CA       ala.N        sel.C             100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.CA       ala.N        sen.C             100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.CA       ala.N        snn.C             100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.CA       ala.N        sul.C             100.0      121.9 # FFLD: high 0 C-N-CT1 ==> CT1-N-C
 ala.CB       ala.CA       ala.HA             75.0      110.7 # FFLD: high 0 CT-CT1-HC ==> HC-CT1-CT
 ala.CB       ala.CA       ala.N             160.0      109.7 # FFLD: high 0 N-CT1-CT ==> N-CT1-CT
-ala.H        ala.N        glp.C             70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
+ala.H        ala.N        glp.C              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.H        ala.N        sec.C              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
+ala.H        ala.N        sel.C              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.H        ala.N        sen.C              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.H        ala.N        snn.C              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
 ala.H        ala.N        sul.C              70.0      119.8 # FFLD: high 0 C-N-H ==> H-N-C
@@ -959,49 +996,52 @@ ala.HA       ala.CA       ala.N              70.0      109.5 # FFLD: high 0 N-CT
 ala.HB1      ala.CB       ala.HB2            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
 ala.HB1      ala.CB       ala.HB3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
 ala.HB2      ala.CB       ala.HB3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
-ala.N        glp.C       glp.CA           140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
-ala.N        glp.C       glp.O            160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
+ala.N        glp.C        glp.CA            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
+ala.N        glp.C        glp.O             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.N        sec.C        sec.CA            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.N        sec.C        sec.O             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
+ala.N        sel.C        sel.CA            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
+ala.N        sel.C        sel.O             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.N        sen.C        sen.CA            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.N        sen.C        sen.O             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.N        snn.C        snn.CA            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.N        snn.C        snn.O             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.N        sul.C        sul.CA            140.0      116.6 # FFLD: high 0 CT1-C-N ==> N-C-CT1
 ala.N        sul.C        sul.O             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
-ala.O        ala.C        glp.N            160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
+ala.O        ala.C        glp.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.O        ala.C        nma.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.O        ala.C        sec.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
+ala.O        ala.C        sel.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.O        ala.C        sen.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.O        ala.C        snn.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
 ala.O        ala.C        sul.N             160.0      122.9 # FFLD: high 0 O-C-N ==> O-C-N
-glp.C       glp.CA      glp.CB           126.0      111.1 # FFLD: high 0 C-CT1-CT ==> CT-CT1-C
-glp.C       glp.CA      glp.HA            70.0      109.5 # FFLD: high 0 C-CT1-HC ==> HC-CT1-C
-glp.C       glp.CA      glp.N            126.0      110.1 # FFLD: high 0 N-CT1-C ==> N-CT1-C
-glp.CA      glp.C       glp.O            160.0      120.4 # FFLD: high 0 CT1-C-O ==> O-C-CT1
-glp.CA      glp.CB      glp.CG           116.7      112.7 # FFLD: high 0 CT1-CT-CT ==> CT1-CT-CT
-glp.CA      glp.CB      glp.HB2           75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
-glp.CA      glp.CB      glp.HB3           75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
-glp.CA      glp.N       glp.H             76.0      118.4 # FFLD: high 0 CT1-N-H ==> H-N-CT1
-glp.CB      glp.CA      glp.HA            75.0      110.7 # FFLD: high 0 CT-CT1-HC ==> HC-CT1-CT
-glp.CB      glp.CA      glp.N            160.0      109.7 # FFLD: high 0 N-CT1-CT ==> N-CT1-CT
-glp.CB      glp.CG      glp.CD           140.0     109.02 # FFLD: high 0 CT-CT-CG ==> CT-CT-CG
-glp.CB      glp.CG      glp.HG2           75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
-glp.CB      glp.CG      glp.HG3           75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
-glp.CD      glp.CG      glp.HG2           90.0    109.334 # FFLD: high 0 CG-CT-HC ==> HC-CT-CG
-glp.CD      glp.CG      glp.HG3           90.0    109.334 # FFLD: high 0 CG-CT-HC ==> HC-CT-CG
-glp.CD      glp.NE2     glp.HE21          90.0    118.895 # FFLD: high 0 CG-NIP-H ==> H-NIP-CG
-glp.CD      glp.NE2     glp.HE22          90.0    118.895 # FFLD: high 0 CG-NIP-H ==> H-NIP-CG
-glp.CD      glp.OE1     glp.HE1          140.0     105.55 # FFLD: high 0 CG-OH-HO ==> CD-OH-HO
-glp.CG      glp.CB      glp.HB2           75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
-glp.CG      glp.CB      glp.HB3           75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
-glp.CG      glp.CD      glp.NE2          140.0    120.652 # FFLD: high 0 CT-CG-NIP ==> NIP-CG-CT
-glp.CG      glp.CD      glp.OE1          170.0    110.806 # FFLD: high 0 CT-CG-OH ==> CT-CD-OS
-glp.HA      glp.CA      glp.N             70.0      109.5 # FFLD: high 0 N-CT1-HC ==> N-CT1-HC
-glp.HB2     glp.CB      glp.HB3           66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
-glp.HE21    glp.NE2     glp.HE22          60.0    117.832 # FFLD: high 0 H-NIP-H ==> H-NIP-H
-glp.HG2     glp.CG      glp.HG3           66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
-glp.NE2     glp.CD      glp.OE1          200.0     117.62 # FFLD: high 0 OH-CG-NIP ==> NIP-CG-OS
+glp.C        glp.CA       glp.CB            126.0      111.1 # FFLD: high 0 C-CT1-CT ==> CT-CT1-C
+glp.C        glp.CA       glp.HA             70.0      109.5 # FFLD: high 0 C-CT1-HC ==> HC-CT1-C
+glp.C        glp.CA       glp.N             126.0      110.1 # FFLD: high 0 N-CT1-C ==> N-CT1-C
+glp.CA       glp.C        glp.O             160.0      120.4 # FFLD: high 0 CT1-C-O ==> O-C-CT1
+glp.CA       glp.CB       glp.CG            116.7      112.7 # FFLD: high 0 CT1-CT-CT ==> CT1-CT-CT
+glp.CA       glp.CB       glp.HB2            75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
+glp.CA       glp.CB       glp.HB3            75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
+glp.CA       glp.N        glp.H              76.0      118.4 # FFLD: high 0 CT1-N-H ==> H-N-CT1
+glp.CB       glp.CA       glp.HA             75.0      110.7 # FFLD: high 0 CT-CT1-HC ==> HC-CT1-CT
+glp.CB       glp.CA       glp.N             160.0      109.7 # FFLD: high 0 N-CT1-CT ==> N-CT1-CT
+glp.CB       glp.CG       glp.CD            140.0     109.02 # FFLD: high 0 CT-CT-CG ==> CT-CT-CG
+glp.CB       glp.CG       glp.HG2            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+glp.CB       glp.CG       glp.HG3            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+glp.CD       glp.CG       glp.HG2            90.0    109.334 # FFLD: high 0 CG-CT-HC ==> HC-CT-CG
+glp.CD       glp.CG       glp.HG3            90.0    109.334 # FFLD: high 0 CG-CT-HC ==> HC-CT-CG
+glp.CD       glp.NE2      glp.HE21           90.0    118.895 # FFLD: high 0 CG-NIP-H ==> H-NIP-CG
+glp.CD       glp.NE2      glp.HE22           90.0    118.895 # FFLD: high 0 CG-NIP-H ==> H-NIP-CG
+glp.CD       glp.OE1      glp.HE1           140.0     105.55 # FFLD: high 0 CG-OH-HO ==> CD-OH-HO
+glp.CG       glp.CB       glp.HB2            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+glp.CG       glp.CB       glp.HB3            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+glp.CG       glp.CD       glp.NE2           140.0    120.652 # FFLD: high 0 CT-CG-NIP ==> NIP-CG-CT
+glp.CG       glp.CD       glp.OE1           170.0    110.806 # FFLD: high 0 CT-CG-OH ==> CT-CD-OS
+glp.HA       glp.CA       glp.N              70.0      109.5 # FFLD: high 0 N-CT1-HC ==> N-CT1-HC
+glp.HB2      glp.CB       glp.HB3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+glp.HE21     glp.NE2      glp.HE22           60.0    117.832 # FFLD: high 0 H-NIP-H ==> H-NIP-H
+glp.HG2      glp.CG       glp.HG3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+glp.NE2      glp.CD       glp.OE1           200.0     117.62 # FFLD: high 0 OH-CG-NIP ==> NIP-CG-OS
 nma.CA       nma.N        nma.H              76.0      118.4 # FFLD: high 0 CT-N-H ==> H-N-CT
 nma.HA1      nma.CA       nma.HA2            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
 nma.HA1      nma.CA       nma.HA3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
@@ -1025,6 +1065,20 @@ sec.HA       sec.CA       sec.N              70.0      109.5 # FFLD: high 0 N-CT
 sec.HB2      sec.CB       sec.HB3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
 sec.HB2      sec.CB       sec.SE             70.0      109.5 # FFLD: high 0 Se-CT-HC ==> HC-CT-Se
 sec.HB3      sec.CB       sec.SE             70.0      109.5 # FFLD: high 0 Se-CT-HC ==> HC-CT-Se
+sel.C        sel.CA       sel.CB            126.0      111.1 # FFLD: high 0 C-CT1-CT ==> CT-CT1-C
+sel.C        sel.CA       sel.HA             70.0      109.5 # FFLD: high 0 C-CT1-HC ==> HC-CT1-C
+sel.C        sel.CA       sel.N             126.0      110.1 # FFLD: high 0 N-CT1-C ==> N-CT1-C
+sel.CA       sel.C        sel.O             160.0      120.4 # FFLD: high 0 CT1-C-O ==> O-C-CT1
+sel.CA       sel.CB       sel.HB2            75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
+sel.CA       sel.CB       sel.HB3            75.0      110.7 # FFLD: high 0 CT1-CT-HC ==> HC-CT-CT1
+sel.CA       sel.CB       sel.SE1           100.0      114.7 # FFLD: high 0 CT1-CT-SM ==> SM-CT-CT1
+sel.CA       sel.N        sel.H              76.0      118.4 # FFLD: high 0 CT1-N-H ==> H-N-CT1
+sel.CB       sel.CA       sel.HA             75.0      110.7 # FFLD: high 0 CT-CT1-HC ==> HC-CT1-CT
+sel.CB       sel.CA       sel.N             160.0      109.7 # FFLD: high 0 N-CT1-CT ==> N-CT1-CT
+sel.HA       sel.CA       sel.N              70.0      109.5 # FFLD: high 0 N-CT1-HC ==> N-CT1-HC
+sel.HB2      sel.CB       sel.HB3            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+sel.HB2      sel.CB       sel.SE1            70.0      109.5 # FFLD: high 0 SM-CT-HC ==> SM-CT-HC
+sel.HB3      sel.CB       sel.SE1            70.0      109.5 # FFLD: high 0 SM-CT-HC ==> SM-CT-HC
 sen.C        sen.CA       sen.CB            126.0      111.1 # FFLD: high 0 C-CT1-CT ==> CT-CT1-C
 sen.C        sen.CA       sen.HA             70.0      109.5 # FFLD: high 0 C-CT1-HC ==> HC-CT1-C
 sen.C        sen.CA       sen.N             126.0      110.1 # FFLD: high 0 N-CT1-C ==> N-CT1-C
@@ -2593,12 +2647,15 @@ ala.C        ala.CA       ala.CB       ala.HB1          -0.038   3.0        0.0 
 ala.C        ala.CA       ala.CB       ala.HB2          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
 ala.C        ala.CA       ala.CB       ala.HB3          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
 ala.C        ala.CA       ala.N        ala.H               0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-C ==> H-N-CT1-C
-ala.C        ala.CA       ala.N        glp.C           -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
-ala.C        ala.CA       ala.N        glp.C           0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
-ala.C        ala.CA       ala.N        glp.C          -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        ala.CA       ala.N        glp.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        ala.CA       ala.N        glp.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        ala.CA       ala.N        glp.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sec.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sec.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sec.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        ala.CA       ala.N        sel.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        ala.CA       ala.N        sel.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        ala.CA       ala.N        sel.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sen.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sen.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sen.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
@@ -2608,13 +2665,13 @@ ala.C        ala.CA       ala.N        snn.C           -2.4565   3.0        0.0 
 ala.C        ala.CA       ala.N        sul.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sul.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        ala.CA       ala.N        sul.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
-ala.C        glp.N       glp.CA      glp.C           -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
-ala.C        glp.N       glp.CA      glp.C           0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
-ala.C        glp.N       glp.CA      glp.C          -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
-ala.C        glp.N       glp.CA      glp.CB          0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
-ala.C        glp.N       glp.CA      glp.CB          0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
-ala.C        glp.N       glp.CA      glp.CB          2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
-ala.C        glp.N       glp.CA      glp.HA             0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
+ala.C        glp.N        glp.CA       glp.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        glp.N        glp.CA       glp.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        glp.N        glp.CA       glp.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        glp.N        glp.CA       glp.CB           0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.C        glp.N        glp.CA       glp.CB           0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.C        glp.N        glp.CA       glp.CB           2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.C        glp.N        glp.CA       glp.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
 ala.C        nma.N        nma.CA       nma.HA1             0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT-HC ==> C-N-CT-HC
 ala.C        nma.N        nma.CA       nma.HA2             0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT-HC ==> C-N-CT-HC
 ala.C        nma.N        nma.CA       nma.HA3             0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT-HC ==> C-N-CT-HC
@@ -2625,6 +2682,13 @@ ala.C        sec.N        sec.CA       sec.CB           0.2595   1.0        0.0 
 ala.C        sec.N        sec.CA       sec.CB           0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.C        sec.N        sec.CA       sec.CB           2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.C        sec.N        sec.CA       sec.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
+ala.C        sel.N        sel.CA       sel.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        sel.N        sel.CA       sel.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        sel.N        sel.CA       sel.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
+ala.C        sel.N        sel.CA       sel.CB           0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.C        sel.N        sel.CA       sel.CB           0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.C        sel.N        sel.CA       sel.CB           2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.C        sel.N        sel.CA       sel.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
 ala.C        sen.N        sen.CA       sen.C            -0.298   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        sen.N        sen.CA       sen.C            0.1395   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
 ala.C        sen.N        sen.CA       sen.C           -2.4565   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-C ==> C-N-CT1-C
@@ -2646,15 +2710,18 @@ ala.C        sul.N        sul.CA       sul.CB           0.2595   1.0        0.0 
 ala.C        sul.N        sul.CA       sul.CB           0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.C        sul.N        sul.CA       sul.CB           2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.C        sul.N        sul.CA       sul.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
-ala.CA       ala.C        glp.N       glp.CA            1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
-ala.CA       ala.C        glp.N       glp.CA          3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
-ala.CA       ala.C        glp.N       glp.H             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
+ala.CA       ala.C        glp.N        glp.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.C        glp.N        glp.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.C        glp.N        glp.H              2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
 ala.CA       ala.C        nma.N        nma.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT ==> CT-N-C-CT1
 ala.CA       ala.C        nma.N        nma.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT ==> CT-N-C-CT1
 ala.CA       ala.C        nma.N        nma.H              2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
 ala.CA       ala.C        sec.N        sec.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.C        sec.N        sec.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.C        sec.N        sec.H              2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
+ala.CA       ala.C        sel.N        sel.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.C        sel.N        sel.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.C        sel.N        sel.H              2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
 ala.CA       ala.C        sen.N        sen.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.C        sen.N        sen.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.C        sen.N        sen.H              2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
@@ -2664,12 +2731,15 @@ ala.CA       ala.C        snn.N        snn.H              2.45   2.0      180.0 
 ala.CA       ala.C        sul.N        sul.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.C        sul.N        sul.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.C        sul.N        sul.H              2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
-ala.CA       ala.N        glp.C       glp.CA            1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
-ala.CA       ala.N        glp.C       glp.CA          3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
-ala.CA       ala.N        glp.C       glp.O           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
+ala.CA       ala.N        glp.C        glp.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.N        glp.C        glp.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.N        glp.C        glp.O            3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.CA       ala.N        sec.C        sec.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.N        sec.C        sec.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.N        sec.C        sec.O            3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
+ala.CA       ala.N        sel.C        sel.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.N        sel.C        sel.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
+ala.CA       ala.N        sel.C        sel.O            3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.CA       ala.N        sen.C        sen.CA             1.15   1.0        0.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.N        sen.C        sen.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.N        sen.C        sen.O            3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
@@ -2680,15 +2750,18 @@ ala.CA       ala.N        sul.C        sul.CA             1.15   1.0        0.0 
 ala.CA       ala.N        sul.C        sul.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-CT1 ==> CT1-N-C-CT1
 ala.CA       ala.N        sul.C        sul.O            3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.CB       ala.CA       ala.C        ala.O               0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-O ==> CT-CT1-C-O
-ala.CB       ala.CA       ala.C        glp.N           0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
-ala.CB       ala.CA       ala.C        glp.N           0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
-ala.CB       ala.CA       ala.C        glp.N           0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.CB       ala.CA       ala.C        glp.N            0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.CB       ala.CA       ala.C        glp.N            0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.CB       ala.CA       ala.C        glp.N            0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        nma.N            0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        nma.N            0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        nma.N            0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sec.N            0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sec.N            0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sec.N            0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.CB       ala.CA       ala.C        sel.N            0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.CB       ala.CA       ala.C        sel.N            0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.CB       ala.CA       ala.C        sel.N            0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sen.N            0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sen.N            0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sen.N            0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
@@ -2699,12 +2772,15 @@ ala.CB       ala.CA       ala.C        sul.N            0.9325   1.0        0.0 
 ala.CB       ala.CA       ala.C        sul.N            0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.C        sul.N            0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.CB       ala.CA       ala.N        ala.H               0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-CT ==> H-N-CT1-CT
-ala.CB       ala.CA       ala.N        glp.C           0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
-ala.CB       ala.CA       ala.N        glp.C           0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
-ala.CB       ala.CA       ala.N        glp.C           2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.CB       ala.CA       ala.N        glp.C            0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.CB       ala.CA       ala.N        glp.C            0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.CB       ala.CA       ala.N        glp.C            2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sec.C            0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sec.C            0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sec.C            2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.CB       ala.CA       ala.N        sel.C            0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.CB       ala.CA       ala.N        sel.C            0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
+ala.CB       ala.CA       ala.N        sel.C            2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sen.C            0.2595   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sen.C            0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sen.C            2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
@@ -2715,10 +2791,12 @@ ala.CB       ala.CA       ala.N        sul.C            0.2595   1.0        0.0 
 ala.CB       ala.CA       ala.N        sul.C            0.4385   2.0      180.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.CB       ala.CA       ala.N        sul.C            2.6165   3.0        0.0   1.0 # FFLD: high 0 C-N-CT1-CT ==> C-N-CT1-CT
 ala.H        ala.N        ala.CA       ala.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-HC ==> H-N-CT1-HC
-ala.H        ala.N        glp.C       glp.CA            2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
-ala.H        ala.N        glp.C       glp.O             2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
+ala.H        ala.N        glp.C        glp.CA             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
+ala.H        ala.N        glp.C        glp.O              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.H        ala.N        sec.C        sec.CA             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
 ala.H        ala.N        sec.C        sec.O              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
+ala.H        ala.N        sel.C        sel.CA             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
+ala.H        ala.N        sel.C        sel.O              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.H        ala.N        sen.C        sen.CA             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
 ala.H        ala.N        sen.C        sen.O              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.H        ala.N        snn.C        snn.CA             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
@@ -2726,17 +2804,19 @@ ala.H        ala.N        snn.C        snn.O              2.45   2.0      180.0 
 ala.H        ala.N        sul.C        sul.CA             2.45   2.0      180.0   1.0 # FFLD: high 0 CT1-C-N-H ==> H-N-C-CT1
 ala.H        ala.N        sul.C        sul.O              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.HA       ala.CA       ala.C        ala.O               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-O ==> HC-CT1-C-O
-ala.HA       ala.CA       ala.C        glp.N              0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
+ala.HA       ala.CA       ala.C        glp.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
 ala.HA       ala.CA       ala.C        nma.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
 ala.HA       ala.CA       ala.C        sec.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
+ala.HA       ala.CA       ala.C        sel.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
 ala.HA       ala.CA       ala.C        sen.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
 ala.HA       ala.CA       ala.C        snn.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
 ala.HA       ala.CA       ala.C        sul.N               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
 ala.HA       ala.CA       ala.CB       ala.HB1            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
 ala.HA       ala.CA       ala.CB       ala.HB2            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
 ala.HA       ala.CA       ala.CB       ala.HB3            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
-ala.HA       ala.CA       ala.N        glp.C              0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
+ala.HA       ala.CA       ala.N        glp.C               0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
 ala.HA       ala.CA       ala.N        sec.C               0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
+ala.HA       ala.CA       ala.N        sel.C               0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
 ala.HA       ala.CA       ala.N        sen.C               0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
 ala.HA       ala.CA       ala.N        snn.C               0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
 ala.HA       ala.CA       ala.N        sul.C               0.0   1.0        0.0   1.0 # FFLD: high 0 C-N-CT1-HC ==> C-N-CT1-HC
@@ -2744,15 +2824,18 @@ ala.HB1      ala.CB       ala.CA       ala.N             0.232   3.0        0.0 
 ala.HB2      ala.CB       ala.CA       ala.N             0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
 ala.HB3      ala.CB       ala.CA       ala.N             0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
 ala.N        ala.CA       ala.C        ala.O               0.0   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-O ==> N-CT1-C-O
-ala.N        ala.CA       ala.C        glp.N           0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
-ala.N        ala.CA       ala.C        glp.N            1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
-ala.N        ala.CA       ala.C        glp.N          -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        ala.CA       ala.C        glp.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        ala.CA       ala.C        glp.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        ala.CA       ala.C        glp.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        nma.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        nma.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        nma.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sec.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sec.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sec.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        ala.CA       ala.C        sel.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        ala.CA       ala.C        sel.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        ala.CA       ala.C        sel.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sen.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sen.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sen.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
@@ -2762,13 +2845,13 @@ ala.N        ala.CA       ala.C        snn.N           -0.4025   3.0        0.0 
 ala.N        ala.CA       ala.C        sul.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sul.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        ala.CA       ala.C        sul.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
-ala.N        glp.C       glp.CA      glp.CB          0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
-ala.N        glp.C       glp.CA      glp.CB          0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
-ala.N        glp.C       glp.CA      glp.CB          0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
-ala.N        glp.C       glp.CA      glp.HA             0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
-ala.N        glp.C       glp.CA      glp.N           0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
-ala.N        glp.C       glp.CA      glp.N            1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
-ala.N        glp.C       glp.CA      glp.N          -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        glp.C        glp.CA       glp.CB           0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.N        glp.C        glp.CA       glp.CB           0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.N        glp.C        glp.CA       glp.CB           0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.N        glp.C        glp.CA       glp.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
+ala.N        glp.C        glp.CA       glp.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        glp.C        glp.CA       glp.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        glp.C        glp.CA       glp.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        sec.C        sec.CA       sec.CB           0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.N        sec.C        sec.CA       sec.CB           0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.N        sec.C        sec.CA       sec.CB           0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
@@ -2776,6 +2859,13 @@ ala.N        sec.C        sec.CA       sec.HA              0.0   1.0        0.0 
 ala.N        sec.C        sec.CA       sec.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        sec.C        sec.CA       sec.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        sec.C        sec.CA       sec.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        sel.C        sel.CA       sel.CB           0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.N        sel.C        sel.CA       sel.CB           0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.N        sel.C        sel.CA       sel.CB           0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
+ala.N        sel.C        sel.CA       sel.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-N ==> HC-CT1-C-N
+ala.N        sel.C        sel.CA       sel.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        sel.C        sel.CA       sel.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
+ala.N        sel.C        sel.CA       sel.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        sen.C        sen.CA       sen.CB           0.9325   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.N        sen.C        sen.CA       sen.CB           0.0445   2.0      180.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
 ala.N        sen.C        sen.CA       sen.CB           0.1755   3.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-N ==> CT-CT1-C-N
@@ -2797,60 +2887,62 @@ ala.N        sul.C        sul.CA       sul.HA              0.0   1.0        0.0 
 ala.N        sul.C        sul.CA       sul.N            0.3715   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        sul.C        sul.CA       sul.N             1.254   2.0      180.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
 ala.N        sul.C        sul.CA       sul.N           -0.4025   3.0        0.0   1.0 # FFLD: high 0 N-CT1-C-N ==> N-CT1-C-N
-ala.O        ala.C        glp.N       glp.CA          3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
-ala.O        ala.C        glp.N       glp.H             2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
+ala.O        ala.C        glp.N        glp.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
+ala.O        ala.C        glp.N        glp.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.O        ala.C        nma.N        nma.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT ==> CT-N-C-O
 ala.O        ala.C        nma.N        nma.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.O        ala.C        sec.N        sec.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.O        ala.C        sec.N        sec.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
+ala.O        ala.C        sel.N        sel.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
+ala.O        ala.C        sel.N        sel.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.O        ala.C        sen.N        sen.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.O        ala.C        sen.N        sen.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.O        ala.C        snn.N        snn.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.O        ala.C        snn.N        snn.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
 ala.O        ala.C        sul.N        sul.CA           3.0445   2.0      180.0   1.0 # FFLD: high 0 O-C-N-CT1 ==> CT1-N-C-O
 ala.O        ala.C        sul.N        sul.H              2.45   2.0      180.0   1.0 # FFLD: high 0 O-C-N-H ==> H-N-C-O
-glp.C       glp.CA      glp.CB      glp.CG         -0.8485   1.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-CT ==> C-CT1-CT-CT
-glp.C       glp.CA      glp.CB      glp.CG          -0.228   2.0      180.0   1.0 # FFLD: high 0 C-CT1-CT-CT ==> C-CT1-CT-CT
-glp.C       glp.CA      glp.CB      glp.CG          0.2925   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-CT ==> C-CT1-CT-CT
-glp.C       glp.CA      glp.CB      glp.HB2         -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
-glp.C       glp.CA      glp.CB      glp.HB3         -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
-glp.C       glp.CA      glp.N       glp.H              0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-C ==> H-N-CT1-C
-glp.CA      glp.CB      glp.CG      glp.CD           0.344   1.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-CG ==> CT-CT-CT-CM
-glp.CA      glp.CB      glp.CG      glp.CD          0.0945   2.0      180.0   1.0 # FFLD: high 0 CT1-CT-CT-CG ==> CT-CT-CT-CM
-glp.CA      glp.CB      glp.CG      glp.CD           0.111   3.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-CG ==> CT-CT-CT-CM
-glp.CA      glp.CB      glp.CG      glp.HG2           0.15   3.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-HC ==> HC-CT-CT-CT1
-glp.CA      glp.CB      glp.CG      glp.HG3           0.15   3.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-HC ==> HC-CT-CT-CT1
-glp.CB      glp.CA      glp.C       glp.O              0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-O ==> CT-CT1-C-O
-glp.CB      glp.CA      glp.N       glp.H              0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-CT ==> H-N-CT1-CT
-glp.CB      glp.CG      glp.CD      glp.NE2            0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CG-NIP ==> ??-CT-CD-??
-glp.CB      glp.CG      glp.CD      glp.OE1            0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CG-OH ==> ??-CT-CD-??
-glp.CD      glp.CG      glp.CB      glp.HB2           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CG ==> HC-CT-CT-??
-glp.CD      glp.CG      glp.CB      glp.HB3           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CG ==> HC-CT-CT-??
-glp.CG      glp.CB      glp.CA      glp.HA            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-CT ==> HC-CT1-CT-CT
-glp.CG      glp.CB      glp.CA      glp.N           0.4225   1.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-CT ==> N-CT1-CT-CT
-glp.CG      glp.CB      glp.CA      glp.N           -0.481   2.0      180.0   1.0 # FFLD: high 0 N-CT1-CT-CT ==> N-CT1-CT-CT
-glp.CG      glp.CB      glp.CA      glp.N           0.3565   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-CT ==> N-CT1-CT-CT
-glp.CG      glp.CD      glp.NE2     glp.HE21           2.0   2.0      180.0   1.0 # FFLD: med 0 CT-CG-NIP-H ==> ??-NIP-CG-??
-glp.CG      glp.CD      glp.NE2     glp.HE22           2.0   2.0      180.0   1.0 # FFLD: med 0 CT-CG-NIP-H ==> ??-NIP-CG-??
-glp.CG      glp.CD      glp.OE1     glp.HE1            1.5   2.0      180.0   1.0 # FFLD: med 0 CT-CG-OH-HO ==> ??-CD-OS-??
-glp.H       glp.N       glp.CA      glp.HA             0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-HC ==> H-N-CT1-HC
-glp.HA      glp.CA      glp.C       glp.O              0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-O ==> HC-CT1-C-O
-glp.HA      glp.CA      glp.CB      glp.HB2           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
-glp.HA      glp.CA      glp.CB      glp.HB3           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
-glp.HB2     glp.CB      glp.CA      glp.N            0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
-glp.HB2     glp.CB      glp.CG      glp.HG2           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
-glp.HB2     glp.CB      glp.CG      glp.HG3           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
-glp.HB3     glp.CB      glp.CA      glp.N            0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
-glp.HB3     glp.CB      glp.CG      glp.HG2           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
-glp.HB3     glp.CB      glp.CG      glp.HG3           0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
-glp.HE1     glp.OE1     glp.CD      glp.NE2            1.5   2.0      180.0   1.0 # FFLD: med 0 NIP-CG-OH-HO ==> ??-CD-OS-??
-glp.HE21    glp.NE2     glp.CD      glp.OE1            2.0   2.0      180.0   1.0 # FFLD: med 0 OH-CG-NIP-H ==> ??-NIP-CG-??
-glp.HE22    glp.NE2     glp.CD      glp.OE1            2.0   2.0      180.0   1.0 # FFLD: med 0 OH-CG-NIP-H ==> ??-NIP-CG-??
-glp.HG2     glp.CG      glp.CD      glp.NE2            0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-NIP ==> HC-CT-CD-??
-glp.HG2     glp.CG      glp.CD      glp.OE1            0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-OH ==> HC-CT-CD-??
-glp.HG3     glp.CG      glp.CD      glp.NE2            0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-NIP ==> HC-CT-CD-??
-glp.HG3     glp.CG      glp.CD      glp.OE1            0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-OH ==> HC-CT-CD-??
-glp.N       glp.CA      glp.C       glp.O              0.0   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-O ==> N-CT1-C-O
+glp.C        glp.CA       glp.CB       glp.CG          -0.8485   1.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-CT ==> C-CT1-CT-CT
+glp.C        glp.CA       glp.CB       glp.CG           -0.228   2.0      180.0   1.0 # FFLD: high 0 C-CT1-CT-CT ==> C-CT1-CT-CT
+glp.C        glp.CA       glp.CB       glp.CG           0.2925   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-CT ==> C-CT1-CT-CT
+glp.C        glp.CA       glp.CB       glp.HB2          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
+glp.C        glp.CA       glp.CB       glp.HB3          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
+glp.C        glp.CA       glp.N        glp.H               0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-C ==> H-N-CT1-C
+glp.CA       glp.CB       glp.CG       glp.CD            0.344   1.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-CG ==> CT-CT-CT-CM
+glp.CA       glp.CB       glp.CG       glp.CD           0.0945   2.0      180.0   1.0 # FFLD: high 0 CT1-CT-CT-CG ==> CT-CT-CT-CM
+glp.CA       glp.CB       glp.CG       glp.CD            0.111   3.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-CG ==> CT-CT-CT-CM
+glp.CA       glp.CB       glp.CG       glp.HG2            0.15   3.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-HC ==> HC-CT-CT-CT1
+glp.CA       glp.CB       glp.CG       glp.HG3            0.15   3.0        0.0   1.0 # FFLD: high 0 CT1-CT-CT-HC ==> HC-CT-CT-CT1
+glp.CB       glp.CA       glp.C        glp.O               0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-O ==> CT-CT1-C-O
+glp.CB       glp.CA       glp.N        glp.H               0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-CT ==> H-N-CT1-CT
+glp.CB       glp.CG       glp.CD       glp.NE2             0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CG-NIP ==> ??-CT-CD-??
+glp.CB       glp.CG       glp.CD       glp.OE1             0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CG-OH ==> ??-CT-CD-??
+glp.CD       glp.CG       glp.CB       glp.HB2            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CG ==> HC-CT-CT-??
+glp.CD       glp.CG       glp.CB       glp.HB3            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CG ==> HC-CT-CT-??
+glp.CG       glp.CB       glp.CA       glp.HA             0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-CT ==> HC-CT1-CT-CT
+glp.CG       glp.CB       glp.CA       glp.N            0.4225   1.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-CT ==> N-CT1-CT-CT
+glp.CG       glp.CB       glp.CA       glp.N            -0.481   2.0      180.0   1.0 # FFLD: high 0 N-CT1-CT-CT ==> N-CT1-CT-CT
+glp.CG       glp.CB       glp.CA       glp.N            0.3565   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-CT ==> N-CT1-CT-CT
+glp.CG       glp.CD       glp.NE2      glp.HE21            2.0   2.0      180.0   1.0 # FFLD: med 0 CT-CG-NIP-H ==> ??-NIP-CG-??
+glp.CG       glp.CD       glp.NE2      glp.HE22            2.0   2.0      180.0   1.0 # FFLD: med 0 CT-CG-NIP-H ==> ??-NIP-CG-??
+glp.CG       glp.CD       glp.OE1      glp.HE1             1.5   2.0      180.0   1.0 # FFLD: med 0 CT-CG-OH-HO ==> ??-CD-OS-??
+glp.H        glp.N        glp.CA       glp.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-HC ==> H-N-CT1-HC
+glp.HA       glp.CA       glp.C        glp.O               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-O ==> HC-CT1-C-O
+glp.HA       glp.CA       glp.CB       glp.HB2            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
+glp.HA       glp.CA       glp.CB       glp.HB3            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
+glp.HB2      glp.CB       glp.CA       glp.N             0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
+glp.HB2      glp.CB       glp.CG       glp.HG2            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+glp.HB2      glp.CB       glp.CG       glp.HG3            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+glp.HB3      glp.CB       glp.CA       glp.N             0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
+glp.HB3      glp.CB       glp.CG       glp.HG2            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+glp.HB3      glp.CB       glp.CG       glp.HG3            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+glp.HE1      glp.OE1      glp.CD       glp.NE2             1.5   2.0      180.0   1.0 # FFLD: med 0 NIP-CG-OH-HO ==> ??-CD-OS-??
+glp.HE21     glp.NE2      glp.CD       glp.OE1             2.0   2.0      180.0   1.0 # FFLD: med 0 OH-CG-NIP-H ==> ??-NIP-CG-??
+glp.HE22     glp.NE2      glp.CD       glp.OE1             2.0   2.0      180.0   1.0 # FFLD: med 0 OH-CG-NIP-H ==> ??-NIP-CG-??
+glp.HG2      glp.CG       glp.CD       glp.NE2             0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-NIP ==> HC-CT-CD-??
+glp.HG2      glp.CG       glp.CD       glp.OE1             0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-OH ==> HC-CT-CD-??
+glp.HG3      glp.CG       glp.CD       glp.NE2             0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-NIP ==> HC-CT-CD-??
+glp.HG3      glp.CG       glp.CD       glp.OE1             0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-CG-OH ==> HC-CT-CD-??
+glp.N        glp.CA       glp.C        glp.O               0.0   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-O ==> N-CT1-C-O
 nma.H        nma.N        nma.CA       nma.HA1             0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT-HC ==> H-N-CT-HC
 nma.H        nma.N        nma.CA       nma.HA2             0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT-HC ==> H-N-CT-HC
 nma.H        nma.N        nma.CA       nma.HA3             0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT-HC ==> H-N-CT-HC
@@ -2877,6 +2969,24 @@ sec.N        sec.CA       sec.C        sec.O               0.0   1.0        0.0 
 sec.N        sec.CA       sec.CB       sec.SE           0.5675   1.0        0.0   1.0 # FFLD: med 0 N-CT1-CT-Se ==> ??-CT-CT-??
 sec.N        sec.CA       sec.CB       sec.SE          -0.0755   2.0      180.0   1.0 # FFLD: med 0 N-CT1-CT-Se ==> ??-CT-CT-??
 sec.N        sec.CA       sec.CB       sec.SE              0.2   3.0        0.0   1.0 # FFLD: med 0 N-CT1-CT-Se ==> ??-CT-CT-??
+sel.C        sel.CA       sel.CB       sel.HB2          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
+sel.C        sel.CA       sel.CB       sel.HB3          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
+sel.C        sel.CA       sel.CB       sel.SE1          -2.172   1.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-SM ==> C-CT1-CT-S
+sel.C        sel.CA       sel.CB       sel.SE1          -0.857   2.0      180.0   1.0 # FFLD: high 0 C-CT1-CT-SM ==> C-CT1-CT-S
+sel.C        sel.CA       sel.N        sel.H               0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-C ==> H-N-CT1-C
+sel.CB       sel.CA       sel.C        sel.O               0.0   1.0        0.0   1.0 # FFLD: high 0 CT-CT1-C-O ==> CT-CT1-C-O
+sel.CB       sel.CA       sel.N        sel.H               0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-CT ==> H-N-CT1-CT
+sel.H        sel.N        sel.CA       sel.HA              0.0   1.0        0.0   1.0 # FFLD: high 0 H-N-CT1-HC ==> H-N-CT1-HC
+sel.HA       sel.CA       sel.C        sel.O               0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT1-C-O ==> HC-CT1-C-O
+sel.HA       sel.CA       sel.CB       sel.HB2            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
+sel.HA       sel.CA       sel.CB       sel.HB3            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-HC ==> HC-CT1-CT-HC
+sel.HA       sel.CA       sel.CB       sel.SE1            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT1-CT-SM ==> HC-CT-CT-??
+sel.HB2      sel.CB       sel.CA       sel.N             0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
+sel.HB3      sel.CB       sel.CA       sel.N             0.232   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-HC ==> N-CT1-CT-HC
+sel.N        sel.CA       sel.C        sel.O               0.0   1.0        0.0   1.0 # FFLD: high 0 N-CT1-C-O ==> N-CT1-C-O
+sel.N        sel.CA       sel.CB       sel.SE1           0.714   1.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
+sel.N        sel.CA       sel.CB       sel.SE1           0.043   2.0      180.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
+sel.N        sel.CA       sel.CB       sel.SE1          0.0145   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
 sen.C        sen.CA       sen.CB       sen.HB2          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
 sen.C        sen.CA       sen.CB       sen.HB3          -0.038   3.0        0.0   1.0 # FFLD: high 0 C-CT1-CT-HC ==> C-CT1-CT-HC
 sen.C        sen.CA       sen.CB       sen.SE1          0.5675   1.0        0.0   1.0 # FFLD: med 0 C-CT1-CT-Se ==> ??-CT-CT-??
@@ -2940,6 +3050,26 @@ sul.N        sul.CA       sul.C        sul.O               0.0   1.0        0.0 
 sul.N        sul.CA       sul.CB       sul.SG            0.714   1.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
 sul.N        sul.CA       sul.CB       sul.SG            0.043   2.0      180.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
 sul.N        sul.CA       sul.CB       sul.SG           0.0145   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
+glp.N        C235         C224          C136           -0.038    3.0        0.0   1.0
+glp.N        C235         C224          N238           -0.038    3.0        0.0   1.0
+glp.N        C235         C224          H140           -0.038    3.0        0.0   1.0
+C224         C235        glp.N         glp.CA          -0.038    3.0        0.0   1.0
+C224         C235        glp.N         glp.H           -0.038    3.0        0.0   1.0
+O236         C235        glp.N         glp.CA          -0.038    3.0        0.0   1.0    
+O236         C235        glp.N         glp.H           -0.038    3.0        0.0   1.0
+C235        glp.N        glp.CA        glp.C           -0.038    3.0        0.0   1.0
+C235        glp.N        glp.CA        glp.CB          -0.038    3.0        0.0   1.0
+C235        glp.N        glp.CA        glp.HA          -0.038    3.0        0.0   1.0
+glp.N       glp.CA       glp.C         N238            -0.038    3.0        0.0   1.0
+glp.CB      glp.CA       glp.C         N238            -0.038    3.0        0.0   1.0
+glp.HA      glp.CA       glp.C         N238            -0.038    3.0        0.0   1.0
+glp.CA      glp.C        N238          H241            -0.038    3.0        0.0   1.0
+glp.CA      glp.C        N238          C224            -0.038    3.0        0.0   1.0
+glp.O       glp.C        N238          H241            -0.038    3.0        0.0   1.0
+glp.O       glp.C        N238          C224            -0.038    3.0        0.0   1.0
+glp.C       N238         C224          C136            -0.038    3.0        0.0   1.0
+glp.C       N238         C224          C235            -0.038    3.0        0.0   1.0
+glp.C       N238         C224          H140            -0.038    3.0        0.0   1.0
 
 [impropers]
 C135         C235         N238         O236               10.5      180.0
@@ -3001,27 +3131,35 @@ N300         C302         N300         N303               10.5      180.0
 N940         C942         N941         N943               10.5      180.0
 ace.C        ala.N        ala.CA       ala.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ace.CH3      ace.C        ace.O        ala.N              10.5      180.0 # FFLD: high carbonyl and analogs
-ala.C        glp.N       glp.CA      glp.H              1.0      180.0 # FFLD: high amide, amidine-,guanidinium
+ala.C        glp.N        glp.CA       glp.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.C        nma.N        nma.CA       nma.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.C        sec.N        sec.CA       sec.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
+ala.C        sel.N        sel.CA       sel.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.C        sen.N        sen.CA       sen.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.C        snn.N        snn.CA       snn.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.C        sul.N        sul.CA       sul.H               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
-ala.CA       ala.C        ala.O        glp.N             10.5      180.0 # FFLD: high carbonyl and analogs
+ala.CA       ala.C        ala.O        glp.N              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.CA       ala.C        ala.O        nma.N              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.CA       ala.C        ala.O        sec.N              10.5      180.0 # FFLD: high carbonyl and analogs
+ala.CA       ala.C        ala.O        sel.N              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.CA       ala.C        ala.O        sen.N              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.CA       ala.C        ala.O        snn.N              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.CA       ala.C        ala.O        sul.N              10.5      180.0 # FFLD: high carbonyl and analogs
-ala.CA       ala.N        ala.H        glp.C              1.0      180.0 # FFLD: high amide, amidine-,guanidinium
+ala.CA       ala.N        ala.H        glp.C               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.CA       ala.N        ala.H        sec.C               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
+ala.CA       ala.N        ala.H        sel.C               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.CA       ala.N        ala.H        sen.C               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.CA       ala.N        ala.H        snn.C               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
 ala.CA       ala.N        ala.H        sul.C               1.0      180.0 # FFLD: high amide, amidine-,guanidinium
-ala.N        glp.C       glp.CA      glp.O             10.5      180.0 # FFLD: high carbonyl and analogs
+ala.N        glp.C        glp.CA       glp.O              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.N        sec.C        sec.CA       sec.O              10.5      180.0 # FFLD: high carbonyl and analogs
+ala.N        sel.C        sel.CA       sel.O              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.N        sen.C        sen.CA       sen.O              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.N        snn.C        snn.CA       snn.O              10.5      180.0 # FFLD: high carbonyl and analogs
 ala.N        sul.C        sul.CA       sul.O              10.5      180.0 # FFLD: high carbonyl and analogs
-glp.CD      glp.NE2     glp.HE21    glp.HE22           1.0      180.0 # FFLD: high amidine-, guanidinium
-glp.CG      glp.CD      glp.NE2     glp.OE1           10.5      180.0 # FFLD: high carbonyl and analogs
+glp.CD       glp.NE2      glp.HE21     glp.HE22            1.0      180.0 # FFLD: high amidine-, guanidinium
+glp.CG       glp.CD       glp.NE2      glp.OE1            10.5      180.0 # FFLD: high carbonyl and analogs
+O236         C235         C224         glp.N              10.5      180.0
+C235         glp.N        glp.CA       glp.H              10.5      180.0
+glp.CA       glp.C        N238         glp.O              10.5      180.0
+H241         N238         glp.C        C224               10.5      180.0

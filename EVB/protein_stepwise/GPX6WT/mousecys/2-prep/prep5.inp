@@ -18,5 +18,4 @@ solvate           49:SG 25. grid HOH
 maketop GPX6cys_mouse.top
 writetop GPX6cys_mouse.top
 writepdb GPX6cys_mouse.pdb y
-
 quit
