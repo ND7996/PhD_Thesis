@@ -1,29 +1,29 @@
 # q atom (q)			PDB ID		LIB ID (resname.name)
 # or neighbour (n)?		(resid.name)	STATE 1		STATE 2
-q				49.SG		CYS.SG    SNN.SG
+q				49.SG		SUL.SG    SNN.SG
 q				196.H1	    PRX.H1    SNN.HG
-q				49.CB	    CYS.CB    SNN.CB
-q				49.HB1		CYS.HB1   SNN.HB2
-q				49.HB2		CYS.HB2   SNN.HB3
-q               49.CA       CYS.CA    SNN.CA
-q               49.HA       CYS.HA    SNN.HA
-q               49.N        CYS.N     SNN.N
-q               49.HN       CYS.HN    SNN.H
+q				49.CB	    SUL.CB    SNN.CB
+q				49.HB1		SUL.HB1   SNN.HB2
+q				49.HB2		SUL.HB2   SNN.HB3
+q               49.CA       SUL.CA    SNN.CA
+q               49.HA       SUL.HA    SNN.HA
+q               49.N        SUL.N     SNN.N
+q               49.HN       SUL.HN    SNN.H
 q				196.O1	    PRX.O1    SNN.OS 
-q				196.O2	    PRX.O2    HOH.O
-q				83.H1		GLN.H1    HOH.H1 
-q				196.H2		PRX.H2    HOH.H2
-q               83.NE2      GLN.NE2   GLN.NE2
-q               83.HE21     GLN.HE21  GLN.HE21
-q               83.HE22     GLN.HE22  GLN.HE22
-q               83.CD       GLN.CD    GLN.CD
-q               83.OE1      GLN.OE1   GLN.OE1
-q               83.CB       GLN.CB    GLN.CB
-q               83.HB1      GLN.HB2   GLN.HB1
-q               83.HB2      GLN.HB3   GLN.HB2
-q               83.CG       GLN.CG    GLN.CG
-q               83.HG1      GLN.HG2   GLN.HG1
-q               83.HG2      GLN.HG3   GLN.HG2
+q				196.O2	    PRX.O2    HO2.O
+q				83.H		GLP.H     HO2.H1 
+q				196.H2		PRX.H2    HO2.H2
+q               83.NE2      GLP.NE2   GLN.NE2
+q               83.HE21     GLP.HE21  GLN.HE21
+q               83.HE22     GLP.HE22  GLN.HE22
+q               83.CD       GLP.CD    GLN.CD
+q               83.OE1      GLP.OE1   GLN.OE1
+q               83.CB       GLP.CB    GLN.CB
+q               83.HB2      GLP.HB2   GLN.HB1
+q               83.HB3      GLP.HB3   GLN.HB2
+q               83.CG       GLP.CG    GLN.CG
+q               83.HG2      GLP.HG2   GLN.HG1
+q               83.HG3      GLP.HG3   GLN.HG2
  
 
 
