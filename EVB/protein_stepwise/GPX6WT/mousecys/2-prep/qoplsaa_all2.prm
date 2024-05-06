@@ -184,10 +184,10 @@ sul.O          616.4387   616.4387    23.7692    435.888    16.8074     15.999 #
 sul.SG        2593.9355  2593.9355     55.597  1834.1894     39.313     32.065 # FFLD: SM_S1_417 S in RS-
 
 [bonds]
-C235         sul.N             536.0      1.529
-sul.C        N238              536.0      1.529
-C235         glp.N             536.0      1.529
-glp.C        N238              536.0      1.529
+C235         sul.N             980.0      1.335
+sul.C        N238              674.0      1.449
+C235         glp.N             980.0      1.335
+glp.C        N238              980.0      1.335
 C135         C136              536.0      1.529
 C135         C137              536.0      1.529
 C135         C158              536.0      1.529
@@ -452,22 +452,22 @@ sul.CB       sul.SG            444.0       1.81 # FFLD: high 0 => 0 CT-SM ==> SM
 sul.H        sul.N             868.0       1.01 # FFLD: high 0 => 0 N-H ==> N-H
 
 [angles]
-C224         C235        sul.N              116.7      112.7
-O236         C235        sul.N              116.7      112.7
-C235         sul.N       sul.CA             116.7      112.7
-C235         sul.N       sul.H              116.7      112.7
-sul.CA       sul.C        N238              116.7      112.7
-sul.O        sul.C        N238              116.7      112.7
-sul.C        N238         H241              116.7      112.7
-sul.C        N238         C223              116.7      112.7
-C224         C235         glp.N             116.7      112.7
-O236         C235         glp.N             116.7      112.7
-C235         glp.N        glp.CA            116.7      112.7
-C235         glp.N        glp.H             116.7      112.7
-glp.CA       glp.C        N238              116.7      112.7
-glp.O        glp.C        N238              116.7      112.7
-glp.C        N238         H241              116.7      112.7
-glp.C        N238         C224              116.7      112.7
+C224         C235        sul.N              100.0      121.9 
+O236         C235        sul.N              160.0      122.9
+C235         sul.N       sul.CA             126.0      110.1
+C235         sul.N       sul.H              70.0       119.8 
+sul.CA       sul.C        N238              126.0      110.1
+sul.O        sul.C        N238              160.0      122.9
+sul.C        N238         H241              70.0       119.8
+sul.C        N238         C223              100.0      121.9
+C224         C235         glp.N             126.0      110.1
+O236         C235         glp.N             160.0      122.9
+C235         glp.N        glp.CA            140.0      116.6
+C235         glp.N        glp.H             70.0       119.8
+glp.CA       glp.C        N238              140.0      116.6
+glp.O        glp.C        N238              160.0      122.9 
+glp.C        N238         H241              70.0       119.8 
+glp.C        N238         C224              126.0      110.1
 C135         C136         C136              116.7      112.7
 C135         C136         C137              116.7      112.7
 C135         C136         C224              116.7      112.7
@@ -2964,25 +2964,33 @@ sul.N        sul.CA       sul.C        sul.O               0.0   1.0        0.0 
 sul.N        sul.CA       sul.CB       sul.SG            0.714   1.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
 sul.N        sul.CA       sul.CB       sul.SG            0.043   2.0      180.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
 sul.N        sul.CA       sul.CB       sul.SG           0.0145   3.0        0.0   1.0 # FFLD: high 0 N-CT1-CT-SM ==> N-CT1-CT-S
-sul.N    C235     C224     C149                         0.234   3.0        0.0   1.0
-sul.N    C235     C224     N238                         0.234   3.0        0.0   1.0
-sul.N    C235     C224     H140                         0.234   3.0        0.0   1.0
-C224     C235     sul.N    sul.CA                       0.234   3.0        0.0   1.0
-C224     C235     sul.N    sul.H                        0.234   3.0        0.0   1.0
-O236     C235     sul.N    sul.CA                       0.234   3.0        0.0   1.0
-O236     C235     sul.N    sul.H                        0.234   3.0        0.0   1.0
-C235     sul.N    sul.CA   sul.C                        0.234   3.0        0.0   1.0
-C235     sul.N    sul.CA   sul.CB                       0.234   3.0        0.0   1.0
-C235     sul.N    sul.CA   sul.HA                       0.234   3.0        0.0   1.0
-sul.N    sul.CA   sul.C    N238                         0.234   3.0        0.0   1.0
-sul.CB   sul.CA   sul.C    N238                         0.234   3.0        0.0   1.0
-sul.HA   sul.CA   sul.C    N238                         0.234   3.0        0.0   1.0
-sul.CA   sul.C    N238     H241                         0.234   3.0        0.0   1.0
-sul.CA   sul.C    N238     C223                         0.234   3.0        0.0   1.0
-sul.O    sul.C    N238     H241                         0.234   3.0        0.0   1.0
-sul.O    sul.C    N238     C223                         0.234   3.0        0.0   1.0
-sul.C    N238     C223     C235                         0.234   3.0        0.0   1.0
-sul.C    N238     C223     H140                         0.234   3.0        0.0   1.0
+sul.N         C235          C224        C149            0.9325   1.0        0.0   1.0
+sul.N         C235          C224        N238            0.3715   1.0        0.0   1.0 
+sul.N         C235          C224        H140            2.45     2.0       180.0  1.0 
+C224          C235         sul.N        sul.CA           1.15     1.0        0.0  1.0
+C224          C235         sul.N        sul.H            2.45     2.0      180.0  1.0
+O236          C235         sul.N        sul.CA           3.0445   2.0      180.0  1.0 
+O236          C235         sul.N        sul.H            2.45     2.0      180.0  1.0 
+C235         sul.N         sul.CA       sul.C          -2.4565    3.0       0.0   1.0
+C235         sul.N         sul.CA       sul.CB         0.4385     2.0      180.0  1.0 
+C235         sul.N         sul.CA       sul.HA            0.0     1.0       0.0   1.0
+sul.N       sul.CA         sul.C        N238           0.3715     1.0       0.0   1.0 
+sul.CB      sul.CA         sul.C        N238           0.1755     3.0       0.0   1.0 
+sul.HA      sul.CA         sul.C        N238            0.0       1.0       0.0   1.0
+sul.CA      sul.C          N238         H241            2.45      2.0      180.0   1.0
+sul.CA      sul.C          N238         C223            1.15      1.0       0.0   1.0
+sul.O       sul.C          N238         H241            2.45      2.0      180.0   1.0 
+sul.O       sul.C          N238         C223           3.0445     2.0      180.0   1.0 
+sul.C       N238           C223         C235          -2.4565     3.0       0.0   1.0 
+sul.C       N238           C223         H140            0.0       1.0       0.0   1.0 
+glp.O       glp.C          N238         C224          3.0445      2.0      180.0   1.0 
+glp.C       N238           C224         C136          0.2595      1.0       0.0   1.0
+glp.C       N238           C224         C235         -0.298       1.0       0.0   1.0
+glp.C       N238           C224         H140            0.0       1.0       0.0   1.0
+
+
+
+
 glp.N    C235     C224     C136                         0.234   3.0        0.0   1.0
 glp.N    C235     C224     N238                         0.234   3.0        0.0   1.0
 glp.N    C235     C224     H140                         0.234   3.0        0.0   1.0
@@ -2999,19 +3007,18 @@ glp.HA   glp.CA   glp.C    N238                         0.234   3.0        0.0  
 glp.CA   glp.C    N238     H241                         0.234   3.0        0.0   1.0
 glp.CA   glp.C    N238     C224                         0.234   3.0        0.0   1.0
 glp.O    glp.C    N238     H241                         0.234   3.0        0.0   1.0
-glp.O    glp.C    N238     C224                         0.234   3.0        0.0   1.0
-glp.C    N238     C224     C136                         0.234   3.0        0.0   1.0
-glp.C    N238     C224     C235                         0.234   3.0        0.0   1.0
-glp.C    N238     C224     H140                         0.234   3.0        0.0   1.0
+
+
+
 [impropers]
 O236        C235         C224         sul.N               10.5      180.0
-C235        sul.N        sul.CA       sul.H               10.5      180.0
+C235        sul.N        sul.CA       sul.H               1.0       180.0
 sul.CA      sul.C        N238         sul.O               10.5      180.0
 H241        N238         sul.C        C223                10.5      180.0
 O236        C235         C224         glp.N               10.5      180.0
 C235        glp.N        glp.CA       glp.H               10.5      180.0
-glp.CA      glp.C        N238         glp.O               10.5      180.0
-H241        N238         glp.C         C224               10.5      180.0
+glp.CA      glp.C        N238         glp.O               1.0       180.0 
+H241         N238         glp.C        C224               10.5      180.0
 C135         C235         N238         O236               10.5      180.0
 C135         C235         N239         O236               10.5      180.0
 C136         C235         N237         O236               10.5      180.0

@@ -6,5 +6,5 @@ readprm  qoplsaa_all.prm
 ! read in structure
 readtop GPX6cys_mouse.top
 rx      fep_050_0.000.re
-writepdb GPX6cys_mouserestart.pdb y
+writepdb check.pdb y
 quit
