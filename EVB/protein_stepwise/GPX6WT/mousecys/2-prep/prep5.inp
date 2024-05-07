@@ -6,11 +6,13 @@ readlib  GPX.lib
 readprm  qoplsaa_all2.prm
 
 ! read in structure
+
 readpdb GPX6cys_mouserestart.pdb
 
 set solvent_pack 2.7
 
 ! Solvate around C49
+
 boundary   sphere 49:SG 25.
 solvate           49:SG 25. grid HOH
 

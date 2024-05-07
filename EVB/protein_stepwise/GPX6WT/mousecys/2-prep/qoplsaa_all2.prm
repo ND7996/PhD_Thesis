@@ -2987,27 +2987,22 @@ glp.O       glp.C          N238         C224          3.0445      2.0      180.0
 glp.C       N238           C224         C136          0.2595      1.0       0.0   1.0
 glp.C       N238           C224         C235         -0.298       1.0       0.0   1.0
 glp.C       N238           C224         H140            0.0       1.0       0.0   1.0
-
-
-
-
-glp.N    C235     C224     C136                         0.234   3.0        0.0   1.0
-glp.N    C235     C224     N238                         0.234   3.0        0.0   1.0
-glp.N    C235     C224     H140                         0.234   3.0        0.0   1.0
-C224     C235     glp.N    glp.CA                       0.234   3.0        0.0   1.0
-C224     C235     glp.N    glp.H                        0.234   3.0        0.0   1.0
-O236     C235     glp.N    glp.CA                       0.234   3.0        0.0   1.0
-O236     C235     glp.N    glp.H                        0.234   3.0        0.0   1.0
-C235     glp.N    glp.CA   glp.C                        0.234   3.0        0.0   1.0
-C235     glp.N    glp.CA   glp.CB                       0.234   3.0        0.0   1.0
-C235     glp.N    glp.CA   glp.HA                       0.234   3.0        0.0   1.0
-glp.CB   glp.CA   glp.C    N238                         0.234   3.0        0.0   1.0
-glp.N    glp.CA   glp.C    N238                         0.234   3.0        0.0   1.0
-glp.HA   glp.CA   glp.C    N238                         0.234   3.0        0.0   1.0
-glp.CA   glp.C    N238     H241                         0.234   3.0        0.0   1.0
-glp.CA   glp.C    N238     C224                         0.234   3.0        0.0   1.0
-glp.O    glp.C    N238     H241                         0.234   3.0        0.0   1.0
-
+glp.N       C235           C224         C136         -0.298       1.0       0.0   1.0 
+glp.N       C235           C224         N238          0.3715      1.0       0.0   1.0 
+glp.N       C235           C224         H140            0.0       1.0       0.0   1.0
+C224        C235          glp.N        glp.CA          1.15       1.0       0.0   1.0
+C224        C235          glp.N        glp.H           2.45       2.0      180.0  1.0
+O236        C235          glp.N        glp.CA         3.0445      2.0      180.0  1.0 
+O236        C235          glp.N        glp.H           2.45       2.0      180.0  1.0
+C235       glp.N         glp.CA        glp.C         -0.298       1.0       0.0   1.0 
+C235       glp.N         glp.CA        glp.CB        0.2595       1.0       0.0   1.0
+C235       glp.N         glp.CA        glp.HA          0.0        1.0       0.0   1.0
+glp.CB     glp.CA        glp.C         N238          0.9325       1.0       0.0   1.0
+glp.N      glp.CA        glp.C         N238          0.3715       1.0       0.0   1.0
+glp.HA     glp.CA        glp.C         N238            0.0        1.0       0.0   1.0
+glp.CA     glp.C         N238          H241            2.45       2.0      180.0  1.0
+glp.CA     glp.C         N238          C224          3.0445       2.0      180.0  1.0
+glp.O      glp.C         N238          H241            2.45       2.0      180.0  1.0
 
 
 [impropers]

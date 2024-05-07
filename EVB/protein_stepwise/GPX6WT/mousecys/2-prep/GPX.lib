@@ -202,15 +202,4 @@
     [charge_groups]
         N CA C O CB SG H HA HB2 HB3
 *--------------------------------------------------------------------------------p
-# custom water molecule to be used in a reaction
-{HO2}
-    [atoms]
-         1 O      OWN         -0.834
-         2 H1     HWN          0.417
-         3 H2     HWN          0.417
-    [bonds]
-       O      H1    
-       O      H2    
-    [charge_groups]
-        O   H1    H2    
-*--------------------------------------------------------------------------------
+
