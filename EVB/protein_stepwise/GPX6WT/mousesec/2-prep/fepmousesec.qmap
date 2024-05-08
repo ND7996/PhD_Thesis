@@ -1,0 +1,28 @@
+# q atom (q)			PDB ID		LIB ID (resname.name)
+# or neighbour (n)?		(resid.name)	STATE 1		STATE 2
+q				49.SE1		SEL.SE1   SEN.SE1
+q				196.H1	    PRX.H1    SEN.HG
+q				49.CB	    SEL.CB    SEN.CB
+q				49.HB2		SEL.HB2   SEN.HB2
+q				49.HB3		SEL.HB3   SEN.HB3
+q               49.CA       SEL.CA    SEN.CA
+q               49.HA       SEL.HA    SEN.HA
+q               49.N        SEL.N     SEN.N
+q               49.H        SEL.H     SEN.H
+q				196.O1	    PRX.O1    SEN.OS 
+q				196.O2	    PRX.O2    HO2.O
+q				83.HE1		GLP.HE1   HO2.H1
+q				196.H2		PRX.H2    HO2.H2
+q               83.NE2      GLP.NE2   GLN.NE2
+q               83.HE21     GLP.HE21  GLN.HE21
+q               83.HE22     GLP.HE22  GLN.HE22
+q               83.CD       GLP.CD    GLN.CD
+q               83.OE1      GLP.OE1   GLN.OE1
+q               83.CB       GLP.CB    GLN.CB
+q               83.HB2      GLP.HB2   GLN.HB1
+q               83.HB3      GLP.HB3   GLN.HB2
+q               83.CG       GLP.CG    GLN.CG
+q               83.HG2      GLP.HG2   GLN.HG1
+q               83.HG3      GLP.HG3   GLN.HG2
+ 
+
