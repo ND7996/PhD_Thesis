@@ -10,9 +10,9 @@ q               49.HA       SUL.HA    SNN.HA
 q               49.N        SUL.N     SNN.N
 q               49.H        SUL.H     SNN.H
 q				196.O1	    PRX.O1    SNN.OS 
-q				196.O2	    PRX.O2    PRX.O2
-q				83.HE1		GLP.HE1   PRX.HE1 
-q				196.H2		PRX.H2    PRX.H2
+q				196.O2	    PRX.O2    HO2.O
+q				83.HE1		GLP.HE1   HO2.H1
+q				196.H2		PRX.H2    HO2.H2
 q               83.NE2      GLP.NE2   GLN.NE2
 q               83.HE21     GLP.HE21  GLN.HE21
 q               83.HE22     GLP.HE22  GLN.HE22

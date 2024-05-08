@@ -7,7 +7,7 @@ readprm  qoplsaa_all2.prm
 
 ! read in structure
 
-readpdb GPX6cys_mouserestart.pdb
+readpdb intermediate_nohyd.pdb
 
 set solvent_pack 2.7
 
