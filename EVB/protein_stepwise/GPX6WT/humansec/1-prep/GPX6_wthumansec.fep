@@ -1,5 +1,5 @@
 # Generated with Qtools, version 0.7.0
-# Date: Mon Apr 15 01:52:46 2024
+# Date: Mon May 13 15:35:46 2024
 # CWD: /home/nayanika/github/PhD_Thesis/EVB/protein_stepwise/GPX6WT/humansec/1-prep
 # CMDline: makeFEP.py
 #
@@ -36,8 +36,8 @@ states 2
 
 [atom_types]
 #Atom_type         LJ_A       LJ_B      SP_Ci      SP_ai    LJ_A_14    LJ_B_14       mass
-sec.SE        2447.7925    46.7907      165.000      2.5  1730.8507     33.086      78.96
-sel.SE1       2447.7925    46.7907      165.000      2.5  1730.8507     33.086     32.065
+sec.SE        2447.7925    46.7907      165.000      2.5   1730.8507     33.086      78.96
+sel.SE1       2447.7925    46.7907      165.000      2.5   1730.8507     33.086     32.065
 sec.HG          84.5728     5.4127          1        2.5     59.802     3.8274     1.0079
 prx.H            0.0054     0.0433          1        2.5     0.0038     0.0306     1.0079
 sec.CB          944.518    22.0296          1        2.5   667.8751    15.5773     12.011
@@ -149,9 +149,9 @@ glp.HG3         84.5728     5.4127          1        2.5     59.802     3.8274  
 #Index                Fc               r0   # PRM_ID
 ## Morse format
 #Index       D        alpha            r0   # PRM_ID
-1                   1106.0          0.945   # prx.H-prx.O
-2                     144            1.41   # sec.HG-sec.SE
-3                 1106.0            0.945   # glp.HE1-glp.OE1
+1          102       2.26            0.96   # prx.H-prx.O
+2         393.9       3.4            2.35   # sec.HG-sec.SE
+3         102        2.26            0.96   # glp.HE1-glp.OE1
 4                  444.0            1.968   # sec.CB-sec.SE
 5                  444.0             1.81   # sel.CB-sel.SE1
 6                  980.0            1.335   # C235-N237
