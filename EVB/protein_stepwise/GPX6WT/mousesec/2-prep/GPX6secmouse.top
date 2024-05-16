@@ -1,6 +1,6 @@
 Q topology file
 TITLE      GPX6secmouse.top
-DATE       20240508
+DATE       20240516
 VERSION     5.06
 LIB_FILES  qoplsaa.lib;GPX.lib
 FORCEFIELD OPLS-AA

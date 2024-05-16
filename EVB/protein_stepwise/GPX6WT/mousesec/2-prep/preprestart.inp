@@ -5,6 +5,6 @@ readlib  GPX.lib
 readprm  qoplsaa_all1.prm
 ! read in structure
 readtop GPX6secmouse.top
-rx  relax_014.re    
+rx  relax_016.re    
 writepdb minimized.pdb y
 quit
