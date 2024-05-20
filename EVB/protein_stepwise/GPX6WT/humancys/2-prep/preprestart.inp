@@ -2,9 +2,9 @@
 readlib  qoplsaa.lib          
 readlib  GPX.lib
 ! Read in parameter files
-readprm  qoplsaa_all.prm
+readprm  qoplsaa_all2.prm
 ! read in structure
-readtop GPX6cys_human.top
-rx  fep_050_0.000.re  
-writepdb intermediate.pdb y
+readtop GPX6cyshuman.top
+rx  relax_016.re 
+writepdb minimized.pdb y
 quit
