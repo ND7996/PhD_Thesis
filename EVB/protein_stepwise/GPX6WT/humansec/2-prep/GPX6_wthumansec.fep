@@ -154,7 +154,7 @@ glp.HG3         84.5728     5.4127          1        2.5     59.802     3.8274  
 #Index       D        alpha            r0   # PRM_ID
 1           54         2.32          1.32   # prx.O-prx.O
 2          102        2.26           0.96   # glp.HE1-glp.OE1
-3          393.9       3.4           2.35   # sen.OS-sen.SE1
+3           81         1.87          1.6   # sen.OS-sen.SE1  #check D and alpha
 4          102        2.26          0.96    # HWN-OWN
 5                 1106.0            0.945   # prx.H-prx.O
 6                 1106.0            0.957   # HWN-OWN
