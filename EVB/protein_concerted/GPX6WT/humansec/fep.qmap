@@ -5,10 +5,10 @@ q				49.HG		SEC.HG		HO3.H1
 q				49.CB		SEC.CB		SEN.CB   
 q				49.HB2		SEC.HB2		SEN.HB2  
 q				49.HB3		SEC.HB3		SEN.HB3  
-q				199.O1		PRX.O1		HO2.O
-q				199.O2		PRX.O2		SEN.OS 
-q				199.H1		PRX.H1		HO2.H2
-q				199.H2		PRX.H2		SEN.HG  
+q				199.O1		PRX.O1		SEN.OS
+q				199.O2		PRX.O2		HO2.O
+q				199.H1		PRX.H1		SEN.HG
+q				199.H2		PRX.H2		HO2.H2 
 q               198.O       HO2.O       HO3.O
 q               198.H1      HO2.H1      HO3.H2
 q               198.H2      HO2.H2      HO2.H1
