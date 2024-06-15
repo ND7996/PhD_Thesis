@@ -16,6 +16,7 @@ solvate           49:SE 25. grid HOH
 
 ! write out topology and pdb with corresponding indices
 maketop GPX6sec_mouse.top
+writetop GPX6sec_mouse.top
 writepdb GPX6sec_mouse.pdb y
 
 quit
