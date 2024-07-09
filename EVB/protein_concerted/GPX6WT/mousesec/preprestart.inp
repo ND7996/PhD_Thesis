@@ -5,6 +5,6 @@ readlib  GPX.lib
 readprm  qoplsaa_all2.prm
 ! read in structure
 readtop GPX6sec_mouse.top
-rx       relax_012.re
+rx       relax_016.re
 writepdb GPX6sec_mouserestart.pdb y
 quit
