@@ -9,11 +9,11 @@
 **QPREP**
 
 1. Reading the library file qoplsaa.lib from qtools
-2. Reading the parameters file along with selenium parameters from maestro qoplsaa_all.prm
-3. Preparing a new GPX.lib file which includes - 
-
-5. setting the sphere of water molecules around the selenium and cystiene 
-boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate 49:SG 25. 49:SE 25.
+2. Reading the parameters file along with selenium parameters qoplsaa_all.prm
+3. Preparing a new GPX.lib file which includes the library entries of those not present in the qoplsaa.lib
+   - Hydrogen peroxide , Selenol, Selenenic Acid, Selenolate ion and protonated glutamine
+4. Setting the sphere of water molecules around the selenium and cystiene 
+boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate 49:SG 25. 49:SE 25. grid HOH
 
 # Output of QPREP
 
@@ -21,15 +21,14 @@ boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate
 2. writes topology file 
 3. writes pdb file 
 
-
 # Making the qmap file
 
-1. Create a file with the all quantum atoms that participate in the reaction (state 1 - reactant), (state 2 - product) (The file contains the PDB ID and corresponding LIB ID for it) - **fep.qmap**
-2. Run the script to make the fep file -**makeFEP.py**
+1. Create a file with the all quantum atoms that participate in the reaction (state 1 - reactant), (state 2 - product) (The file contains the PDB ID and corresponding LIB ID for it) 
+2. Run the script to make the fep file, it takes the topology, pdb after performing qprep and the original qoplsaa.lib, GPX.lib, qoplsaa_all.prm
 
 # Running Relaxation
 
-Once the fep file is generated with the script, we will use this file further for relaxing the system
+Once the fep file is generated with the script, we will use this file further for relaxing the system. The fep file includes 
 
 # Command
 1. Setting the time-step, temperature, cut-offs, restraints -**genrelax.proc**
