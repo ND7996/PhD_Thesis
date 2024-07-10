@@ -14,7 +14,7 @@
 4. Setting the sphere of water molecules around the selenium and cystiene 
 boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate 49:SG 25. 49:SE 25. grid HOH
 
-[Link to file](PhD_Thesis/EVB/protein_stepwise/GPX6WT/mousecys/1-prep)
+[Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/prep5.inp)
 
 ## Output 
 
