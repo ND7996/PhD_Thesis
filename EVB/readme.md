@@ -91,7 +91,7 @@ Run **sbatch run_Q5.10_amd.sh** in the replica folders , it runs Qdyn6 on every 
 3. Restart file
 4. q_enfiles.list - all the energy files are listed of all the frames 
 
-#  STEP 6 Calibration
+## STEP 6 Calibration
 
 ## Running automapper that gives an Hij and Alpha value which can be used to run mapper 
 1. q_automapper.py 5.0 -10.0 10.0 -200.0 --temp 300 --dirs replica*
