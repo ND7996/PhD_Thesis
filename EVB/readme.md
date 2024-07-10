@@ -7,12 +7,14 @@
    
 ## Preparation 
 
-1. Reading the library file qoplsaa.lib from qtools
-2. Reading the parameters file along with selenium parameters qoplsaa_all.prm
-3. Preparing a new GPX.lib file which includes the library entries of those not present in the qoplsaa.lib
+1. Reading the library file from qtools **qoplsaa.lib**
+2. Reading the parameters file along with selenium parameters **qoplsaa_all.prm**
+3. Preparing a new **GPX.lib** file which includes the library entries of those not present in the qoplsaa.lib
    - Hydrogen peroxide , Selenol, Selenenic Acid, Selenolate ion and protonated glutamine
 4. Setting the sphere of water molecules around the selenium and cystiene 
 boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate 49:SG 25. 49:SE 25. grid HOH
+
+/protein_stepwise/GPX6WT/mousecys/1-prep/prep5.inp
 
 ## Output 
 
@@ -39,7 +41,7 @@ The fep file includes the change in the charges, bonds, torsions, impropers and 
 4. Pdb file from Qprep
 5. Fep file 
 
-## Run this command to generate inputs
+## Generating inputs
 
 q_genrelax.py genrelax.proc --top GPX6cys_mouse.top  --pdb GPX6cys_mouse.pdb --fep GPX6_wtmousecys.fep --outdir minim --rest top --rs run_Q5.10_amd.sh
 
@@ -51,7 +53,7 @@ Run **sbatch run_Q5.10_amd.sh** in the new folder minim , it runs Qdyn6 on every
 2. DCD - trajectory file
 3. Restart file
 
-## Writing a new Pdb file from the last restart file after minimization 
+## Writing a new Pdb file after minimization 
 
 1. Reading the library file qoplsaa.lib from qtools
 2. Reading GPX.lib     
@@ -72,7 +74,7 @@ The minimised pdb structure that is used to run FEP calculations
 5. Fep file 
 6. Repeats - as many replicas as you want
 
-## Run this command to generate inputs
+## Generating inputs
 
 q_genfeps.py genfeps.proc --pdb minimised.pdb relax_008.inp relax --repeats 5 --frames 51 --fromlambda 1.0 --prefix replicamousecys --rs run_Q5.10_amd.sh
 
