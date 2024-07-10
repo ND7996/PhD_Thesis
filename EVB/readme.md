@@ -1,39 +1,25 @@
 # Running Empirical Valence Bond Simulations with Q6
 
 
-## Preparing the files
+## Parameterization
 
-1. gpx structure from  alphafold/pdb - **GPx6.pdb**
+1. Using the gpx6 structure from md simulation (alphafold in case of human and pdb id 7fc2 in case of mouse) remove the hydrogens using the command remove hydro in pymol. input file - /protein_stepwise/GPX6WT/mousecys/1-prep/no_hyd.pdb
+2. Obtaining the parameters for SEC gpx6 in its active site using maestro (ffld server)
+   
+**QPREP**
 
-2. gpx from openMM (some coordinates) after simulation (dcd) - **GPX6_water.pdb**
+1. Reading the library file qoplsaa.lib from qtools
+2. Reading the parameters file along with selenium parameters from maestro qoplsaa_all.prm
+3. Preparing a new GPX.lib file which includes - 
 
-3. name the active cys into sec in pdb file
+5. setting the sphere of water molecules around the selenium and cystiene 
+boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate 49:SG 25. 49:SE 25.
 
-4. making one water molecule into hydrogen peroxide (the substrate) near the SEC - **gpx6_h2o2**
+# Output of QPREP
 
-5. to get the center of mass of the protein, install https://github.com/harmslab/pdbtools
-run $HOME/github/pdbtools/scripts/pdb_centermass GPX6_h2o2.pdb
-
-##   Yielding
-GPX6_h2o2.pdb    29.8115   34.5378   33.1485
-but we want the coordinates of the cys/sel atom
-ATOM    763  SG  SEC X  49      31.600  26.188  24.196  1.00  0.00
-
-1. setting the sphere of water molecules around the selenium
-boundary sphere 49:SG (residue number:residue type) and radius
-solvate 49:SG 20.  grid - HOH
-
-# Input
-1. One library file for my system reactants and products - **GPX.LIB**
-2. All Library file - **qoplsaa.lib**
-3. One Parameter file (required ones for my system) - **GPX_PARAM.log**
-Take the GPX6_h2o2.pdb , only add o1 and o2 of hydrogen peroxide.
-
-# Results of Qprep6
-
-1. makes the topology file - **GPX6_wt.top**
-2. writes topology file - **GPX6_wt.top**
-3. writes pdb file -  **GPX6_wt.pdb**
+1. makes the topology file 
+2. writes topology file 
+3. writes pdb file 
 
 
 # Making the qmap file
