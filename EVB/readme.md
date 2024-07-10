@@ -39,7 +39,7 @@ The fep file includes the change in the charges, bonds, torsions, impropers and 
 
 ## Running Relaxation
 
-1. Setting the steps, temperature, cut-offs, restraints -**genrelax.proc**
+1. Setting the steps, temperature, cut-offs, restraints -**genrelax.proc** [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/genrelax.proc)
 2. Use the script **q_genrelax.py** from qtools/qscripts-cli
 3. Topology file from Qprep
 4. Pdb file from Qprep
@@ -71,10 +71,10 @@ The minimised pdb structure that is used to run FEP calculations
 
 ## Running FEP calculation
 
-1. Setting the steps, temperature, cut-offs, restraints -**genfeps.proc**
+1. Setting the steps, temperature, cut-offs, restraints -**genfeps.proc** [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/genfeps.proc)
 2. Use the script **q_genfeps.py** from qtools/qscripts-cli
 3. Topology file from Qprep
-4. Pdb structure generated from last restart file after minimizing
+4. Pdb structure generated from last restart file after minimizing [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/GPX6cys_mouserestart.pdb)
 5. Fep file 
 6. Repeats - as many replicas as you want
 
@@ -94,20 +94,15 @@ Run **sbatch run_Q5.10_amd.sh** in the replica folders , it runs Qdyn6 on every 
 # Calibration
 
 ## Running automapper that gives an Hij and Alpha value which can be used to run mapper 
-
 1. q_automapper.py 5.0 -10.0 10.0 -200.0 --temp 300 --dirs replica*
    
- 5.0  ref_dga               Reference activation free energy.
--10.0  ref_dg0               Reference reaction free energy.
- 10.0  init_hij              Initial guess for Hij (offdiagonal)
--200.0 init_alpha            Initial guess for alpha (state 2 shift)
+ 5.0  ref_dga Reference activation free energy. (modify for you system), -10.0  ref_dg0  Reference reaction free energy. (modify for you system), 10.0  init_hij  Initial guess for Hij (offdiagonal) (modify  for you system), -200.0 init_alpha Initial guess for alpha (state 2 shift) (modify for you system)
 
 ## Running mapper to map free energies
 
 2. q_mapper.py 79.106841 -92.883878 --bins 50 --skip 100 --min 10 --temp 300.0 --dirs replica*
 
-79.106841 hij          Hij coupling constant
--92.883878 alpha       state 2 shift (alpha)
+79.106841 hij  Hij coupling constant (modify  for you system), -92.883878 alpha state 2 shift (alpha) (modify  for you system)
 
 ## Output 
 
@@ -119,13 +114,13 @@ gives the mean, dG, dG0, SD and error from all the replicas
 
 ## Output 
 
-gives a json file **qaf.PlotData.json** compiling different replicas 
+gives a json file **qaf.PlotData.json** compiling different replicas [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/qaf.PlotData.json)
 
 ## Plotting free energies 
 
 q_plot.py qaf.PlotData.json 
 
-Or use the script - 
+Using the script - [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/energy.ipynb)
 
 ## Visualizing the trajectory
 
