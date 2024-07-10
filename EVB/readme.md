@@ -28,8 +28,8 @@ Qprep
 
 ## Making the qmap file
 
-1. Create a file with the all quantum atoms that participate in the reaction (state 1 - reactant), (state 2 - product) (The file contains the PDB ID and corresponding LIB ID for it) 
-2. Run the script to make the fep file, it takes the topology, pdb after performing qprep and the original qoplsaa.lib, GPX.lib, qoplsaa_all.prm
+1. Create a file with the all quantum atoms that participate in the reaction (state 1 - reactant), (state 2 - product) (The file contains the PDB ID and corresponding LIB ID for it) [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/fepqmapmousecys.qmap)
+2. Run the script to make the fep file, it takes the topology, pdb after performing qprep and the original qoplsaa.lib, GPX.lib, qoplsaa_all.prm  [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/makeFEPmousecys.py)
 
 ## Fep file
 
