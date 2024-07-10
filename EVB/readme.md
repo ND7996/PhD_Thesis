@@ -8,12 +8,16 @@
 ## Preparation 
 
 1. Reading the library file from qtools **qoplsaa.lib**
+[Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/qoplsaa.lib)
 2. Reading the parameters file along with selenium parameters **qoplsaa_all.prm**
+   [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/qoplsaa_all.prm)
 3. Preparing a new **GPX.lib** file which includes the library entries of those not present in the qoplsaa.lib
    - Hydrogen peroxide , Selenol, Selenenic Acid, Selenolate ion and protonated glutamine
+   -  [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/GPX.lib)
 4. Setting the sphere of water molecules around the selenium and cystiene 
 boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate 49:SG 25. 49:SE 25. grid HOH
 
+Qprep
 [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/prep5.inp)
 
 ## Output 
