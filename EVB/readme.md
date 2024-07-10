@@ -5,7 +5,7 @@
 1. Using the gpx6 structure from md simulation (alphafold in case of human and pdb id 7fc2 in case of mouse) remove the hydrogens using the command remove hydro in pymol. input file - /protein_stepwise/GPX6WT/mousecys/1-prep/no_hyd.pdb
 2. Obtaining the parameters for SEC gpx6 in its active site using maestro (ffld server)
    
-## Preparation 
+## STEP 1 Preparation 
 
 1. Reading the library file from qtools **qoplsaa.lib**
 [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/qoplsaa.lib)
@@ -26,7 +26,7 @@ Qprep
 2. writes topology file 
 3. writes pdb file 
 
-## Making the qmap file
+##  STEP 2 Making the qmap file
 
 1. Create a file with the all quantum atoms that participate in the reaction (state 1 - reactant), (state 2 - product) (The file contains the PDB ID and corresponding LIB ID for it) [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/fepqmapmousecys.qmap)
 2. Run the script to make the fep file, it takes the topology, pdb after performing qprep and the original qoplsaa.lib, GPX.lib, qoplsaa_all.prm  [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/makeFEPmousecys.py)
@@ -37,7 +37,7 @@ Once the fep file is generated with the script, we will use this file further fo
 
 The fep file includes the change in the charges, bonds, torsions, impropers and angles , soft core potentials, Harmonic and Morse potentials for the bonds that are being made and broken
 
-## Running Relaxation
+##  STEP 3 Running Relaxation
 
 1. Setting the steps, temperature, cut-offs, restraints -**genrelax.proc** [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/genrelax.proc)
 2. Use the script **q_genrelax.py** from qtools/qscripts-cli
@@ -57,7 +57,7 @@ Run **sbatch run_Q5.10_amd.sh** in the new folder minim , it runs Qdyn6 on every
 2. DCD - trajectory file
 3. Restart file
 
-## Writing a new Pdb file after minimization 
+##  STEP 4 Writing a new Pdb file after minimization 
 
 1. Reading the library file qoplsaa.lib from qtools
 2. Reading GPX.lib     
@@ -69,7 +69,7 @@ Run **sbatch run_Q5.10_amd.sh** in the new folder minim , it runs Qdyn6 on every
 
 The minimised pdb structure that is used to run FEP calculations
 
-## Running FEP calculation
+##  STEP 5 Running FEP calculation
 
 1. Setting the steps, temperature, cut-offs, restraints -**genfeps.proc** [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/genfeps.proc)
 2. Use the script **q_genfeps.py** from qtools/qscripts-cli
@@ -91,7 +91,7 @@ Run **sbatch run_Q5.10_amd.sh** in the replica folders , it runs Qdyn6 on every 
 3. Restart file
 4. q_enfiles.list - all the energy files are listed of all the frames 
 
-# Calibration
+#  STEP 6 Calibration
 
 ## Running automapper that gives an Hij and Alpha value which can be used to run mapper 
 1. q_automapper.py 5.0 -10.0 10.0 -200.0 --temp 300 --dirs replica*
@@ -116,7 +116,7 @@ gives the mean, dG, dG0, SD and error from all the replicas
 
 gives a json file **qaf.PlotData.json** compiling different replicas [Link to file](https://github.com/ND7996/PhD_Thesis/blob/main/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/qaf.PlotData.json)
 
-## Plotting free energies 
+##  STEP 7 Plotting free energies 
 
 q_plot.py qaf.PlotData.json 
 
