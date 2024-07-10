@@ -26,27 +26,44 @@ boundary sphere 49:SG and 49:SE (residue number:residue type) and radius solvate
 1. Create a file with the all quantum atoms that participate in the reaction (state 1 - reactant), (state 2 - product) (The file contains the PDB ID and corresponding LIB ID for it) 
 2. Run the script to make the fep file, it takes the topology, pdb after performing qprep and the original qoplsaa.lib, GPX.lib, qoplsaa_all.prm
 
+# Fep file
+
+Once the fep file is generated with the script, we will use this file further for relaxing the system. 
+
+The fep file includes the change in the charges, bonds, torsions, impropers and angles , soft core potentials, Harmonic and Morse potentials for the bonds that are being made and broken
+
 # Running Relaxation
 
-Once the fep file is generated with the script, we will use this file further for relaxing the system. The fep file includes 
-
-# Command
-1. Setting the time-step, temperature, cut-offs, restraints -**genrelax.proc**
+1. Setting the steps, temperature, cut-offs, restraints -**genrelax.proc**
 2. Use the script **q_genrelax.py** from qtools/qscripts-cli
-3. Topology file - **GPX6_wt.top**
-4. Running Qdyn6 on every relax input to obtain the dcd, restart and log files - **run_qdyn.sh**
-5. Pdb file - **GPX6_wt.pdb**
-6. Fep file - **GPX6_wt.fep**
+3. Topology file from Qprep
+4. Pdb file from Qprep
+5. Fep file 
 
-# Results of Relax
+# Run this command to generate inputs.
+q_genrelax.py genrelax.proc --top GPX6cys_mouse.top  --pdb GPX6cys_mouse.pdb --fep GPX6_wtmousecys.fep --outdir minim --rest top --rs run_Q5.10_amd.sh
+
+Run run_Q5.10_amd.sh , it runs Qdyn6 on every relax input to obtain the dcd, restart and log files 
+
+# Output of Relax
 
 1. Log file - energy summaries and temperature is written to the standard output log file
 2. DCD - trajectory file
 3. Restart file
 
+# Writing a new Pdb file from the last restart file after minimization 
+
+1. Reading the library file qoplsaa.lib from qtools        
+2. Reading the parameter file  qoplsaa_all.prm
+3. Reading the topology file from Qprep
+4. Reading the last restart file
+
+# Output
+
+1- The minimised pdb structure used to run FEP calculations
+
 # Running FEP calculation
 
-# Command
 1. run qdyn6 on each replica file
 2. collect all .en files in an .inp file
 3. for running the Qfep6 on .en (energy) files in the input - command Qfep6 < fep.inp > fep.out : **run in the parent folder**
@@ -59,7 +76,7 @@ Once the fep file is generated with the script, we will use this file further fo
 Commands to create plots
 q_analysefeps.py --qfep_out Qfep.out replica001/ - **run in WT (parent) folder**-  creates a file qaf.PlotData.json
 
-#Visualizing the trajectories in vmd
+# Visualizing the trajectory movie
 
-# concatenate dcd
-mdconvert -o all.dcd -t ~/OneDrive/Thesis/EVB/GPX_EVB/CALCS/WT/GPX6_wt.pdb fep_000_0.900.dcd fep_001_0.880.dcd fep_002_0.860.dcd
+1. catdcd -o combined.dcd input*.dcd
+
