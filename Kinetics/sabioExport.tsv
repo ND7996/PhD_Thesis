@@ -1,7 +1,0 @@
-EntryID	Reaction	ECNumber	UniProtKB_AC	Tissue	Organism	Temperature	pH
-25120	Cumene hydroperoxide + Reduced glutathione = Oxidized glutathione + 2-Phenyl-2-propanol + H2O	1.11.1.9	P18283	-	Homo sapiens	37.0	7.0
-25121	Cumene hydroperoxide + Reduced glutathione = Oxidized glutathione + 2-Phenyl-2-propanol + H2O	1.11.1.9	P18283	-	Homo sapiens	37.0	7.0
-25122	Reduced glutathione + t-Butylhydroperoxide = Oxidized glutathione + t-Butanol + H2O	1.11.1.9	P18283	-	Homo sapiens	37.0	7.0
-56681	Reduced glutathione + 5-Hydroperoxy-6-trans-8,11,14-cis-eicosatetraenoate = H2O + 5-Hydroxyeicosatetraenoate + Oxidized glutathione	1.11.1.9	O14684	-	Homo sapiens	37.0	7.4
-56682	Cumene hydroperoxide + Reduced glutathione = Oxidized glutathione + 2-Phenyl-2-propanol + H2O	1.11.1.9	O14684	-	Homo sapiens	37.0	7.0
-56683	Reduced glutathione + 15-Hydroperoxy-prostaglandin E2 = H2O + Oxidized glutathione + Prostaglandin E2	1.11.1.9	O14684	-	Homo sapiens	37.0	7.4
