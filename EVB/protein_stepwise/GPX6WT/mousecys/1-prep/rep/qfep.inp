@@ -1,4 +1,4 @@
-51         # number of files/frames
+510         # number of files/frames
 2  0                 # number of states and predefined off-diagonals
 0.59616123 100        # RT and number of points to skip
 50              # number of bins
