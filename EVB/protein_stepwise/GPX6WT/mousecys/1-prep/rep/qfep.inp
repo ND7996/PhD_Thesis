@@ -1,9 +1,9 @@
-505         # number of files/frames
+510         # number of files/frames
 2  0                 # number of states and predefined off-diagonals
 0.59616123 100        # RT and number of points to skip
 50              # number of bins
 10    # minimum points for bin
-30.0         # state2 shift (alpha)
+40.0         # state2 shift (alpha)
 1                    # number of diagonal elements
 1 2 25.0 0 0 0     # states 1 and 2, A=const=Hij, mu=eta=r0= 0
 1 -1                 # linear combination of states ( E = e1 - e2 )
@@ -53,6 +53,11 @@ rep0_fep_042_0.160.en
 rep0_fep_043_0.140.en
 rep0_fep_044_0.120.en
 rep0_fep_045_0.100.en
+rep0_fep_046_0.080.en
+rep0_fep_047_0.060.en
+rep0_fep_048_0.040.en
+rep0_fep_049_0.020.en
+rep0_fep_050_0.000.en
 rep1_fep_000_1.000.en
 rep1_fep_001_0.980.en
 rep1_fep_002_0.960.en
