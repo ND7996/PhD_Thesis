@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}  % Package for including images
+\usepackage{hyperref}
+
+\begin{document}
+
+\section{Introduction}
+This document outlines the error in merging more than one replica after FEP calculations using Q and a trial method to reduce noise.
+
+\section{Method 1}
+
+\begin{enumerate}
+    \item Run qdyn on all the 10 replicas and obtain the .en files in each (these contain the energy files for all 51 windows considered).
+    \item Copy all .en files from all replicas into one \texttt{qfep.inp}.
+    \item The \texttt{qfep.inp} file contains lines where the number of energy files, states, gap bins, \(H_{ij}\), and \(\alpha\) can be defined.
+    \item Change the number of files to 510 instead of 51 (since we want all 51 windows in 10 replicas).
+    \item Run \texttt{qfep} on \texttt{qfep.inp} to generate a \texttt{qfep.out} file. This file contains the change calculated relative to the previous and following perturbation steps (dGf and dGr for forward and reverse, respectively). It also provides the accumulated sum of energy changes between \(\epsilon_1\) and \(\epsilon_2\) (sum(dGf) and sum(dGr)), as well as the average accumulated change calculated from the forward and reverse directions (dG).
+    \item Run \texttt{analysefeps} on \texttt{qfep.out} to generate a JSON file and plot the data.
+    \item The resulting plot has a lot of noise (see Figure).
+\end{enumerate}
+
+\begin{figure}[h] % 'h' means here, trying to position the figure at this location
+    \centering
+    \includegraphics[width=0.8\textwidth]{error_replica.png} % Adjust the width as needed
+    \caption{The resulting plot with a lot of noise.}
+    \label{fig:noise}
+\end{figure}
+
+\section{Noise Reduction}
+To reduce the noise:
+
+\subsection{Method 2}
+
+\begin{enumerate}
+    \item Run qdyn on all the 10 replicas and obtain the .en files in each (these contain the energy files for all 51 windows considered).
+    \item Create a \texttt{qfep.inp} in all replicas.
+     \item The \texttt{qfep.inp} file contains lines where the number of energy files, states, gap bins, \(H_{ij}\), and \(\alpha\) can be defined.
+    \item Run \texttt{qfep} to seperately generate \texttt{qfep.out} and generate a JSON file for each replica.
+    This file contains the change calculated relative to the previous and following perturbation steps (dGf and dGr for forward and reverse, respectively). It also provides the accumulated sum of energy changes between \(\epsilon_1\) and \(\epsilon_2\) (sum(dGf) and sum(dGr)), as well as the average accumulated change calculated from the forward and reverse directions (dG).
+    \item Run \texttt{analysefeps} on \texttt{qfep.out} to generate a JSON file and plot the data.
+    \item Plot the data separately for each JSON in the replicas and combine the free energy plots in one file using the script.
+    \item The resulting plot has lesser deviation (see Figure)
+\end{enumerate}
+
+\begin{figure}[h] % 'h' means here, trying to position the figure at this location
+    \centering
+    \includegraphics[width=0.8\textwidth]{} % Adjust the width as needed
+    \caption{The resulting plot with lesser deviation.}
+    \label{fig:noise}
+\end{figure}
+
+\end{document}
