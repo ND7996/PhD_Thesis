@@ -1,21 +1,21 @@
 
 ------------------------------- Free energies ---------------------------------
  Qfep_output  dG*         dG0         dG_lambda  
- rep/qfep.out       12.11      -41.52      -41.62 
+ rep/qfep.out       12.70      -42.34      -41.53 
 
 ----------------------------------- SUMMARY -----------------------------------
 # Analysed with: QTools/q_analysefeps.py (0.7.0)
 # Work dir: /home/hp/nayanika/github/PhD_Thesis/EVB/protein_stepwise/GPX6WT/mousesec/1-prep
-# Date: Wed Jul 24 15:34:58 2024
+# Date: Fri Jul 19 23:23:08 2024
 # CMDline: /home/hp/nayanika/github/qtools/qscripts-cli/q_analysefeps.py --qfep_out qfep.out rep/
 
 
 ----- Statistics -----
 
 #                 Mean      Std.dev    Median    Std.error       N
-dG*              12.11        nan      12.11        nan          1
-dG0             -41.52        nan     -41.52        nan          1
-dG_lambda       -41.62        nan     -41.62        nan          1
+dG*              12.70        nan      12.70        nan          1
+dG0             -42.34        nan     -42.34        nan          1
+dG_lambda       -41.53        nan     -41.53        nan          1
 
 
 ------- Fails --------
