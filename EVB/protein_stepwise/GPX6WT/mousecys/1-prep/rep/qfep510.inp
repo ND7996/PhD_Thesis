@@ -1,7 +1,7 @@
 510         # number of files/frames
-2  1                 # number of states and predefined off-diagonals
-0.59616123 1000        # RT and number of points to skip
-20             # number of bins
+2  0                 # number of states and predefined off-diagonals
+0.59616123 100        # RT and number of points to skip
+50             # number of bins
 10    # minimum points for bin
 40.0         # state2 shift (alpha)
 1                    # number of diagonal elements
