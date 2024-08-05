@@ -1,0 +1,37 @@
+
+--------------------------------- q_mapper.py ---------------------------------
+# Path: /home/hp/nayanika/github/qtools/qscripts-cli/q_mapper.py
+# CMDline: q_mapper.py 25 40 --bins 50 --skip 100 --min 10 --temp 300.0 --dirs rep replica_merging.ipynb --qfep_exec qfep5
+
+------------------------------- Mapping details -------------------------------
+# Mapped with: Qtools (0.7.0), Qfep (5.10.24)
+# Qfep path: /home/hp/nayanika/github/PhD_Thesis/EVB/protein_stepwise/GPX6WT/mousecys/1-prep/qfep5
+# Work dir: /home/hp/nayanika/github/PhD_Thesis/EVB/protein_stepwise/GPX6WT/mousecys/1-prep
+# Date: Mon Aug  5 15:01:40 2024
+
+# Parms:
+alpha                      40.0
+gap_bins                     50
+gas_const          0.0019872041
+hij                        25.0
+minpts_bin                   10
+points_skip                 100
+temperature               300.0
+
+# Directories:
+rep, replica_merging.ipynb
+
+# Fails:
+replica_merging.ipynb: No energy-files list 'q_enfiles.list'.
+-------------------------------------------------------------------------------
+
+Analysis Stats:
+#                 Mean      Std.dev    Median    Std.error       N
+dG*              25.29        nan      25.29        nan          1
+dG0             -18.82        nan     -18.82        nan          1
+dG_lambda       -70.06        nan     -70.06        nan          1
+
+Analysis Fails:
+FEP: None, EVB: None
+
+Run q_analysefeps.py for more info...
