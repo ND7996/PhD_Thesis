@@ -1,0 +1,52 @@
+{
+    "_version_": 57137,
+    "_value_": {
+        "input": {
+            "struct": null,
+            "reference_struct": null,
+            "preprocess_delete_far_waters": false,
+            "preprocess_watdist": 8.0,
+            "treat_metals": true,
+            "assign_bond_orders": true,
+            "use_ccd": true,
+            "add_hydrogens": false,
+            "readd_hydrogens": true,
+            "add_terminal_oxygens": false,
+            "treat_disulfides": true,
+            "treat_glycosylation": false,
+            "treat_palmitoylation": false,
+            "antibody_cdr_scheme": 2,
+            "renumber_ab_residues": false,
+            "selenomethionines": false,
+            "fillsidechains": true,
+            "fillloops": false,
+            "custom_fasta_file": null,
+            "cap_termini": false,
+            "run_epik": true,
+            "idealize_hydrogen_tf": true,
+            "generate_states_settings": {
+                "use_epikx": false,
+                "epik_pH": 7.4,
+                "epik_pHt": 2.0,
+                "max_states": 1,
+                "process_detected_ligands": true,
+                "process_metals_and_ions": true,
+                "process_non_water_solvents": false,
+                "process_other_hets": true
+            }
+        },
+        "output": [],
+        "status": 2,
+        "name": "PreprocessTask",
+        "progress": 0,
+        "max_progress": 0,
+        "progress_string": "",
+        "_run_as_backend": false,
+        "_failure_info": "cexceptions\nAttributeError\np0\n(V'NoneType' object has no attribute 'annotate_ab_regions'\np1\ntp2\nRp3\n.",
+        "_failure_tb": "  File \"/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/tasks/tasks.py\", line 932, in guard\n    yield\n  File \"/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/tasks/tasks.py\", line 1214, in runBackend\n    self.mainFunction()\n  File \"/opt/schrodinger2022-1/internal/lib/python3.8/site-packages/schrodinger/application/prepwizard2/tasks.py\", line 307, in mainFunction\n    antibody.annotate_ab_regions(\n",
+        "_combo_id": "5jgyr9ujsk8z",
+        "_task_module": "",
+        "_task_class": "",
+        "_task_script": ""
+    }
+}
