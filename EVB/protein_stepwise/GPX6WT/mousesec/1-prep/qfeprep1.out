@@ -1,0 +1,73 @@
+# Qfep                       version 5.10.24 , gi(modified on 20240701                                                                        )
+
+--> Number of energy files: # Number of files                 =    51
+--> No. of states, no. of predefined off-diag elements: # Number of states                 =     2
+# Number of off-diagonal elements =     0
+--> Give kT & no, of pts to skip   & calculation mode: # kT                              = 0.596
+# Number of data points to skip   =   100
+# Only QQ interactions will be considered   =   0
+--> Give number of gap-bins: # Number of gap-bins              =    50
+--> Give minimum # pts/bin: # Minimum number of points per bin=    10
+--> Give alpha for state  2:                                                    # Alpha for state  2              =    40.00
+--> Number of off-diagonal elements:# Number of off-diagonal elements =     1
+#   i   j   A(i,j)  mu(i,j) eta(i,j) rxy0(i,j)
+--> i, j, A_ij, mu_ij, eta_ij, r_xy0: #   1   2     25.00      0.00      0.00      0.00
+--> linear combination of states defining reaction coord: # Linear combination co-efficients=  1.00 -1.00
+
+
+# Part 0: Average energies for all states in all files
+# file             state   pts   lambda    EQtot   EQbond  EQang   EQtor   EQimp    EQel   EQvdW  Eel_qq  EvdW_qq Eel_qp  EvdW_qp Eel_qw EvdW_qw Eqrstr
+--> Name of file number   1:                                                     
+>>>>> Failed to open rep1_fep_000_1.000.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_001_0.980.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_002_0.960.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_003_0.940.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_004_0.920.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_005_0.900.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_006_0.880.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_007_0.860.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_008_0.840.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_009_0.820.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_010_0.800.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_011_0.780.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_012_0.760.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_013_0.740.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_014_0.720.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_015_0.700.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_016_0.680.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_017_0.660.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_018_0.640.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_019_0.620.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_020_0.600.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_021_0.580.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_022_0.560.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_023_0.540.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_024_0.520.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_025_0.500.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_026_0.480.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_027_0.460.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_028_0.440.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_029_0.420.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_030_0.400.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_031_0.380.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_032_0.360.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_033_0.340.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_034_0.320.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_035_0.300.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_036_0.280.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_037_0.260.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_038_0.240.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_039_0.220.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_040_0.200.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_041_0.180.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_042_0.160.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_043_0.140.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_044_0.120.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_045_0.100.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_046_0.080.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_047_0.060.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_048_0.040.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_049_0.020.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open rep1_fep_050_0.000.en (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): >>>>> Failed to open stop (unit 20 error code    2)
+ >>>>> Enter a new file name (or nothing to cancel): 

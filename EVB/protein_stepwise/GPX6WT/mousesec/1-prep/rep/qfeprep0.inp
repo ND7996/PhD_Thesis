@@ -3,7 +3,7 @@
 0.59616123 100        # RT and number of points to skip
 50             # number of bins
 10    # minimum points for bin
-40.0         # state2 shift (alpha)
+30.0         # state2 shift (alpha)
 1                    # number of diagonal elements
 1 2 25.0 0 0 0     # states 1 and 2, A=const=Hij, mu=eta=r0= 0
 1 -1                 # linear combination of states ( E = e1 - e2 )
